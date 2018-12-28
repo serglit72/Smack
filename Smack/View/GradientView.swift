@@ -18,12 +18,12 @@ class GradientView: UIView {
         didSet {
             self.setNeedsLayout()
         }
-
+    }
     @IBInspectable var bottomColor: UIColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1) {
         didSet {
             self.setNeedsLayout()
         }
-    
+    }
     override func layoutSubviews() {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
