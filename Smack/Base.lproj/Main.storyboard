@@ -407,6 +407,18 @@
                                     <action selector="createAccntBtnPressed:" destination="udO-r5-rbc" eventType="touchUpInside" id="PeS-ti-Vai"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUA-o1-3Q3">
+                                <rect key="frame" x="62.5" y="496.5" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JhN-Xd-IdY"/>
+                                    <constraint firstAttribute="width" constant="250" id="nMW-15-Tt0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <state key="normal" title="Generate background color"/>
+                                <connections>
+                                    <action selector="createAccntBtnPressed:" destination="udO-r5-rbc" eventType="touchUpInside" id="Qhe-Ys-INk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -415,12 +427,14 @@
                             <constraint firstItem="MFz-tB-axQ" firstAttribute="width" secondItem="QLq-7P-NXo" secondAttribute="width" id="4Wt-tz-8zr"/>
                             <constraint firstItem="AkU-Fz-xad" firstAttribute="centerX" secondItem="ym5-3d-tmi" secondAttribute="centerX" id="5ym-Lj-tIc"/>
                             <constraint firstItem="mfZ-9t-4IC" firstAttribute="top" secondItem="bkS-G6-1AB" secondAttribute="top" constant="60" id="HBb-sD-cda"/>
+                            <constraint firstItem="LUA-o1-3Q3" firstAttribute="centerX" secondItem="ym5-3d-tmi" secondAttribute="centerX" id="IYI-i0-W6E"/>
                             <constraint firstItem="MFz-tB-axQ" firstAttribute="top" secondItem="QLq-7P-NXo" secondAttribute="top" id="Inf-mj-8uq"/>
                             <constraint firstItem="JfS-4M-lK5" firstAttribute="centerX" secondItem="ym5-3d-tmi" secondAttribute="centerX" id="OEM-Zz-DEA"/>
                             <constraint firstItem="QLq-7P-NXo" firstAttribute="centerX" secondItem="ym5-3d-tmi" secondAttribute="centerX" id="TdT-ML-nRn"/>
                             <constraint firstItem="bkS-G6-1AB" firstAttribute="bottom" secondItem="AkU-Fz-xad" secondAttribute="bottom" constant="20" id="U15-9Q-k5l"/>
                             <constraint firstItem="MFz-tB-axQ" firstAttribute="centerX" secondItem="ym5-3d-tmi" secondAttribute="centerX" id="WPU-hI-6MW"/>
                             <constraint firstItem="bkS-G6-1AB" firstAttribute="trailing" secondItem="v5o-3b-9jv" secondAttribute="trailing" constant="10" id="ahg-E6-Eta"/>
+                            <constraint firstItem="LUA-o1-3Q3" firstAttribute="top" secondItem="MFz-tB-axQ" secondAttribute="bottom" constant="5" id="mSR-p0-dYh"/>
                             <constraint firstItem="mfZ-9t-4IC" firstAttribute="centerX" secondItem="ym5-3d-tmi" secondAttribute="centerX" id="qsf-7P-X0C"/>
                             <constraint firstItem="JfS-4M-lK5" firstAttribute="top" secondItem="mfZ-9t-4IC" secondAttribute="bottom" constant="85" id="qxh-IJ-2b0"/>
                             <constraint firstItem="MFz-tB-axQ" firstAttribute="top" secondItem="QLq-7P-NXo" secondAttribute="bottom" constant="40" id="swz-9T-jre"/>
@@ -428,7 +442,7 @@
                         <viewLayoutGuide key="safeArea" id="bkS-G6-1AB"/>
                     </view>
                     <connections>
-                        <segue destination="Bfx-Lh-4Nt" kind="unwind" identifier="unWindToChannel" unwindAction="prepareForUnwindWithSegue:" id="JGW-aA-lqx"/>
+                        <segue destination="Bfx-Lh-4Nt" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="JGW-aA-lqx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHf-F9-Gml" userLabel="First Responder" sceneMemberID="firstResponder"/>
