@@ -17,6 +17,8 @@
 		22A09FA921D6A8010053FD7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09FA821D6A8010053FD7D /* Constants.swift */; };
 		22A09FAB21D70B2D0053FD7D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09FAA21D70B2D0053FD7D /* LoginVC.swift */; };
 		22A09FAD21D711B60053FD7D /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09FAC21D711B60053FD7D /* CreateAccountVC.swift */; };
+		22A09FB021DF1D9B0053FD7D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09FAF21DF1D9B0053FD7D /* AuthService.swift */; };
+		22A09FB221DF40A80053FD7D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09FB121DF40A80053FD7D /* RoundedButton.swift */; };
 		41E3A47AC622BA58F876FE69 /* Pods_SmackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603840BB39E4BE6D0B214F7 /* Pods_SmackUITests.framework */; };
 		7B8B0578466497A64032EFCA /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBF325D76E3985F74690B3C /* Pods_Smack.framework */; };
 		D5F67AB821D1AE4700C43829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F67AB721D1AE4700C43829 /* AppDelegate.swift */; };
@@ -47,6 +49,9 @@
 		22A09FA821D6A8010053FD7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22A09FAA21D70B2D0053FD7D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		22A09FAC21D711B60053FD7D /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		22A09FAF21DF1D9B0053FD7D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		22A09FB121DF40A80053FD7D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		22A09FB321E096E30053FD7D /* Smack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smack.entitlements; sourceTree = "<group>"; };
 		3603840BB39E4BE6D0B214F7 /* Pods_SmackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6262250A9D3C21F225849152 /* Pods-SmackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackUITests/Pods-SmackUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		98626D80A1669E00D32964EE /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				22A09FA521D5D5690053FD7D /* GradientView.swift */,
+				22A09FB121DF40A80053FD7D /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +134,14 @@
 				22A09FA821D6A8010053FD7D /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		22A09FAE21DF1C720053FD7D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				22A09FAF21DF1D9B0053FD7D /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		D5F67AAB21D1AE4700C43829 = {
@@ -153,6 +167,8 @@
 		D5F67AB621D1AE4700C43829 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				22A09FB321E096E30053FD7D /* Smack.entitlements */,
+				22A09FAE21DF1C720053FD7D /* Services */,
 				22A09FA721D6A7BE0053FD7D /* Utilities */,
 				22A09F9B21D5CDF00053FD7D /* View */,
 				22A09F9A21D5CDCF0053FD7D /* Model */,
@@ -250,6 +266,17 @@
 					D5F67AB321D1AE4700C43829 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					D5F67AC721D1AE4B00C43829 = {
 						CreatedOnToolsVersion = 10.1;
@@ -366,8 +393,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A09FA321D5CEA50053FD7D /* ChatVC.swift in Sources */,
+				22A09FB221DF40A80053FD7D /* RoundedButton.swift in Sources */,
 				22A09FA021D5CE6E0053FD7D /* ChannelVC.swift in Sources */,
 				22A09FAD21D711B60053FD7D /* CreateAccountVC.swift in Sources */,
+				22A09FB021DF1D9B0053FD7D /* AuthService.swift in Sources */,
 				22A09FAB21D70B2D0053FD7D /* LoginVC.swift in Sources */,
 				22A09FA621D5D5690053FD7D /* GradientView.swift in Sources */,
 				D5F67AB821D1AE4700C43829 /* AppDelegate.swift in Sources */,
@@ -449,7 +478,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergei Litovchenko (33FJ24JXZ9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -510,7 +539,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergei Litovchenko (33FJ24JXZ9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -539,7 +568,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Smack/Smack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5387CSWPW;
 				INFOPLIST_FILE = Smack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -560,7 +591,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Smack/Smack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5387CSWPW;
 				INFOPLIST_FILE = Smack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
