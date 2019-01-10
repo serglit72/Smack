@@ -10,6 +10,7 @@
 		2242C2A021E30B4400C98D44 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C29F21E30B4400C98D44 /* UserDataService.swift */; };
 		2242C2A221E3294300C98D44 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */; };
 		2242C2A421E3315900C98D44 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A321E3315900C98D44 /* AvatarCell.swift */; };
+		2242C2A621E7193900C98D44 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A521E7193900C98D44 /* CircleImage.swift */; };
 		22A09F9721D5C9460053FD7D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A09F9621D5C9460053FD7D /* SWRevealViewController.m */; };
 		22A09F9821D5C9460053FD7D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A09F9621D5C9460053FD7D /* SWRevealViewController.m */; };
 		22A09FA021D5CE6E0053FD7D /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09F9F21D5CE6E0053FD7D /* ChannelVC.swift */; };
@@ -45,6 +46,7 @@
 		2242C29F21E30B4400C98D44 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		2242C2A321E3315900C98D44 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		2242C2A521E7193900C98D44 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		22A09F9321D5C9450053FD7D /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		22A09F9421D5C9450053FD7D /* SmackUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmackUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		22A09F9521D5C9450053FD7D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				22A09FA521D5D5690053FD7D /* GradientView.swift */,
 				22A09FB121DF40A80053FD7D /* RoundedButton.swift */,
 				2242C2A321E3315900C98D44 /* AvatarCell.swift */,
+				2242C2A521E7193900C98D44 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				22A09FA321D5CEA50053FD7D /* ChatVC.swift in Sources */,
 				2242C2A221E3294300C98D44 /* AvatarPickerVC.swift in Sources */,
 				22A09FB221DF40A80053FD7D /* RoundedButton.swift in Sources */,
+				2242C2A621E7193900C98D44 /* CircleImage.swift in Sources */,
 				22A09FA021D5CE6E0053FD7D /* ChannelVC.swift in Sources */,
 				2242C2A021E30B4400C98D44 /* UserDataService.swift in Sources */,
 				22A09FAD21D711B60053FD7D /* CreateAccountVC.swift in Sources */,
