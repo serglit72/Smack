@@ -171,6 +171,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="rDo-rw-y5n" id="b0l-Pg-0vI"/>
+                        <outlet property="userImg" destination="Zbi-5L-z4X" id="17t-NM-2gi"/>
                         <segue destination="udO-r5-rbc" kind="show" identifier="toLogin" id="xeI-Wn-71U"/>
                     </connections>
                 </viewController>
@@ -492,13 +493,20 @@
                                     <action selector="backPressed:" destination="5yi-jN-FIL" eventType="touchUpInside" id="Pkl-dg-KTR"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tLj-fm-51R" customClass="AvatarView">
-                                <rect key="frame" x="142" y="28" width="91" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" momentary="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tLj-fm-51R">
+                                <rect key="frame" x="117.5" y="28" width="140" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="Vbo-rM-xgF"/>
+                                </constraints>
                                 <segments>
                                     <segment title="Dark"/>
-                                    <segment title="Light"/>
+                                    <segment title="Light" width="69.5"/>
                                 </segments>
                                 <color key="tintColor" red="0.602715373" green="0.602715373" blue="0.93946202479999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segmentControlChanged2:" destination="5yi-jN-FIL" eventType="valueChanged" id="zT3-v8-DhC"/>
+                                    <action selector="segmentControlChanged:" destination="5yi-jN-FIL" eventType="valueChanged" id="nVE-QP-YVd"/>
+                                </connections>
                             </segmentedControl>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2Kd-CC-zPY">
                                 <rect key="frame" x="0.0" y="78" width="375" height="589"/>
@@ -510,7 +518,7 @@
                                     <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="avatarCell" id="SMb-3b-S7E" customClass="AvatarCell" customModule="Smack" customModuleProvider="target">
+                                    <collectionViewCell clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="avatarCell" id="SMb-3b-S7E" userLabel="Avatar Cell" customClass="AvatarCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="20" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -542,10 +550,10 @@
                             <constraint firstItem="2Kd-CC-zPY" firstAttribute="leading" secondItem="TAg-rv-LC5" secondAttribute="leading" id="D9g-UE-xm1"/>
                             <constraint firstItem="tuF-Il-kaa" firstAttribute="top" secondItem="TAg-rv-LC5" secondAttribute="top" constant="8" id="ER2-nV-fD4"/>
                             <constraint firstItem="2Kd-CC-zPY" firstAttribute="top" secondItem="tuF-Il-kaa" secondAttribute="bottom" constant="20" id="OWL-XS-rV8"/>
+                            <constraint firstItem="2Kd-CC-zPY" firstAttribute="bottom" secondItem="TAg-rv-LC5" secondAttribute="bottom" id="PfE-o5-rJp"/>
                             <constraint firstItem="tLj-fm-51R" firstAttribute="top" secondItem="TAg-rv-LC5" secondAttribute="top" constant="8" id="dUB-fW-tkv"/>
                             <constraint firstItem="TAg-rv-LC5" firstAttribute="trailing" secondItem="2Kd-CC-zPY" secondAttribute="trailing" id="q19-zg-a2m"/>
                             <constraint firstItem="tuF-Il-kaa" firstAttribute="leading" secondItem="DBg-HF-lGV" secondAttribute="leading" constant="10" id="rCW-hR-NLi"/>
-                            <constraint firstItem="tLj-fm-51R" firstAttribute="bottom" secondItem="2Kd-CC-zPY" secondAttribute="bottom" constant="-611" id="u2T-0J-ldn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TAg-rv-LC5"/>
                     </view>
