@@ -47,7 +47,7 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         } else {
             avatarType = .light
         }
-       collectionView.reloadData()
+            self.collectionView.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
