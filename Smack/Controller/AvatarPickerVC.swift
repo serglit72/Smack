@@ -12,10 +12,9 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     
     //Outlets
-    @IBOutlet weak var collectionView: UICollectionView!
     
     @IBOutlet weak var segmentControl: UISegmentedControl!
-    
+    @IBOutlet weak var collectionView: UICollectionView!
     
     //Default variables
     var avatarType = AvatarType.dark
@@ -41,12 +40,12 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 28
     }
-    @IBAction func segmentControlChanged2(_ sender: Any) {
+    @IBAction func segmentControlChanged(_ sender: Any) {
     
-        if segmentControl.selectedSegmentIndex == 0 {
-          avatarType = AvatarType.dark
+        if segmentControl.selectedSegmentIndex == 1 {
+          avatarType = .dark
         } else {
-            avatarType = AvatarType.light
+            avatarType = .light
         }
        collectionView.reloadData()
     }

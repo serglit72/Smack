@@ -20,7 +20,7 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     
     
-    //Variebles
+    //Variables
     var avatarName = "profileDefault"
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
     var bgColor : UIColor?

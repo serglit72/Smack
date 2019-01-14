@@ -15,6 +15,10 @@ let BASE_URL = "https://smackchat2019.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 let URL_LOGIN = "\(BASE_URL)account/login"
 let URL_USER_ADD = "\(BASE_URL)user/add"
+let URL_USER_BY_EMAIL = "\(BASE_URL)user/byEmail/"
+let URL_GET_CHANNELS = "\(BASE_URL)channel/"
+
+
 
 //Colors
 let smackPurplePlaceholder = #colorLiteral(red: 0.476841867, green: 0.5048075914, blue: 1, alpha: 0.603702911)
@@ -35,5 +39,9 @@ let USER_EMAIL = "userEmail"
 //Headers
 
 let HEADER = [
+    "Content-Type": "application/json; charset=utf-8"
+]
+let BEARER_HEADER = [
+    "Authorization":"Bearer \(AuthService.instance.authToken)",
     "Content-Type": "application/json; charset=utf-8"
 ]
