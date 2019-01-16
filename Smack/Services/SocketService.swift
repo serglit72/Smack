@@ -30,6 +30,7 @@ class SocketService: NSObject {
         socket.disconnect()
     }
     
+    
     func addChannel(channelName: String, channelDescription: String, completion: @escaping CompleteionHandler) {
         socket.emit("newChannel", channelName, channelDescription)
         completion(true)
@@ -39,13 +40,18 @@ class SocketService: NSObject {
         socket.on("channelCreated") {(dataArray, ack) in
             guard let channelName = dataArray[0] as? String else {return}
             guard let channelDesc = dataArray[1] as? String else {return}
-            guard let channelID = dataArray[2] as? String else {return}
+            guard let channelId = dataArray[2] as? String else {return}
             
-            let newChannel = Channel(channelTitle: channelName, channelDescription: channelDesc, id: channelID)
+            let newChannel = Channel(channelTitle: channelName, channelDescription: channelDesc, id: channelId)
             MessageService.instance.channels.append(newChannel)
             completion(true)
         }
     }
     
+    func addMessage(messageBody: String, userId: String, channelId: String, completion: @escaping CompleteionHandler) {
+        let user = UserDataService.instance
+        socket.emit("newMessage", messageBody, userId, channelId, user.name, user.avatarName, user.avatarColor)
+        completion(true)
+    }
 }
 
