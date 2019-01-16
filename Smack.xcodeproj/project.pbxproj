@@ -19,6 +19,7 @@
 		2242C2B421EC306500C98D44 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2B221EC306500C98D44 /* AddChannelVC.swift */; };
 		2242C2B521EC306500C98D44 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2242C2B321EC306500C98D44 /* AddChannelVC.xib */; };
 		2242C2B721EC6C6B00C98D44 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2B621EC6C6B00C98D44 /* SocketService.swift */; };
+		2242C2B921EDADDC00C98D44 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2B821EDADDC00C98D44 /* Message.swift */; };
 		22A09F9721D5C9460053FD7D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A09F9621D5C9460053FD7D /* SWRevealViewController.m */; };
 		22A09F9821D5C9460053FD7D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A09F9621D5C9460053FD7D /* SWRevealViewController.m */; };
 		22A09FA021D5CE6E0053FD7D /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A09F9F21D5CE6E0053FD7D /* ChannelVC.swift */; };
@@ -63,6 +64,7 @@
 		2242C2B221EC306500C98D44 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		2242C2B321EC306500C98D44 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		2242C2B621EC6C6B00C98D44 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		2242C2B821EDADDC00C98D44 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		22A09F9321D5C9450053FD7D /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		22A09F9421D5C9450053FD7D /* SmackUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmackUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		22A09F9521D5C9450053FD7D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				2242C2AE21EC085000C98D44 /* Channel.swift */,
+				2242C2B821EDADDC00C98D44 /* Message.swift */,
 			);
 			name = Model;
 			path = "New Group";
@@ -444,6 +447,7 @@
 				22A09FA321D5CEA50053FD7D /* ChatVC.swift in Sources */,
 				2242C2A221E3294300C98D44 /* AvatarPickerVC.swift in Sources */,
 				22A09FB221DF40A80053FD7D /* RoundedButton.swift in Sources */,
+				2242C2B921EDADDC00C98D44 /* Message.swift in Sources */,
 				2242C2AF21EC085000C98D44 /* Channel.swift in Sources */,
 				2242C2A621E7193900C98D44 /* CircleImage.swift in Sources */,
 				2242C2AD21EBF90800C98D44 /* MessageService.swift in Sources */,
