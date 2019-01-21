@@ -15,9 +15,7 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var userImg: CircleImage!
-    
-    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){
-    }
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +39,7 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
 
     
     @IBAction func addChannelPressed(_ sender: Any) {
-        if AuthService.instance.isLoggedIn{
+        if AuthService.instance.isLoggedIn {
             let addChannel = AddChannelVC()
             addChannel.modalPresentationStyle = .custom
             present(addChannel, animated: true, completion: nil)
@@ -81,7 +79,6 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "channelCell", for: indexPath) as? ChannelCell {
-            
             let channel = MessageService.instance.channels[indexPath.row]
             cell.configureCell(channel: channel)
             return cell
@@ -99,8 +96,7 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
         let channel = MessageService.instance.channels[indexPath.row]
         MessageService.instance.selectedChannel = channel
         NotificationCenter.default.post(name: NOTIF_CHANNEL_SELECTED, object: nil)
-        
-        self.revealViewController()?.revealToggle(animated: true)
+        self.revealViewController().revealToggle(animated: true)
         
     }
     

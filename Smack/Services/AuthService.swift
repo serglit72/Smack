@@ -24,8 +24,7 @@ class AuthService {
         }
     }
     
-    
-    var authToken : String{
+    var authToken : String {
         get {
             return defaults.value(forKey: TOKEN_KEY) as! String
         }
@@ -43,7 +42,7 @@ class AuthService {
         }
     }
     
-    func registerUser(email: String, password : String, completion: @escaping CompleteionHandler) {
+    func registerUser(email: String, password : String, completion: @escaping CompletionHandler) {
         
         let lowerCaseEmail = email.lowercased()
       
@@ -63,7 +62,7 @@ class AuthService {
         
     }
     
-    func loginUser(email: String, password: String, completion: @escaping CompleteionHandler) {
+    func loginUser(email: String, password: String, completion: @escaping CompletionHandler) {
         
         let lowerCaseEmail = email.lowercased()
     
@@ -84,7 +83,7 @@ class AuthService {
                     self.userEmail = json["user"].stringValue
                     self.authToken = json["token"].stringValue
                     }catch {
-                        print(error)
+                        debugPrint(data)
                     }
                     self.isLoggedIn = true
                     completion(true)
@@ -95,7 +94,7 @@ class AuthService {
         }
     }
     
-func createUser(name: String, email: String, avatarName: String, avatarColor: String, completion: @escaping CompleteionHandler) {
+func createUser(name: String, email: String, avatarName: String, avatarColor: String, completion: @escaping CompletionHandler) {
 
     let lowerCaseEmail = email.lowercased()
 
@@ -122,7 +121,7 @@ func createUser(name: String, email: String, avatarName: String, avatarColor: St
             
             UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
             }catch {
-                print(error)
+                debugPrint(response.result.error as Any)
             }
             completion(true)
         }else {
@@ -132,12 +131,13 @@ func createUser(name: String, email: String, avatarName: String, avatarColor: St
     }
     
 }
-    func findUserByEmail(completion: @escaping CompleteionHandler) {
+    func findUserByEmail(completion: @escaping CompletionHandler) {
         Alamofire.request("\(URL_USER_BY_EMAIL)\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             if response.result.error == nil {
                 guard let data = response.data else { return}
                 self.setUserInfo(data: data)
                 completion(true)
+                
             }else {
                 completion(false)
                 debugPrint(response.result.error as Any)

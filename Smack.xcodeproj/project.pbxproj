@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22359B8221F0594000434D7B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22359B8121F0594000434D7B /* MessageCell.swift */; };
 		2242C2A021E30B4400C98D44 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C29F21E30B4400C98D44 /* UserDataService.swift */; };
 		2242C2A221E3294300C98D44 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */; };
 		2242C2A421E3315900C98D44 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A321E3315900C98D44 /* AvatarCell.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22359B8121F0594000434D7B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		2242C29F21E30B4400C98D44 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		2242C2A321E3315900C98D44 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AvatarCell.swift; path = Smack/View/AvatarCell.swift; sourceTree = SOURCE_ROOT; };
@@ -170,6 +172,7 @@
 				2242C2A321E3315900C98D44 /* AvatarCell.swift */,
 				2242C2A521E7193900C98D44 /* CircleImage.swift */,
 				2242C2B021EC217E00C98D44 /* ChannelCell.swift */,
+				22359B8121F0594000434D7B /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				22A09FB021DF1D9B0053FD7D /* AuthService.swift in Sources */,
 				22A09FAB21D70B2D0053FD7D /* LoginVC.swift in Sources */,
 				2242C2B421EC306500C98D44 /* AddChannelVC.swift in Sources */,
+				22359B8221F0594000434D7B /* MessageCell.swift in Sources */,
 				22A09FA621D5D5690053FD7D /* GradientView.swift in Sources */,
 				2242C2A421E3315900C98D44 /* AvatarCell.swift in Sources */,
 				D5F67AB821D1AE4700C43829 /* AppDelegate.swift in Sources */,
