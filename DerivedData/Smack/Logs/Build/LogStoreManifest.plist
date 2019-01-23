@@ -35,6 +35,35 @@
 			<key>uniqueIdentifier</key>
 			<string>0B9FFF09-873D-4D6B-9256-724C1F71EE81</string>
 		</dict>
+		<key>0E6F8A5A-EED8-4005-9273-C34E30AE651E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0E6F8A5A-EED8-4005-9273-C34E30AE651E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Smack</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build Smack</string>
+			<key>timeStartedRecording</key>
+			<real>569927432.75636005</real>
+			<key>timeStoppedRecording</key>
+			<real>569927432.93718004</real>
+			<key>title</key>
+			<string>Build Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>0E6F8A5A-EED8-4005-9273-C34E30AE651E</string>
+		</dict>
 		<key>2759A609-9220-45AD-8B53-6310D1DC7CCC</key>
 		<dict>
 			<key>className</key>
