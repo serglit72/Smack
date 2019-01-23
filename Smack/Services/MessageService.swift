@@ -34,11 +34,11 @@ class MessageService {
 //
 //
                  do {
-                if let json = try JSON (data: data).array {
+                if let json = try JSON(data: data).array {
                     for item in json {
                         let name = item ["name"].stringValue
                         let channelDescription = item ["description"].stringValue
-                        let id = item ["id"].intValue
+                        let id = item ["_id"].stringValue
                         let channel = Channel(channelTitle: name, channelDescription: channelDescription, id: id)
                         self.channels.append(channel)
                     }

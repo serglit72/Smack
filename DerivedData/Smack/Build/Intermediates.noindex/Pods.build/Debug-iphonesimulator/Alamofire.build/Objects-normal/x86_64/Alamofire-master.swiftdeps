@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "3af933756e6c0b7d6becb84f12615104"
+build_time: [1548227326, 762012000]
+inputs:
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/AFError.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Alamofire.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/MultipartFormData.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Notifications.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/ParameterEncoding.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Request.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Response.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/ResponseSerialization.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Result.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/SessionDelegate.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/SessionManager.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/TaskDelegate.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Timeline.swift": [1548226334, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Alamofire/Source/Validation.swift": [1548226334, 0]

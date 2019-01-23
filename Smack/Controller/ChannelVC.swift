@@ -15,9 +15,7 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var userImg: CircleImage!
-    
-    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){
-    }
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,9 +27,8 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
         NotificationCenter.default.addObserver(self, selector: #selector(ChannelVC.channelsLoaded(_:)), name: NOTIF_CHANNELS_LOADED, object: nil)
         
         SocketService.instance.getChannel { (success) in
-            
             if success {
-                self.tableView.reloadData()
+            self.tableView.reloadData()
             }
         }
 }
@@ -94,5 +91,13 @@ class ChannelVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return MessageService.instance.channels.count
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let channel = MessageService.instance.channels[indexPath.row]
+        MessageService.instance.selectedChannel = channel
+        NotificationCenter.default.post(name: NOTIF_CHANNEL_SELECTED, object: nil)
+        self.revealViewController()?.revealToggle(animated: true)
+        
     }
 }

@@ -37,7 +37,6 @@
 		D5F67ABD21D1AE4700C43829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F67ABB21D1AE4700C43829 /* Main.storyboard */; };
 		D5F67ABF21D1AE4B00C43829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F67ABE21D1AE4B00C43829 /* Assets.xcassets */; };
 		D5F67AC221D1AE4B00C43829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F67AC021D1AE4B00C43829 /* LaunchScreen.storyboard */; };
-		D5F67ACD21D1AE4B00C43829 /* SmackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F67ACC21D1AE4B00C43829 /* SmackUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +87,6 @@
 		D5F67AC121D1AE4B00C43829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5F67AC321D1AE4B00C43829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5F67AC821D1AE4B00C43829 /* SmackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5F67ACC21D1AE4B00C43829 /* SmackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmackUITests.swift; sourceTree = "<group>"; };
-		D5F67ACE21D1AE4B00C43829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBBF325D76E3985F74690B3C /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -191,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				D5F67AB621D1AE4700C43829 /* Smack */,
-				D5F67ACB21D1AE4B00C43829 /* SmackUITests */,
 				D5F67AB521D1AE4700C43829 /* Products */,
 				DAFF97EC6178EEBB341E70A3 /* Pods */,
 				F74F9A899C650538B21F2D62 /* Frameworks */,
@@ -225,15 +221,6 @@
 				D5F67AC321D1AE4B00C43829 /* Info.plist */,
 			);
 			path = Smack;
-			sourceTree = "<group>";
-		};
-		D5F67ACB21D1AE4B00C43829 /* SmackUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D5F67ACC21D1AE4B00C43829 /* SmackUITests.swift */,
-				D5F67ACE21D1AE4B00C43829 /* Info.plist */,
-			);
-			path = SmackUITests;
 			sourceTree = "<group>";
 		};
 		DAFF97EC6178EEBB341E70A3 /* Pods */ = {
@@ -467,7 +454,6 @@
 			files = (
 				22A09FA421D5CEA50053FD7D /* ChatVC.swift in Sources */,
 				22A09FA121D5CE6E0053FD7D /* ChannelVC.swift in Sources */,
-				D5F67ACD21D1AE4B00C43829 /* SmackUITests.swift in Sources */,
 				22A09F9821D5C9460053FD7D /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
