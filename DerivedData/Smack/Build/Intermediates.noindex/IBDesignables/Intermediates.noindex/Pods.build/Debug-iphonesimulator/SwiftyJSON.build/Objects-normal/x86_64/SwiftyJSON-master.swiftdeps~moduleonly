@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "5853ca8326bdd617d22a85967eb44882"
+build_time: [1548235339, 861387000]
+inputs:
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1545964993, 0]

@@ -1,0 +1,390 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageService"
+provides-nominal:
+- "5Smack14MessageServiceC"
+provides-member:
+- ["5Smack14MessageServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "Alamofire"
+- !private "BEARER_HEADER"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "Channel"
+- "CompleteionHandler"
+- !private "JSON"
+- !private "JSONEncoding"
+- "MessageService"
+- !private "NOTIF_CHANNELS_LOADED"
+- !private "NotificationCenter"
+- !private "URL_GET_CHANNELS"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["s13ArrayProtocolP", "append"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "stringValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["5Smack7ChannelV", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "array"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "stringValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "array"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "stringValue"]
+- !private ["SL", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "array"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "array"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "stringValue"]
+- !private ["Se", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "array"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "stringValue"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "array"]
+- !private ["SQ", "default"]
+- !private ["SQ", "get"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "post"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "array"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "array"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "array"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "array"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "default"]
+- !private ["SH", "get"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "post"]
+- !private ["SH", "removeAll"]
+- !private ["10SwiftyJSON0B0V", "array"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "stringValue"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["9Alamofire12JSONEncodingV", "default"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s22LazyCollectionProtocolP", "stringValue"]
+- !private ["s20LazySequenceProtocolP", "stringValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Smack14MessageServiceC", "Alamofire"]
+- !private ["5Smack14MessageServiceC", "BEARER_HEADER"]
+- ["5Smack14MessageServiceC", "Channel"]
+- ["5Smack14MessageServiceC", "CompleteionHandler"]
+- !private ["5Smack14MessageServiceC", "JSON"]
+- !private ["5Smack14MessageServiceC", "JSONEncoding"]
+- ["5Smack14MessageServiceC", "MessageService"]
+- !private ["5Smack14MessageServiceC", "NOTIF_CHANNELS_LOADED"]
+- !private ["5Smack14MessageServiceC", "NotificationCenter"]
+- !private ["5Smack14MessageServiceC", "URL_GET_CHANNELS"]
+- ["5Smack14MessageServiceC", "channels"]
+- ["5Smack14MessageServiceC", "clearChannels"]
+- !private ["5Smack14MessageServiceC", "debugPrint"]
+- ["5Smack14MessageServiceC", "findAllChannel"]
+- ["5Smack14MessageServiceC", "init"]
+- ["5Smack14MessageServiceC", "instance"]
+- !private ["5Smack14MessageServiceC", "print"]
+- ["5Smack14MessageServiceC", "selectedChannel"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "stringValue"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["Sk", "append"]
+- ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "stringValue"]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "stringValue"]
+- !private ["SY", "array"]
+- !private ["SY", "get"]
+- !private ["SY", "init"]
+- !private ["SY", "stringValue"]
+- !private ["SY", "subscript"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "error"]
+- !private ["ST", "append"]
+- !private ["ST", "array"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "stringValue"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "stringValue"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "append"]
+- ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "removeAll"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "5Smack7ChannelV"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9Alamofire10HTTPMethodO"
+- "SH"
+- !private "10SwiftyJSON0B0V"
+- !private "9Alamofire12JSONEncodingV"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "5Smack14MessageServiceC"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So20NSNotificationCenterC"
+- !private "9Alamofire17ParameterEncodingP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- "ST"
+- !private "s5SliceV"
+- "8SocketIO0A4DataP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Supporting Files/Smack-Bridging-Header.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Supporting Files/SWRevealViewController.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/slitovchenko/Documents/Smack_repo/Smack/DerivedData/Smack/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f3697dfee51e8510554200b03d18aac3"

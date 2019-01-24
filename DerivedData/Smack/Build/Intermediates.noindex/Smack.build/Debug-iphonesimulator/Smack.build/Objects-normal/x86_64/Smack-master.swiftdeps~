@@ -1,16 +1,17 @@
 version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
 options: "52cdbc90a71d8049aa114b9bf581b055"
-build_time: [1548233431, 552443000]
+build_time: [1548318785, 727881000]
 inputs:
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Services/SocketService.swift": [1548232700, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Controller/ProfileVC.swift": [1547346176, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/View/ChannelCell.swift": [1547433388, 0]
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Controller/ChatVC.swift": [1548232700, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Controller/ChatVC.swift": [1548318670, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Controller/AvatarPickerVC.swift": [1547452093, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/View/RoundedButton.swift": [1546587012, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/New Group/Message.swift": [1548313275, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/New Group/Channel.swift": [1548231966, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/View/CircleImage.swift": [1547100858, 0]
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Services/MessageService.swift": [1548231162, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Services/MessageService.swift": [1548318761, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Controller/ChannelVC.swift": [1548233420, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Services/UserDataService.swift": [1548225222, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Controller/CreateAccountVC.swift": [1547428566, 0]
@@ -20,4 +21,4 @@ inputs:
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/View/GradientView.swift": [1545985799, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/View/AvatarCell.swift": [1547187336, 0]
   "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/AppDelegate.swift": [1548225222, 0]
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Utilities/Constants.swift": [1548233077, 0]
+  "/Users/slitovchenko/Documents/Smack_repo/Smack/Smack/Utilities/Constants.swift": [1548311154, 0]

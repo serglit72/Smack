@@ -16,10 +16,13 @@ depends-top-level:
 - "CompleteionHandler"
 - !private "JSON"
 - !private "JSONEncoding"
+- "Message"
 - "MessageService"
 - !private "NOTIF_CHANNELS_LOADED"
 - !private "NotificationCenter"
+- "String"
 - !private "URL_GET_CHANNELS"
+- !private "URL_GET_MESSAGES"
 - !private "debugPrint"
 - !private "print"
 depends-member:
@@ -179,22 +182,29 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Smack7MessageV", "init"]
 - !private ["5Smack14MessageServiceC", "Alamofire"]
 - !private ["5Smack14MessageServiceC", "BEARER_HEADER"]
 - ["5Smack14MessageServiceC", "Channel"]
 - ["5Smack14MessageServiceC", "CompleteionHandler"]
 - !private ["5Smack14MessageServiceC", "JSON"]
 - !private ["5Smack14MessageServiceC", "JSONEncoding"]
+- ["5Smack14MessageServiceC", "Message"]
 - ["5Smack14MessageServiceC", "MessageService"]
 - !private ["5Smack14MessageServiceC", "NOTIF_CHANNELS_LOADED"]
 - !private ["5Smack14MessageServiceC", "NotificationCenter"]
+- ["5Smack14MessageServiceC", "String"]
 - !private ["5Smack14MessageServiceC", "URL_GET_CHANNELS"]
+- !private ["5Smack14MessageServiceC", "URL_GET_MESSAGES"]
 - ["5Smack14MessageServiceC", "channels"]
 - ["5Smack14MessageServiceC", "clearChannels"]
+- ["5Smack14MessageServiceC", "clearMessages"]
 - !private ["5Smack14MessageServiceC", "debugPrint"]
 - ["5Smack14MessageServiceC", "findAllChannel"]
+- ["5Smack14MessageServiceC", "findAllMessagesForChannel"]
 - ["5Smack14MessageServiceC", "init"]
 - ["5Smack14MessageServiceC", "instance"]
+- ["5Smack14MessageServiceC", "messages"]
 - !private ["5Smack14MessageServiceC", "print"]
 - ["5Smack14MessageServiceC", "selectedChannel"]
 - !private ["s10MirrorPathP", "init"]
@@ -311,6 +321,7 @@ depends-nominal:
 - !private "s22LazyCollectionProtocolP"
 - !private "s20LazySequenceProtocolP"
 - !private "s25LosslessStringConvertibleP"
+- !private "5Smack7MessageV"
 - "5Smack14MessageServiceC"
 - !private "s10MirrorPathP"
 - "SM"
@@ -387,4 +398,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f3697dfee51e8510554200b03d18aac3"
+interface-hash: "726f91c2ff712135a3850fedd2c744b4"
