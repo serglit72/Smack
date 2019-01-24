@@ -1,8 +1,0 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "e6d67d88e72197e49908b515f734179f"
-build_time: [1548227326, 767487000]
-inputs:
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Starscream/Sources/Starscream/Compression.swift": [1545964993, 0]
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Starscream/Sources/Starscream/SSLClientCertificate.swift": [1545964993, 0]
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Starscream/Sources/Starscream/SSLSecurity.swift": [1545964993, 0]
-  "/Users/slitovchenko/Documents/Smack_repo/Smack/Pods/Starscream/Sources/Starscream/WebSocket.swift": [1545964993, 0]
