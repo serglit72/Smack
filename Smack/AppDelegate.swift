@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SocketIO
 @UIApplicationMain
 
 class AppDelegate: UIResponder, UIApplicationDelegate {

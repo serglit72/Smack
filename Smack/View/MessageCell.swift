@@ -3,6 +3,7 @@
 //  Smack
 //
 //  Created by Sergei Litovchenko on 1/26/19.
+
 //  Copyright © 2019 Sergei Litovchenko. All rights reserved.
 //
 
@@ -10,6 +11,7 @@ import UIKit
 
 class MessageCell: UITableViewCell {
 
+    
     //Outlets
     
     @IBOutlet weak var userImg: CircleImage!
@@ -23,6 +25,7 @@ class MessageCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+
         // Initialization code
     }
 
@@ -32,6 +35,7 @@ class MessageCell: UITableViewCell {
         userImg.image = UIImage(named: message.userAvatar)
         userImg.backgroundColor = UserDataService.instance.returnUIColor(component: message.userAvatarColor)
         
+
     }
 
 }

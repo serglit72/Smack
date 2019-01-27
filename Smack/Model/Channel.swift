@@ -8,10 +8,11 @@
 
 import Foundation
 
-struct Channel {
+struct Channel : Decodable {
     public private(set) var channelTitle: String!
     public private(set) var channelDescription: String!
     public private(set) var id: String!
+
 }
 
 // protocol based solution - we should rewrite a MessageService class as well

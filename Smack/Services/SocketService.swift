@@ -30,16 +30,19 @@ class SocketService: NSObject {
         socket.disconnect()
     }
     
-    func addChannel(channelName: String, channelDescription: String, completion: @escaping CompleteionHandler) {
+
+    func addChannel(channelName: String, channelDescription: String, completion: @escaping CompletionHandler) {
         socket.emit("newChannel", channelName, channelDescription)
         completion(true)
     }
     
-    func getChannel(completion: @escaping CompleteionHandler) {
-        socket.on("channelCreated") {(dataArray, ack) in
-            guard let channelName = dataArray[0] as? String else {return}
-            guard let channelDesc = dataArray[1] as? String else {return}
-            guard let channelId = dataArray[2] as? String else {return}
+
+    func getChannel(completion: @escaping CompletionHandler) {
+        socket.on("channelCreated") { (dataArray, ack) in
+            guard let channelName = dataArray[0] as? String else { return }
+            guard let channelDesc = dataArray[1] as? String else { return }
+            guard let channelId = dataArray[2] as? String else { return }
+
             
             let newChannel = Channel(channelTitle: channelName, channelDescription: channelDesc, id: channelId)
             MessageService.instance.channels.append(newChannel)
@@ -47,14 +50,15 @@ class SocketService: NSObject {
         }
     }
     
-    func addMessage(messageBody: String, userId: String, channelId: String, completion: @escaping CompleteionHandler) {
+
+    func addMessage(messageBody: String, userId: String, channelId: String, completion: @escaping CompletionHandler) {
         let user = UserDataService.instance
         socket.emit("newMessage", messageBody, userId, channelId, user.name, user.avatarName, user.avatarColor)
         completion(true)
         
     }
     
-    func getChatMessage(completion: @escaping CompleteionHandler) {
+    func getChatMessage(completion: @escaping CompletionHandler) {
         socket.on("messageCreated") { (dataArray, ack) in
             guard let msgBody = dataArray[0] as? String else {return}
             let userId = "" as String
@@ -91,3 +95,4 @@ class SocketService: NSObject {
 //
 // io.emit("messageCreated",  msg.messageBody, msg.userId, msg.channelId, msg.userName, msg.userAvatar, msg.userAvatarColor, msg.id, msg.timeStamp);
 //});
+
