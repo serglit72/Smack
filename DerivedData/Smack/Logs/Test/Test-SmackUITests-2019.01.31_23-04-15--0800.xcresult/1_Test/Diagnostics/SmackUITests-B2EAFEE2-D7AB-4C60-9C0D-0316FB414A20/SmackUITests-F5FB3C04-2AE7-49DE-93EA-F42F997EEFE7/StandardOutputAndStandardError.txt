@@ -1,0 +1,69 @@
+2019-01-31 23:04:19.251990-0800 SmackUITests-Runner[9680:284788] +[CATransaction synchronize] called within transaction
+2019-01-31 23:04:19.340408-0800 SmackUITests-Runner[9680:284788] Running tests...
+objc[9680]: Class VCWeakObjectHolder is implemented in both /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12b6504d0) and /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12a24ee38). One of the two will be used. Which one is undefined.
+Test Suite 'Selected tests' started at 2019-01-31 23:04:20.566
+Test Suite 'SmackUITests.xctest' started at 2019-01-31 23:04:20.567
+Test Suite 'SmackUITests' started at 2019-01-31 23:04:20.568
+Test Case '-[SmackUITests.SmackUITests testChannelLable]' started.
+    t =     0.00s Start Test at 2019-01-31 23:04:20.569
+    t =     0.03s Set Up
+    t =     0.03s     Open com.serglit.Smack
+    t =     0.05s         Launch com.serglit.Smack
+    t =     3.71s             Wait for com.serglit.Smack to idle
+    t =     5.88s Tear Down
+Test Case '-[SmackUITests.SmackUITests testChannelLable]' passed (6.086 seconds).
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton_is_clickable]' started.
+    t =     0.00s Start Test at 2019-01-31 23:04:26.655
+    t =     0.02s Set Up
+    t =     0.02s     Open com.serglit.Smack
+    t =     0.03s         Launch com.serglit.Smack
+    t =     0.03s             Terminate com.serglit.Smack:9684
+    t =     3.54s             Wait for accessibility to load
+    t =     4.77s             Wait for com.serglit.Smack to idle
+    t =     6.86s Tap "smackBurger" Button
+    t =     6.86s     Wait for com.serglit.Smack to idle
+    t =     6.89s     Find the "smackBurger" Button
+    t =     6.97s         Check for interrupting elements affecting "smackBurger" Button
+    t =     6.99s     Synthesize event
+    t =     7.07s     Wait for com.serglit.Smack to idle
+    t =     7.42s Tear Down
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton_is_clickable]' passed (7.625 seconds).
+Test Case '-[SmackUITests.SmackUITests testTextfild_is_typeable]' started.
+    t =     0.00s Start Test at 2019-01-31 23:04:34.282
+    t =     0.02s Set Up
+    t =     0.02s     Open com.serglit.Smack
+    t =     0.04s         Launch com.serglit.Smack
+    t =     0.04s             Terminate com.serglit.Smack:9691
+    t =     3.54s             Wait for accessibility to load
+    t =     4.67s             Wait for com.serglit.Smack to idle
+    t =     6.81s Tap "Message:" TextField
+    t =     6.81s     Wait for com.serglit.Smack to idle
+    t =     6.83s     Find the "Message:" TextField
+    t =     6.92s         Check for interrupting elements affecting "Message:" TextField
+    t =     6.94s     Synthesize event
+    t =     7.02s     Wait for com.serglit.Smack to idle
+    t =     7.15s Type 'Short text message...' into "Message:" TextField
+    t =     7.15s     Wait for com.serglit.Smack to idle
+    t =     7.19s     Find the "Message:" TextField
+    t =     7.26s         Check for interrupting elements affecting "Message:" TextField
+    t =     7.28s     Synthesize event
+    t =     7.90s     Wait for com.serglit.Smack to idle
+    t =     7.95s Tap "send" Button
+    t =     7.95s     Wait for com.serglit.Smack to idle
+    t =     8.00s     Find the "send" Button
+    t =     8.03s         Check for interrupting elements affecting "send" Button
+    t =     8.05s     Synthesize event
+    t =     8.15s     Wait for com.serglit.Smack to idle
+    t =     8.20s Tear Down
+Test Case '-[SmackUITests.SmackUITests testTextfild_is_typeable]' passed (8.402 seconds).
+Test Suite 'SmackUITests' passed at 2019-01-31 23:04:42.683.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 22.113 (22.115) seconds
+Test Suite 'SmackUITests.xctest' passed at 2019-01-31 23:04:42.684.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 22.113 (22.117) seconds
+Test Suite 'Selected tests' passed at 2019-01-31 23:04:42.685.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 22.113 (22.119) seconds
+
+
+Test session results and logs:
+	/Users/slitovchenko/Documents/Smack/DerivedData/Smack/Logs/Test/Test-SmackUITests-2019.01.31_23-04-15--0800.xcresult
+

@@ -18,17 +18,37 @@ class SmackUITests: XCTestCase {
         app.launch()
     }
  //Check the ChannelLable exists
-    func testChannelLable(){
+    func testChannelLable_is_exists(){
         let channelLable = app.staticTexts["Smack"]
         XCTAssert(channelLable.exists)
     }
- //Check the Burger Menu is clickable
+
+//Check if the textfield is typeable
+    func testTextfild_is_typeable() {
+        let messageTextfield = app.textFields["Message:"]
+        messageTextfield.tap()
+        messageTextfield.typeText("Short text message typing")
+        app.buttons["send"].tap()
+        
+    }
+    //Check the Burger Menu is clickable
     func testTapMenuButton_is_clickable() {
-       
+        
         let burgerMenu = app.buttons["smackBurger"]
         let loginButton = app.buttons["Login"]
         burgerMenu.tap()
-         XCTAssert(loginButton.exists)
+        XCTAssert(loginButton.exists)
     }
+    //Check the Login button is clickable
+    func testTapLoginButton_is_clickable() {
+        
+        let burgerMenu = app.buttons["smackBurger"]
+        let loginButton = app.buttons["Login"]
+        burgerMenu.tap()
+        XCTAssert(loginButton.exists)
+        loginButton.tap()
+        XCTAssert(loginButton.exists)
+    }
+    
 }
 

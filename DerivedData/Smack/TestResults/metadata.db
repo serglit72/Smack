@@ -13,12 +13,17 @@
 				<key>testChannelLable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>5.9973779916763306</real>
+					<real>6.3239740133285522</real>
 				</dict>
 				<key>testIsUserloggedIn()</key>
 				<dict>
 					<key>mrnet</key>
 					<real>9.3777250051498413</real>
+				</dict>
+				<key>testTapLoginButton_is_clickable()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>8.230138897895813</real>
 				</dict>
 				<key>testTapMenuButton()</key>
 				<dict>
@@ -28,7 +33,12 @@
 				<key>testTapMenuButton_is_clickable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>7.5092769861221313</real>
+					<real>7.9325840473175049</real>
+				</dict>
+				<key>testTextfild_is_typeable()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>8.5680370330810547</real>
 				</dict>
 			</dict>
 		</dict>

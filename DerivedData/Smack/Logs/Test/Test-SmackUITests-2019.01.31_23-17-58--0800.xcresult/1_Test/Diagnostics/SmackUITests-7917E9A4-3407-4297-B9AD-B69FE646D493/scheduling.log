@@ -1,0 +1,5 @@
+2019-02-01 07:17:59 +0000: Received worker from worker provider: 0x7fbdf2aadf20 [0: iPhone 6 (F9570D67-9F6B-4746-A8C4-594A2FB9D59A)]
+2019-02-01 07:18:03 +0000: Worker 0x7fbdf2aadf20 [10248: iPhone 6 (F9570D67-9F6B-4746-A8C4-594A2FB9D59A)] finished bootstrapping
+2019-02-01 07:18:03 +0000: Parallelization disabled; test execution driven by the test process
+2019-02-01 07:18:11 +0000: Worker 0x7fbdf2aadf20 [10248: iPhone 6 (F9570D67-9F6B-4746-A8C4-594A2FB9D59A)] finished successfully
+2019-02-01 07:18:11 +0000: Finished executing tests (cancelled: No)
