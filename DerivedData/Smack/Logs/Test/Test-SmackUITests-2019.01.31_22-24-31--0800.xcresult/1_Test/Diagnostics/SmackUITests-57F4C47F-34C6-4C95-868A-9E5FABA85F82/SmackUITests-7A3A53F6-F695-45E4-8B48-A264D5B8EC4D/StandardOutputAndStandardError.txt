@@ -1,0 +1,26 @@
+2019-01-31 22:24:35.379169-0800 SmackUITests-Runner[8081:213707] +[CATransaction synchronize] called within transaction
+2019-01-31 22:24:35.442246-0800 SmackUITests-Runner[8081:213707] Running tests...
+objc[8081]: Class VCWeakObjectHolder is implemented in both /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12d5e84d0) and /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12c1e6e38). One of the two will be used. Which one is undefined.
+Test Suite 'SmackUITests' started at 2019-01-31 22:24:36.429
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton_is_clickable]' started.
+    t =     0.00s Start Test at 2019-01-31 22:24:36.431
+    t =     0.05s Set Up
+    t =     0.05s     Open com.serglit.Smack
+    t =     0.10s         Launch com.serglit.Smack
+    t =     2.78s             Wait for accessibility to load
+    t =     3.88s             Wait for com.serglit.Smack to idle
+    t =     5.95s Tap "smackBurger" Button
+    t =     5.95s     Wait for com.serglit.Smack to idle
+    t =     5.98s     Find the "smackBurger" Button
+    t =     6.08s         Check for interrupting elements affecting "smackBurger" Button
+    t =     6.10s     Synthesize event
+    t =     6.21s     Wait for com.serglit.Smack to idle
+    t =     6.57s Tear Down
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton_is_clickable]' passed (6.772 seconds).
+Test Suite 'SmackUITests' passed at 2019-01-31 22:24:43.203.
+	 Executed 1 test, with 0 failures (0 unexpected) in 6.772 (6.773) seconds
+
+
+Test session results and logs:
+	/Users/slitovchenko/Documents/Smack/DerivedData/Smack/Logs/Test/Test-SmackUITests-2019.01.31_22-24-31--0800.xcresult
+

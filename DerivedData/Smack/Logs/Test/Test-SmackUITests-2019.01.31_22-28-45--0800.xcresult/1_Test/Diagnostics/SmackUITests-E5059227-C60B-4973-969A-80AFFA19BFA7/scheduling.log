@@ -1,0 +1,18 @@
+2019-02-01 06:28:45 +0000: Received worker from worker provider: 0x7fbdf1a786b0 [0: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)]
+2019-02-01 06:28:49 +0000: Worker 0x7fbdf1a786b0 [8288: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)] finished bootstrapping
+2019-02-01 06:28:49 +0000: Parallelization enabled; test execution driven by the IDE
+2019-02-01 06:28:49 +0000: Requesting test classes from worker 0x7fbdf1a786b0 [8288: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)]
+2019-02-01 06:28:50 +0000: Received test classes from worker 0x7fbdf1a786b0 [8288: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)]: {(
+    SmackUITests/SmackUITests
+)}
+2019-02-01 06:28:50 +0000: Executing tests {(
+    SmackUITests/SmackUITests
+)}; skipping tests {(
+)}
+2019-02-01 06:28:50 +0000: Scheduler finished dispatching test classes
+2019-02-01 06:28:50 +0000: Dispatching tests {(
+    SmackUITests/SmackUITests
+)} to worker: 0x7fbdf1a786b0 [8288: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)]
+2019-02-01 06:29:04 +0000: Telling worker 0x7fbdf1a786b0 [8288: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)] to shutdown
+2019-02-01 06:29:04 +0000: Worker 0x7fbdf1a786b0 [8288: Clone 1 of iPhone 8 Plus (300C640D-D0C3-422B-A659-1CF11D5E0E0E)] finished successfully
+2019-02-01 06:29:04 +0000: Finished executing tests (cancelled: No)

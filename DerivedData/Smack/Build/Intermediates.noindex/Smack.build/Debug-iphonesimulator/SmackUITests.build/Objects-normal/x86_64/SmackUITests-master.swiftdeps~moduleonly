@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "19f2c97d5d73f1ec9ec62682d8d16fd6"
+build_time: [1549002236, 178896000]
+inputs:
+  "/Users/slitovchenko/Documents/Smack/SmackUITests/SmackUITests.swift": [1549002196, 0]

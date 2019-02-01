@@ -1,0 +1,76 @@
+18:58:12.157 Xcode[1071:104257] Sim Clone 1 of iPhone 8 Plus: Unregistering for sim device notification with token 31
+
+18:58:12.157 Xcode[1071:104257] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+
+18:58:12.158 Xcode[1071:104257] Sim Clone 1 of iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.KeiQzBddXp/com.apple.testmanagerd.unix-domain.socket
+
+18:58:12.158 Xcode[1071:104257] Validating test connection socket path (/private/tmp/com.apple.launchd.KeiQzBddXp/com.apple.testmanagerd.unix-domain.socket)
+
+18:58:12.158 Xcode[1071:104257] Constructing transport for test connection socket
+
+18:58:12.158 Xcode[1071:104257] Connected socket 84 to testmanagerd for Sim Clone 1 of iPhone 8 Plus
+
+18:58:12.158 Xcode[1071:107670] Initiating control session with controller protocol version 29
+
+18:58:12.160 Xcode[1071:107674] Invalid response from newest protocol message (result:error): (null): Error Domain=DTXMessage Code=1 "(null)" UserInfo={DTXExceptionKey=Unable to invoke -[<XCIDESession: 0x7fcc5a20d720> (socket 4) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time _IDE_initiateControlSessionWithProtocolVersion:] - it does not respond to the selector}
+
+18:58:12.160 Xcode[1071:107674] Attempting v16 protocol version exchange, introduced in iOS 9.3
+
+18:58:12.161 Xcode[1071:104257] Got reply to legacy (v16) control session initiation request (result:error): 25: (null)
+
+18:58:12.161 Xcode[1071:104257] Completed protocol exchange, test daemon is running v25.
+
+18:54:23.558 testmanagerd[2968:99253] XCIDESession is responsible for cleaning up its socket
+
+18:54:23.559 testmanagerd[2968:99251] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fcc57709c80> (socket 4) created Thursday, January 31, 2019 at 6:54:18 PM Pacific Standard Time
+
+18:54:23.559 testmanagerd[2968:99251] Tearing down <XCIDESession: 0x7fcc57709c80> (socket 4) created Thursday, January 31, 2019 at 6:54:18 PM Pacific Standard Time.
+
+18:54:23.559 testmanagerd[2968:99251] Control session closed, will disconnect from matching testing client.
+
+18:54:23.559 testmanagerd[2968:99251] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+
+18:58:12.158 testmanagerd[2968:96690] IDE connected over socket 4 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+
+18:58:12.158 testmanagerd[2968:96690] Created session with socket 4
+
+18:58:12.159 testmanagerd[2968:107672] Adding <XCIDESession: 0x7fcc5a20d720> (socket 4) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time to the set of unidentified IDE sessions
+
+18:58:12.159 testmanagerd[2968:96690] Handled a proxy request from the IDE with session <XCIDESession: 0x7fcc5a20d720> (socket 4) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time proxy <_DTXProxy: 0x7fcc576099d0>
+
+18:58:12.160 testmanagerd[2968:67340] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 0 29
+
+18:58:12.161 testmanagerd[2968:67340] Adding control session <XCIDESession: 0x7fcc5a20d720> (socket 4) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time with protocol version 29
+
+18:58:12.162 testmanagerd[2968:67340] Received request to collect crash reports in directories '/Users/slitovchenko/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'xctest'
+
+18:58:12.162 testmanagerd[2968:67340] Initializing crash report observer for /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+18:58:12.162 testmanagerd[2968:67340] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+18:58:12.199 testmanagerd[2968:67340] Found 38 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+18:58:12.200 testmanagerd[2968:67340] Started monitoring /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+18:58:12.200 testmanagerd[2968:67340] Initializing crash report observer for /Library/Logs/DiagnosticReports
+
+18:58:12.200 testmanagerd[2968:67340] Getting files in /Library/Logs/DiagnosticReports
+
+18:58:12.262 testmanagerd[2968:107677] IDE connected over socket 9 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+
+18:58:12.263 testmanagerd[2968:107677] Created session with socket 9
+
+18:58:12.265 testmanagerd[2968:107671] Adding <XCIDESession: 0x7fcc5a002ee0> (socket 9) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time to the set of unidentified IDE sessions
+
+18:58:12.291 testmanagerd[2968:107672] Handled a proxy request from the IDE with session <XCIDESession: 0x7fcc5a002ee0> (socket 9) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time proxy <_DTXProxy: 0x7fcc57609350>
+
+18:58:12.310 testmanagerd[2968:67340] Found 72 files in /Library/Logs/DiagnosticReports
+
+18:58:12.311 testmanagerd[2968:67340] Started monitoring /Library/Logs/DiagnosticReports
+
+18:58:12.311 testmanagerd[2968:67340] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 785E8F2B-B0EB-4BC6-A82F-752417166211 1 9 from client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 (/Applications/Xcode.app)
+
+18:58:12.311 testmanagerd[2968:67340] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 785E8F2B-B0EB-4BC6-A82F-752417166211 Replied with protocol version 25
+
+18:58:12.319 testmanagerd[2968:107677] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fcc5a002ee0> (socket 9) created Thursday, January 31, 2019 at 6:58:12 PM Pacific Standard Time for client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 waiting to pair with test session 785E8F2B-B0EB-4BC6-A82F-752417166211 -> 785E8F2B-B0EB-4BC6-A82F-752417166211
+

@@ -1,0 +1,20 @@
+2019-01-31 21:55:19.015266-0800 SmackUITests-Runner[7172:160011] +[CATransaction synchronize] called within transaction
+2019-01-31 21:55:19.083388-0800 SmackUITests-Runner[7172:160011] Running tests...
+objc[7172]: Class VCWeakObjectHolder is implemented in both /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x1229a04d0) and /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x11fde4e38). One of the two will be used. Which one is undefined.
+Test Suite 'SmackUITests' started at 2019-01-31 21:55:20.502
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton]' started.
+    t =     0.00s Start Test at 2019-01-31 21:55:20.504
+    t =     0.07s Set Up
+    t =     0.07s     Open com.serglit.Smack
+    t =     0.10s         Launch com.serglit.Smack
+    t =     0.10s             Terminate com.serglit.Smack:3045
+    t =     5.52s             Wait for com.serglit.Smack to idle
+    t =     7.70s Tear Down
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton]' passed (7.909 seconds).
+Test Suite 'SmackUITests' passed at 2019-01-31 21:55:28.412.
+	 Executed 1 test, with 0 failures (0 unexpected) in 7.909 (7.911) seconds
+
+
+Test session results and logs:
+	/Users/slitovchenko/Documents/Smack/DerivedData/Smack/Logs/Test/Test-SmackUITests-2019.01.31_21-55-10--0800.xcresult
+

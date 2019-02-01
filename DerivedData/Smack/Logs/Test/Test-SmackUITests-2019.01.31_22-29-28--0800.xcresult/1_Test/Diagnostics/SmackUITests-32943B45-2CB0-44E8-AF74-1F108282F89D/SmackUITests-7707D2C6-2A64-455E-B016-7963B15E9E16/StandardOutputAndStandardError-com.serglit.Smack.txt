@@ -1,0 +1,6 @@
+Standard output and standard error from com.serglit.Smack with process ID 8648 beginning at 22:29:58.390
+
+objc[8648]: Class VCWeakObjectHolder is implemented in both /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12bd314d0) and /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12ae5de38). One of the two will be used. Which one is undefined.
+Standard output and standard error from com.serglit.Smack with process ID 8654 beginning at 22:30:06.241
+
+objc[8654]: Class VCWeakObjectHolder is implemented in both /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12b2104d0) and /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12a33ce38). One of the two will be used. Which one is undefined.

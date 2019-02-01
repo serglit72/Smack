@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2700</integer>
+			<key>Identifier</key>
+			<string>4E2C979E-3A32-507F-92CC-BCB04217B3FF</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro10,1</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-retina-display</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.13.6</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.13.6 (17G5019)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>16384</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 8 Plus</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>1FA26A66-2ED3-40F3-AA28-11AE57E9E490</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone10,5</string>
+			<key>ModelName</key>
+			<string>iPhone 8 Plus</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-8-plus-2</string>
+			<key>Name</key>
+			<string>iPhone 8 Plus</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>11.4 (15F79)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator12.1</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 12.1</string>
+			<key>OperatingSystemVersion</key>
+			<string>12.1</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>SmackUITests-4FC35A2B-F156-4AA8-961F-157D7155B2D5</string>
+			<key>FailureSummaries</key>
+			<array>
+				<dict>
+					<key>LineNumber</key>
+					<integer>0</integer>
+					<key>Message</key>
+					<string>Early unexpected exit, operation never finished bootstrapping - no restart will be attempted. (Underlying error: The test runner failed to load the test bundle. Executable cannot be loaded for some other reason, such as a problem with a library it depends on or a code signature/entitlements mismatch.)</string>
+					<key>PerformanceFailure</key>
+					<false/>
+				</dict>
+			</array>
+			<key>ProjectPath</key>
+			<string>Smack.xcodeproj</string>
+			<key>TargetName</key>
+			<string>SmackUITests</string>
+			<key>TestKind</key>
+			<string>UI</string>
+			<key>TestName</key>
+			<string>SmackUITests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>

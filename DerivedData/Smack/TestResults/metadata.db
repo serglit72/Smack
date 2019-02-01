@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>SmackUITests</key>
+		<dict>
+			<key>SmackUITests</key>
+			<dict>
+				<key>testChannelLable()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>5.9973779916763306</real>
+				</dict>
+				<key>testIsUserloggedIn()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>9.3777250051498413</real>
+				</dict>
+				<key>testTapMenuButton()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>7.9087029695510864</real>
+				</dict>
+				<key>testTapMenuButton_is_clickable()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>7.5092769861221313</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

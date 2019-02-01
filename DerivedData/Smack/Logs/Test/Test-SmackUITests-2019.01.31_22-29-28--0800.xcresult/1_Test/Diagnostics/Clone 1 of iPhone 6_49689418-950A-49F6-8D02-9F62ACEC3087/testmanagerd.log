@@ -1,0 +1,1915 @@
+22:29:34.800 Xcode[1071:226672] Got a sim device notification for Clone 1 of iPhone 6: {
+    notification = "availableDevices_changed";
+}
+
+22:29:34.800 Xcode[1071:226672] Got a sim device notification for Clone 1 of iPhone 6: {
+    device = "Clone 1 of iPhone 6 (49689418-950A-49F6-8D02-9F62ACEC3087, iOS 11.4, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+
+22:29:34.800 Xcode[1071:226672] Sim Clone 1 of iPhone 6 state changed to 2
+
+22:29:34.800 Xcode[1071:226672] Got a sim device notification for Clone 1 of iPhone 6: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "Clone 1 of iPhone 6 (49689418-950A-49F6-8D02-9F62ACEC3087, iOS 11.4, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+
+22:29:34.885 Xcode[1071:226677] Got a sim device notification for Clone 1 of iPhone 6: {
+    notification = "availableDevices_changed";
+}
+
+22:29:34.885 Xcode[1071:226677] Got a sim device notification for Clone 1 of iPhone 6: {
+    device = "Clone 1 of iPhone 6 (49689418-950A-49F6-8D02-9F62ACEC3087, iOS 11.4, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+
+22:29:34.885 Xcode[1071:226677] Sim Clone 1 of iPhone 6 state changed to 3
+
+22:29:34.886 Xcode[1071:226677] Sim Clone 1 of iPhone 6: Unregistering for sim device notification with token 4
+
+22:29:34.886 Xcode[1071:226677] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+
+22:29:34.913 Xcode[1071:226677] Sim Clone 1 of iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.ud8E0vKo5Y/com.apple.testmanagerd.unix-domain.socket
+
+22:29:34.913 Xcode[1071:226677] Validating test connection socket path (/private/tmp/com.apple.launchd.ud8E0vKo5Y/com.apple.testmanagerd.unix-domain.socket)
+
+22:29:34.914 Xcode[1071:226677] Constructing transport for test connection socket
+
+22:29:34.914 Xcode[1071:226677] Connected socket 138 to testmanagerd for Sim Clone 1 of iPhone 6
+
+22:29:34.916 Xcode[1071:225654] Initiating control session with controller protocol version 29
+
+22:29:38.742 Xcode[1071:226427] Invalid response from newest protocol message (result:error): (null): Error Domain=DTXMessage Code=1 "(null)" UserInfo={DTXExceptionKey=Unable to invoke -[<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time _IDE_initiateControlSessionWithProtocolVersion:] - it does not respond to the selector}
+
+22:29:38.742 Xcode[1071:226427] Attempting v16 protocol version exchange, introduced in iOS 9.3
+
+22:29:38.733 testmanagerd[8549:226865] Launched testmanagerd from /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/testmanagerd, modified on Friday, April 27, 2018 at 8:26:49 PM Pacific Daylight Time
+
+22:29:38.734 testmanagerd[8549:226865] Listening for incoming IDE connections from named socket com.apple.testmanagerd.unix-domain.socket
+
+22:29:38.744 Xcode[1071:226427] Got reply to legacy (v16) control session initiation request (result:error): 25: (null)
+
+22:29:38.744 Xcode[1071:226427] Completed protocol exchange, test daemon is running v25.
+
+22:29:38.734 testmanagerd[8549:227459] IDE connected over socket 4 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+
+22:29:38.734 testmanagerd[8549:226865] Listening for incoming test runner connections from <NSXPCListener: 0x7fe65820dab0> service: (null)
+
+22:29:38.735 testmanagerd[8549:227459] Created session with socket 4
+
+22:29:38.735 testmanagerd[8549:226865] Listening for incoming test target connections from <NSXPCListener: 0x7fe65820f020> service: (null)
+
+22:29:38.737 testmanagerd[8549:227466] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+
+22:29:38.737 testmanagerd[8549:227466] Created session with socket 6
+
+22:29:38.737 testmanagerd[8549:227459] Adding <XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time to the set of unidentified IDE sessions
+
+22:29:38.738 testmanagerd[8549:227468] Adding <XCIDESession: 0x7fe656d02000> (socket 6) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time to the set of unidentified IDE sessions
+
+22:29:38.738 testmanagerd[8549:227464] Handled a proxy request from the IDE with session <XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time proxy <_DTXProxy: 0x7fe658011f10>
+
+22:29:38.739 testmanagerd[8549:227459] Handled a proxy request from the IDE with session <XCIDESession: 0x7fe656d02000> (socket 6) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time proxy <_DTXProxy: 0x7fe65820a9c0>
+
+22:29:38.741 testmanagerd[8549:226865] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 5A3E5050-952D-47A9-8CE4-26864D421445 1 6 from client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 (/Applications/Xcode.app)
+
+22:29:38.742 testmanagerd[8549:226865] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 5A3E5050-952D-47A9-8CE4-26864D421445 Replied with protocol version 25
+
+22:29:38.742 testmanagerd[8549:226865] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 0 29
+
+22:29:38.742 testmanagerd[8549:227459] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fe656d02000> (socket 6) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time for client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 waiting to pair with test session 5A3E5050-952D-47A9-8CE4-26864D421445 -> 5A3E5050-952D-47A9-8CE4-26864D421445
+
+22:29:38.742 testmanagerd[8549:226865] Adding control session <XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time with protocol version 29
+
+22:29:38.745 testmanagerd[8549:226865] Received request to collect crash reports in directories '/Users/slitovchenko/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'xctest'
+
+22:29:38.747 testmanagerd[8549:226865] Initializing crash report observer for /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:38.747 testmanagerd[8549:226865] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:38.748 testmanagerd[8549:226865] Found 38 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:38.749 testmanagerd[8549:226865] Started monitoring /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:38.749 testmanagerd[8549:226865] Initializing crash report observer for /Library/Logs/DiagnosticReports
+
+22:29:38.749 testmanagerd[8549:226865] Getting files in /Library/Logs/DiagnosticReports
+
+22:29:38.750 testmanagerd[8549:226865] Found 72 files in /Library/Logs/DiagnosticReports
+
+22:29:38.750 testmanagerd[8549:226865] Started monitoring /Library/Logs/DiagnosticReports
+
+22:29:48.143 testmanagerd[8549:228480] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:48.144 testmanagerd[8549:228480] Found 39 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:48.144 testmanagerd[8549:228480] Not reporting revisiond_2019-01-31-222948_af6245.crash, doesn't match list of processes {xctest}
+
+22:29:52.094 testmanagerd[8549:228597] Received new test session connection from process with PID 8637
+
+22:29:52.104 testmanagerd[8549:228597] Looking up app info for pid 8637
+
+22:29:52.107 testmanagerd[8549:228480] Test session 5A3E5050-952D-47A9-8CE4-26864D421445 requested transport for IDE (-[XCTestSession _XCT_requestSerializedTransportWrapperForIDESessionWithIdentifier:reply:])
+
+22:29:52.108 testmanagerd[8549:227464] Test session 5A3E5050-952D-47A9-8CE4-26864D421445 requested serialized transport (-[XCTDaemon requestSerializedTransportForSessionIdentifier:reply:]_block_invoke)
+
+22:29:52.108 testmanagerd[8549:227464] Initiating serialized transport handoff from IDE connection to test host.
+
+22:29:52.108 testmanagerd[8549:227464] -[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:] sending barrier
+
+22:29:52.108 testmanagerd[8549:228480] Barrier flushed. Cancelling connection. Socket will not be closed
+
+22:29:52.116 Xcode[1071:226672] Got authorization request for pid 8637
+
+22:29:52.116 Xcode[1071:226426] Requesting authorization for pid 8637
+
+22:29:52.108 testmanagerd[8549:228852] DTXSocketTransport for socket 6 disconnected, owner is <XCIDESession: 0x7fe656d02000> (socket 6) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time for client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 waiting to pair with test session 5A3E5050-952D-47A9-8CE4-26864D421445
+
+22:29:52.110 testmanagerd[8549:227464] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fe656d02000> (socket 6) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time for client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 waiting to pair with test session 5A3E5050-952D-47A9-8CE4-26864D421445
+
+22:29:52.110 testmanagerd[8549:227464] Tearing down <XCIDESession: 0x7fe656d02000> (socket 6) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time for client 38420F9F-FD3F-4614-BE8D-687FF03AB5C5-1071-000001127FCD9CD2 waiting to pair with test session 5A3E5050-952D-47A9-8CE4-26864D421445.
+
+22:29:52.111 testmanagerd[8549:227464] Session summary: 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+
+22:29:52.112 testmanagerd[8549:228480] Got application state update: com.apple.mobilecal (8638) -> 2
+
+22:29:52.120 Xcode[1071:227378] Got reply to authorization request for pid 8637 (result:error): 25: (null)
+
+22:29:52.108 testmanagerd[8549:228597] Got app info for pid 8637: {
+    BKSApplicationStateAppIsFrontmost = 0;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.SmackUITests-Runner";
+    SBApplicationStateKey = 4;
+    SBApplicationStateProcessIDKey = 8637;
+    SBApplicationStateRunningReasonsKey =     (
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = "XCTRunner Initialization";
+            SBApplicationStateRunningReasonAssertionReasonKey = 10004;
+        }
+    );
+    SBMostElevatedStateForProcessID = 4;
+}
+
+22:29:52.112 testmanagerd[8549:227464] Control sessions: (
+    "<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time"
+)
+
+22:29:52.114 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 2
+
+22:29:52.117 testmanagerd[8549:226865] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 8637 29
+
+22:29:52.118 testmanagerd[8549:228852] Got request for process assertion for pid 8637.
+
+22:29:52.118 testmanagerd[8549:226865] Adding control session <XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time with protocol version 29
+
+22:29:52.120 testmanagerd[8549:228597] Starting to monitor com.apple.mobilecal
+
+22:29:52.120 testmanagerd[8549:228597] Starting to monitor com.apple.mobilecal
+
+22:29:52.121 testmanagerd[8549:228854] Got application state update: com.apple.mobilecal (8638) -> 2
+
+22:29:52.121 testmanagerd[8549:228854] Got application state update: com.apple.mobilecal (8638) -> 2
+
+22:29:52.121 testmanagerd[8549:226865] Received request to collect crash reports in directories '/Users/slitovchenko/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'xctest', 'backboardd', 'Smack', 'SpringBoard', 'SmackUITests-Runner'
+
+22:29:52.121 testmanagerd[8549:226865] Received request to collect crash reports in directories '/Users/slitovchenko/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'xctest', 'backboardd', 'Smack', 'SpringBoard', 'SmackUITests-Runner'
+
+22:29:52.121 testmanagerd[8549:226865] Initializing crash report observer for /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.121 testmanagerd[8549:226865] Initializing crash report observer for /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.121 testmanagerd[8549:226865] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.121 testmanagerd[8549:226865] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.121 testmanagerd[8549:226865] Found 39 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.121 testmanagerd[8549:226865] Found 39 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:226865] Started monitoring /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:226865] Started monitoring /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:226865] Initializing crash report observer for /Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:226865] Initializing crash report observer for /Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:226865] Getting files in /Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:226865] Getting files in /Library/Logs/DiagnosticReports
+
+22:29:52.123 testmanagerd[8549:226865] Found 72 files in /Library/Logs/DiagnosticReports
+
+22:29:52.123 testmanagerd[8549:226865] Found 72 files in /Library/Logs/DiagnosticReports
+
+22:29:52.123 testmanagerd[8549:226865] Started monitoring /Library/Logs/DiagnosticReports
+
+22:29:52.123 testmanagerd[8549:226865] Started monitoring /Library/Logs/DiagnosticReports
+
+22:29:52.122 testmanagerd[8549:228852] Created process assertion for pid 8637: <BKSProcessAssertion: 0x7fe656e03220>, waiting for response from assertiond.
+
+22:29:52.122 testmanagerd[8549:228852] Created process assertion for pid 8637: <BKSProcessAssertion: 0x7fe656e03220>, waiting for response from assertiond.
+
+22:29:52.123 testmanagerd[8549:228853] Got reply for process assertion request, success: YES
+
+22:29:52.123 testmanagerd[8549:228853] Got reply for process assertion request, success: YES
+
+22:29:52.124 testmanagerd[8549:228852] Starting to monitor com.apple.test.SmackUITests-Runner
+
+22:29:52.124 testmanagerd[8549:228852] Starting to monitor com.apple.test.SmackUITests-Runner
+
+22:29:52.124 testmanagerd[8549:228853] Got reply for process assertion request, success: YES
+
+22:29:52.124 testmanagerd[8549:228853] Got reply for process assertion request, success: YES
+
+22:29:52.125 testmanagerd[8549:228480] Got application state update: com.apple.test.SmackUITests-Runner (8637) -> 4
+
+22:29:52.125 testmanagerd[8549:228480] Got application state update: com.apple.test.SmackUITests-Runner (8637) -> 4
+
+22:29:52.126 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 2
+
+22:29:52.126 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 2
+
+22:29:52.126 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.test.SmackUITests-Runner 8637 4
+
+22:29:52.126 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.test.SmackUITests-Runner 8637 4
+
+22:29:52.146 testmanagerd[8549:227464] Performing block with diagnostics...
+
+22:29:52.146 testmanagerd[8549:227464] Performing block with diagnostics...
+
+22:29:52.148 testmanagerd[8549:227464] Received request to load Accessibility
+
+22:29:52.148 testmanagerd[8549:227464] Received request to load Accessibility
+
+22:29:52.151 testmanagerd[8549:227464] Beginning AX loading sequence.
+
+22:29:52.151 testmanagerd[8549:227464] Beginning AX loading sequence.
+
+22:29:52.160 testmanagerd[8549:227464] Waiting 65.0s for AX to finish loading...
+
+22:29:52.160 testmanagerd[8549:227464] Waiting 65.0s for AX to finish loading...
+
+22:29:52.390 testmanagerd[8549:226865] Received kAXAccessibilityLoaded notification
+
+22:29:52.390 testmanagerd[8549:226865] Received kAXAccessibilityLoaded notification
+
+22:29:52.391 testmanagerd[8549:227464] Calling AXDisableAccessibilityOnTermination() inside a retry block to handle a race between kAXAccessibilityLoaded and backboardd.
+
+22:29:52.391 testmanagerd[8549:227464] Calling AXDisableAccessibilityOnTermination() inside a retry block to handle a race between kAXAccessibilityLoaded and backboardd.
+
+22:29:52.395 testmanagerd[8549:227464] AXDisableAccessibilityOnTermination() returned 0
+
+22:29:52.395 testmanagerd[8549:227464] AXDisableAccessibilityOnTermination() returned 0
+
+22:29:52.397 testmanagerd[8549:227464] Finished loading AX.
+
+22:29:52.397 testmanagerd[8549:227464] Finished loading AX.
+
+22:29:52.405 testmanagerd[8549:227464] Initial device orientation 0
+
+22:29:52.405 testmanagerd[8549:227464] Initial device orientation 0
+
+22:29:52.414 testmanagerd[8549:227464] Block succeeded, canceling diagnostics.
+
+22:29:52.414 testmanagerd[8549:227464] Block succeeded, canceling diagnostics.
+
+22:29:53.838 testmanagerd[8549:228854] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fe656d090f0> {pid=0} {uid=[ID:1 hash:0x0]}, 60) -> 0 
+
+22:29:53.838 testmanagerd[8549:228854] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fe656d090f0> {pid=0} {uid=[ID:1 hash:0x0]}, 60) -> 0 
+
+22:29:53.843 testmanagerd[8549:227464] Registered for AX notification 4002 (0x7fe656f02d30)
+
+22:29:53.843 testmanagerd[8549:227464] Registered for AX notification 4002 (0x7fe656f02d30)
+
+22:29:53.852 testmanagerd[8549:227464] Registered for AX notification 1006 (0x7fe656f02d30)
+
+22:29:53.852 testmanagerd[8549:227464] Registered for AX notification 1006 (0x7fe656f02d30)
+
+22:29:53.854 testmanagerd[8549:227464] Registered for AX notification 1021 (0x7fe656f02d30)
+
+22:29:53.854 testmanagerd[8549:227464] Registered for AX notification 1021 (0x7fe656f02d30)
+
+22:29:53.856 testmanagerd[8549:228597] Got request for process assertion for pid 8637.
+
+22:29:53.856 testmanagerd[8549:228597] Got request for process assertion for pid 8637.
+
+22:29:53.856 testmanagerd[8549:228597] Invalidating previous process assertion for pid 8637.
+
+22:29:53.856 testmanagerd[8549:228597] Invalidating previous process assertion for pid 8637.
+
+22:29:53.857 testmanagerd[8549:228854] Got reply for process assertion request, success: YES
+
+22:29:53.857 testmanagerd[8549:228854] Got reply for process assertion request, success: YES
+
+22:29:53.858 testmanagerd[8549:228854] Got reply for process assertion request, success: YES
+
+22:29:53.858 testmanagerd[8549:228854] Got reply for process assertion request, success: YES
+
+22:29:53.858 testmanagerd[8549:228597] Created process assertion for pid 8637: <BKSProcessAssertion: 0x7fe6581089d0>, waiting for response from assertiond.
+
+22:29:53.858 testmanagerd[8549:228597] Created process assertion for pid 8637: <BKSProcessAssertion: 0x7fe6581089d0>, waiting for response from assertiond.
+
+22:29:53.969 testmanagerd[8549:228852] Starting to monitor com.serglit.Smack
+
+22:29:53.969 testmanagerd[8549:228852] Starting to monitor com.serglit.Smack
+
+22:29:53.970 testmanagerd[8549:228854] Got application state update: com.serglit.Smack (0) -> 1
+
+22:29:53.970 testmanagerd[8549:228854] Got application state update: com.serglit.Smack (0) -> 1
+
+22:29:53.970 testmanagerd[8549:228854] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 0 1
+
+22:29:53.970 testmanagerd[8549:228854] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 0 1
+
+22:29:53.973 testmanagerd[8549:228597] Got application state update: com.serglit.Smack (0) -> 1
+
+22:29:53.973 testmanagerd[8549:228597] Got application state update: com.serglit.Smack (0) -> 1
+
+22:29:53.973 testmanagerd[8549:228597] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 0 1
+
+22:29:53.973 testmanagerd[8549:228597] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 0 1
+
+22:29:53.987 testmanagerd[8549:228854] systemUIOrientation <AXUIElementRef 0x7fe656f08dd0> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:29:53.987 testmanagerd[8549:228854] systemUIOrientation <AXUIElementRef 0x7fe656f08dd0> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:29:53.987 testmanagerd[8549:228854] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:53.987 testmanagerd[8549:228854] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:53.987 testmanagerd[8549:228854] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:53.987 testmanagerd[8549:228854] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:54.011 testmanagerd[8549:228854] Got screenshot, rotating to orientation 0
+
+22:29:54.011 testmanagerd[8549:228854] Got screenshot, rotating to orientation 0
+
+22:29:54.023 testmanagerd[8549:228854] Replying with data 0x7fe658103ed0 (22144 bytes), error (null)
+
+22:29:54.023 testmanagerd[8549:228854] Replying with data 0x7fe658103ed0 (22144 bytes), error (null)
+
+22:29:54.030 testmanagerd[8549:228854] systemUIOrientation <AXUIElementRef 0x7fe658103f00> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:29:54.030 testmanagerd[8549:228854] systemUIOrientation <AXUIElementRef 0x7fe658103f00> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:29:54.030 testmanagerd[8549:228854] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:54.030 testmanagerd[8549:228854] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:54.030 testmanagerd[8549:228854] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:54.030 testmanagerd[8549:228854] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:54.040 testmanagerd[8549:228854] Got screenshot, rotating to orientation 0
+
+22:29:54.040 testmanagerd[8549:228854] Got screenshot, rotating to orientation 0
+
+22:29:54.046 testmanagerd[8549:228854] Replying with data 0x7fe65801c5f0 (22144 bytes), error (null)
+
+22:29:54.046 testmanagerd[8549:228854] Replying with data 0x7fe65801c5f0 (22144 bytes), error (null)
+
+22:29:58.368 testmanagerd[8549:228852] Got application state update: com.serglit.Smack (8648) -> 8
+
+22:29:58.368 testmanagerd[8549:228852] Got application state update: com.serglit.Smack (8648) -> 8
+
+22:29:58.368 testmanagerd[8549:228854] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 8648 8
+
+22:29:58.368 testmanagerd[8549:228854] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 8648 8
+
+22:29:58.374 testmanagerd[8549:228852] Got application state update: com.apple.mobilecal (8638) -> 4
+
+22:29:58.374 testmanagerd[8549:228852] Got application state update: com.apple.mobilecal (8638) -> 4
+
+22:29:58.374 testmanagerd[8549:228480] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 4
+
+22:29:58.374 testmanagerd[8549:228480] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 4
+
+22:29:58.499 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:29:58.499 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:29:58.500 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 0;
+}
+
+22:29:58.500 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 0;
+}
+
+22:29:58.503 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:29:58.503 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:29:58.503 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8638;
+    suspended = 1;
+}
+
+22:29:58.503 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8638;
+    suspended = 1;
+}
+
+22:29:58.523 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.523 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.524 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.524 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.528 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.528 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.529 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.529 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.529 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.529 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.529 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.529 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.544 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.544 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.544 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.544 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.546 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.546 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.546 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.546 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:29:58.547 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested endpoint for process with pid 8648, preferredBackendPath /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+
+22:29:58.547 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested endpoint for process with pid 8648, preferredBackendPath /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+
+22:29:58.547 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.547 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.547 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.547 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:29:58.548 testmanagerd[8549:228480] Recorded pending request for target session with pid 8648, timeout 60.0.
+
+22:29:58.548 testmanagerd[8549:228480] Recorded pending request for target session with pid 8648, timeout 60.0.
+
+22:29:58.549 testmanagerd[8549:228480] Setting availability state for target with PID 8648.
+
+22:29:58.549 testmanagerd[8549:228480] Setting availability state for target with PID 8648.
+
+22:29:58.549 testmanagerd[8549:228480] Posting availability to target with PID 8648
+
+22:29:58.549 testmanagerd[8549:228480] Posting availability to target with PID 8648
+
+22:29:58.877 testmanagerd[8549:228480] Got application state update: com.apple.mobilecal (8638) -> 2
+
+22:29:58.877 testmanagerd[8549:228480] Got application state update: com.apple.mobilecal (8638) -> 2
+
+22:29:58.877 testmanagerd[8549:228597] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 2
+
+22:29:58.877 testmanagerd[8549:228597] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.apple.mobilecal 8638 2
+
+22:29:58.880 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:29:58.880 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:29:58.881 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8638;
+    suspended = 1;
+}
+
+22:29:58.881 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8638;
+    suspended = 1;
+}
+
+22:29:59.834 testmanagerd[8549:228480] Creating target bootstrap session for target with PID 8648.
+
+22:29:59.834 testmanagerd[8549:228480] Creating target bootstrap session for target with PID 8648.
+
+22:29:59.834 testmanagerd[8549:228480] Resumed target connection.
+
+22:29:59.834 testmanagerd[8549:228480] Resumed target connection.
+
+22:29:59.835 testmanagerd[8549:228480] Target registered.
+
+22:29:59.835 testmanagerd[8549:228480] Target registered.
+
+22:29:59.836 testmanagerd[8549:228852] All target sessions: {
+    8648 = "<XCTTargetBootstrapSession: 0x7fe658216210>(pid 8648)";
+}.
+
+22:29:59.836 testmanagerd[8549:228852] All target sessions: {
+    8648 = "<XCTTargetBootstrapSession: 0x7fe658216210>(pid 8648)";
+}.
+
+22:29:59.836 testmanagerd[8549:228852] Target session requesting endpoint from target.
+
+22:29:59.836 testmanagerd[8549:228852] Target session requesting endpoint from target.
+
+22:29:59.878 testmanagerd[8549:228855] Target session got endpoint <NSXPCListenerEndpoint: 0x7fe656c12c30> reply from target.
+
+22:29:59.878 testmanagerd[8549:228855] Target session got endpoint <NSXPCListenerEndpoint: 0x7fe656c12c30> reply from target.
+
+22:29:59.881 testmanagerd[8549:228852] systemUIOrientation <AXUIElementRef 0x7fe658021300> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:29:59.881 testmanagerd[8549:228852] systemUIOrientation <AXUIElementRef 0x7fe658021300> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:29:59.881 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:59.881 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:59.881 testmanagerd[8549:228852] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:59.881 testmanagerd[8549:228852] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:29:59.893 testmanagerd[8549:228852] Got screenshot, rotating to orientation 0
+
+22:29:59.893 testmanagerd[8549:228852] Got screenshot, rotating to orientation 0
+
+22:29:59.899 testmanagerd[8549:228852] Replying with data 0x7fe65810aed0 (21245 bytes), error (null)
+
+22:29:59.899 testmanagerd[8549:228852] Replying with data 0x7fe65810aed0 (21245 bytes), error (null)
+
+22:29:59.901 testmanagerd[8549:228597] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656c14d50> Application with pid: 8648
+
+22:29:59.901 testmanagerd[8549:228597] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656c14d50> Application with pid: 8648
+
+22:29:59.902 testmanagerd[8549:228852] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8648
+
+22:29:59.902 testmanagerd[8549:228852] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8648
+
+22:30:00.109 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656c14d50> Application with pid: 8648
+
+22:30:00.109 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656c14d50> Application with pid: 8648
+
+22:30:00.109 testmanagerd[8549:228480] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8648
+
+22:30:00.109 testmanagerd[8549:228480] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8648
+
+22:30:00.323 testmanagerd[8549:228480] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656c14d50> Application with pid: 8648
+
+22:30:00.323 testmanagerd[8549:228480] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656c14d50> Application with pid: 8648
+
+22:30:00.323 testmanagerd[8549:228860] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8648
+
+22:30:00.323 testmanagerd[8549:228860] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8648
+
+22:30:00.326 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:00.326 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:00.327 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 0;
+}
+
+22:30:00.327 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 0;
+}
+
+22:30:00.331 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:00.331 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:00.331 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 0;
+}
+
+22:30:00.331 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 0;
+}
+
+22:30:01.008 testmanagerd[8549:228480] Performed AXAction 2042 for pid 8648
+
+22:30:01.008 testmanagerd[8549:228480] Performed AXAction 2042 for pid 8648
+
+22:30:01.234 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.234 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.234 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:01.234 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:01.235 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:01.235 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:01.235 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.235 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.235 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:01.235 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:01.235 testmanagerd[8549:228860] Performed AXAction 2043 for pid 8648
+
+22:30:01.235 testmanagerd[8549:228860] Performed AXAction 2043 for pid 8648
+
+22:30:01.235 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:01.235 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:01.236 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.236 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.236 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:01.236 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:01.236 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:01.236 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:01.246 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.246 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:01.246 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:01.246 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:01.246 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:01.246 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:02.558 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656e171e0> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:02.558 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656e171e0> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:02.558 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.558 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.558 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.558 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.568 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:02.568 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:02.573 testmanagerd[8549:228480] Replying with data 0x7fe656f08af0 (33161 bytes), error (null)
+
+22:30:02.573 testmanagerd[8549:228480] Replying with data 0x7fe656f08af0 (33161 bytes), error (null)
+
+22:30:02.577 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656d06630> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:02.577 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656d06630> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:02.577 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.577 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.577 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.577 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.585 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:02.585 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:02.592 testmanagerd[8549:228480] Replying with data 0x7fe65810bfc0 (33161 bytes), error (null)
+
+22:30:02.592 testmanagerd[8549:228480] Replying with data 0x7fe65810bfc0 (33161 bytes), error (null)
+
+22:30:02.596 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656f05830> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:02.596 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656f05830> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:02.596 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.596 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.596 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.596 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:02.605 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:02.605 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:02.609 testmanagerd[8549:228480] Replying with data 0x7fe656f08af0 (33161 bytes), error (null)
+
+22:30:02.609 testmanagerd[8549:228480] Replying with data 0x7fe656f08af0 (33161 bytes), error (null)
+
+22:30:02.719 testmanagerd[8549:228480] Connection to target invalidated.
+
+22:30:02.719 testmanagerd[8549:228480] Connection to target invalidated.
+
+22:30:02.720 testmanagerd[8549:228480] Closed <XCTTargetBootstrapSession: 0x7fe658216210>(pid 8648), removing from {
+    8648 = "<XCTTargetBootstrapSession: 0x7fe658216210>(pid 8648)";
+}
+
+22:30:02.720 testmanagerd[8549:228480] Closed <XCTTargetBootstrapSession: 0x7fe658216210>(pid 8648), removing from {
+    8648 = "<XCTTargetBootstrapSession: 0x7fe658216210>(pid 8648)";
+}
+
+22:30:02.919 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:02.919 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:02.919 testmanagerd[8549:228852] Got application state update: com.serglit.Smack (8648) -> 1
+
+22:30:02.919 testmanagerd[8549:228852] Got application state update: com.serglit.Smack (8648) -> 1
+
+22:30:02.919 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 1;
+}
+
+22:30:02.919 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8648;
+    suspended = 1;
+}
+
+22:30:02.919 testmanagerd[8549:228860] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 8648 1
+
+22:30:02.919 testmanagerd[8549:228860] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 8648 1
+
+22:30:02.921 testmanagerd[8549:228860] Target app was terminated; removing process assertion: 8648
+
+22:30:02.921 testmanagerd[8549:228860] Target app was terminated; removing process assertion: 8648
+
+22:30:02.950 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.950 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.951 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.951 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.951 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.951 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.951 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.951 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.951 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.951 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.952 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.952 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.952 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.952 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.952 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.952 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.952 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.952 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.953 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.953 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:02.953 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.953 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.954 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:02.954 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+
+22:30:06.237 testmanagerd[8549:228597] Got application state update: com.serglit.Smack (8654) -> 8
+
+22:30:06.237 testmanagerd[8549:228597] Got application state update: com.serglit.Smack (8654) -> 8
+
+22:30:06.237 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 8654 8
+
+22:30:06.237 testmanagerd[8549:228852] <XCTestSession: 0x7fe656c0d570> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.serglit.Smack 8654 8
+
+22:30:06.286 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:06.286 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:06.286 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8654;
+    suspended = 0;
+}
+
+22:30:06.286 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8654;
+    suspended = 0;
+}
+
+22:30:06.289 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.289 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.289 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.289 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.290 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.290 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.290 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.290 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.290 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.290 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.290 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.290 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.296 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.296 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.296 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.296 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.297 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.297 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.297 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.297 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:06.297 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.297 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.297 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.297 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidAppear;
+}
+
+22:30:06.385 testmanagerd[8549:228854] Test session <XCTestSession: 0x7fe656c0d570> requested endpoint for process with pid 8654, preferredBackendPath /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+
+22:30:06.385 testmanagerd[8549:228854] Test session <XCTestSession: 0x7fe656c0d570> requested endpoint for process with pid 8654, preferredBackendPath /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+
+22:30:06.385 testmanagerd[8549:228860] Recorded pending request for target session with pid 8654, timeout 60.0.
+
+22:30:06.385 testmanagerd[8549:228860] Recorded pending request for target session with pid 8654, timeout 60.0.
+
+22:30:06.385 testmanagerd[8549:228860] Setting availability state for target with PID 8654.
+
+22:30:06.385 testmanagerd[8549:228860] Setting availability state for target with PID 8654.
+
+22:30:06.386 testmanagerd[8549:228860] Posting availability to target with PID 8654
+
+22:30:06.386 testmanagerd[8549:228860] Posting availability to target with PID 8654
+
+22:30:07.337 testmanagerd[8549:228860] Creating target bootstrap session for target with PID 8654.
+
+22:30:07.337 testmanagerd[8549:228860] Creating target bootstrap session for target with PID 8654.
+
+22:30:07.337 testmanagerd[8549:228860] Resumed target connection.
+
+22:30:07.337 testmanagerd[8549:228860] Resumed target connection.
+
+22:30:07.338 testmanagerd[8549:228597] Target registered.
+
+22:30:07.338 testmanagerd[8549:228597] Target registered.
+
+22:30:07.338 testmanagerd[8549:228852] All target sessions: {
+    8654 = "<XCTTargetBootstrapSession: 0x7fe658303f60>(pid 8654)";
+}.
+
+22:30:07.338 testmanagerd[8549:228852] All target sessions: {
+    8654 = "<XCTTargetBootstrapSession: 0x7fe658303f60>(pid 8654)";
+}.
+
+22:30:07.338 testmanagerd[8549:228852] Target session requesting endpoint from target.
+
+22:30:07.338 testmanagerd[8549:228852] Target session requesting endpoint from target.
+
+22:30:07.369 testmanagerd[8549:228852] Target session got endpoint <NSXPCListenerEndpoint: 0x7fe65810af60> reply from target.
+
+22:30:07.369 testmanagerd[8549:228852] Target session got endpoint <NSXPCListenerEndpoint: 0x7fe65810af60> reply from target.
+
+22:30:07.370 testmanagerd[8549:228852] systemUIOrientation <AXUIElementRef 0x7fe656c14a60> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:07.370 testmanagerd[8549:228852] systemUIOrientation <AXUIElementRef 0x7fe656c14a60> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:07.371 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:07.371 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:07.371 testmanagerd[8549:228852] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:07.371 testmanagerd[8549:228852] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:07.381 testmanagerd[8549:228852] Got screenshot, rotating to orientation 0
+
+22:30:07.381 testmanagerd[8549:228852] Got screenshot, rotating to orientation 0
+
+22:30:07.385 testmanagerd[8549:228852] Replying with data 0x7fe656f0e010 (21236 bytes), error (null)
+
+22:30:07.385 testmanagerd[8549:228852] Replying with data 0x7fe656f0e010 (21236 bytes), error (null)
+
+22:30:07.387 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe65820b260> Application with pid: 8654
+
+22:30:07.387 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe65820b260> Application with pid: 8654
+
+22:30:07.387 testmanagerd[8549:228597] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe656e0fe40> Application with pid: 8654
+
+22:30:07.387 testmanagerd[8549:228597] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe656e0fe40> Application with pid: 8654
+
+22:30:07.602 testmanagerd[8549:228852] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe656e0fe40> Application with pid: 8654
+
+22:30:07.602 testmanagerd[8549:228852] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe656e0fe40> Application with pid: 8654
+
+22:30:07.602 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe65820b260> Application with pid: 8654
+
+22:30:07.602 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe65820b260> Application with pid: 8654
+
+22:30:07.717 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:07.717 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:07.717 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8654;
+    suspended = 0;
+}
+
+22:30:07.717 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8654;
+    suspended = 0;
+}
+
+22:30:07.719 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:07.719 testmanagerd[8549:226865] AX Notification 1021 (0x7fe656f02d30)
+
+22:30:07.719 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8654;
+    suspended = 0;
+}
+
+22:30:07.719 testmanagerd[8549:226865] Calling handler for AX notification 1021:{
+    pid = 8654;
+    suspended = 0;
+}
+
+22:30:07.818 testmanagerd[8549:228480] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe656e0fe40> Application with pid: 8654
+
+22:30:07.818 testmanagerd[8549:228480] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe656e0fe40> Application with pid: 8654
+
+22:30:07.818 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe65820b260> Application with pid: 8654
+
+22:30:07.818 testmanagerd[8549:228854] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe65820b260> Application with pid: 8654
+
+22:30:08.260 testmanagerd[8549:228480] Performed AXAction 2043 for pid 8654
+
+22:30:08.260 testmanagerd[8549:228480] Performed AXAction 2043 for pid 8654
+
+22:30:08.406 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.406 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.406 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:08.406 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:08.407 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:08.407 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:08.407 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.407 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.407 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:08.407 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:08.408 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:08.408 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = SWRevealViewController;
+    event = ViewDidAppear;
+}
+
+22:30:08.409 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.409 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.409 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:08.409 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:08.409 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:08.409 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = "Smack.ChatVC";
+    event = ViewDidAppear;
+}
+
+22:30:08.408 testmanagerd[8549:228854] Performed AXAction 2042 for pid 8654
+
+22:30:08.408 testmanagerd[8549:228854] Performed AXAction 2042 for pid 8654
+
+22:30:08.411 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.411 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:08.411 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:08.411 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:08.412 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:08.412 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:09.425 testmanagerd[8549:228852] systemUIOrientation <AXUIElementRef 0x7fe656c13080> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:09.425 testmanagerd[8549:228852] systemUIOrientation <AXUIElementRef 0x7fe656c13080> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:09.425 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.425 testmanagerd[8549:228852] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.425 testmanagerd[8549:228852] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.425 testmanagerd[8549:228852] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.434 testmanagerd[8549:228852] Got screenshot, rotating to orientation 0
+
+22:30:09.434 testmanagerd[8549:228852] Got screenshot, rotating to orientation 0
+
+22:30:09.439 testmanagerd[8549:228852] Replying with data 0x7fe656e14a00 (33161 bytes), error (null)
+
+22:30:09.439 testmanagerd[8549:228852] Replying with data 0x7fe656e14a00 (33161 bytes), error (null)
+
+22:30:09.440 testmanagerd[8549:228852] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656f033a0> Application with pid: 8654
+
+22:30:09.440 testmanagerd[8549:228852] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe656f033a0> Application with pid: 8654
+
+22:30:09.441 testmanagerd[8549:228852] Performed AXAction 2042 for pid 8654
+
+22:30:09.441 testmanagerd[8549:228852] Performed AXAction 2042 for pid 8654
+
+22:30:09.441 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.441 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.441 testmanagerd[8549:228860] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8654
+
+22:30:09.441 testmanagerd[8549:228860] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658103c50> Application with pid: 8654
+
+22:30:09.441 testmanagerd[8549:228860] Performed AXAction 2043 for pid 8654
+
+22:30:09.441 testmanagerd[8549:228860] Performed AXAction 2043 for pid 8654
+
+22:30:09.441 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:09.441 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:09.442 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:09.442 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:09.444 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.444 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.444 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:09.444 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:09.444 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:09.444 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:09.532 testmanagerd[8549:228860] Fetching attributes: XC_kAXXCAttributeValue (2006)
+
+22:30:09.532 testmanagerd[8549:228860] Fetching attributes: XC_kAXXCAttributeValue (2006)
+
+22:30:09.532 testmanagerd[8549:228860] Fetching AX attributes (
+    2006
+) for element <XCAccessibilityElement: 0x7fe656d0a370> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.532 testmanagerd[8549:228860] Fetching AX attributes (
+    2006
+) for element <XCAccessibilityElement: 0x7fe656d0a370> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.532 testmanagerd[8549:228860] Got AXElement for <XCAccessibilityElement: 0x7fe656d0a370> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656d07aa0> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.532 testmanagerd[8549:228860] Got AXElement for <XCAccessibilityElement: 0x7fe656d0a370> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656d07aa0> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.533 testmanagerd[8549:228860] For attributes (
+    2006
+), got values (
+    "<AXValue 0x7fe656d0c080> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+
+22:30:09.533 testmanagerd[8549:228860] For attributes (
+    2006
+), got values (
+    "<AXValue 0x7fe656d0c080> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+
+22:30:09.533 testmanagerd[8549:228860] Got attributes, transferring to dictionary for return.
+
+22:30:09.533 testmanagerd[8549:228860] Got attributes, transferring to dictionary for return.
+
+22:30:09.533 testmanagerd[8549:228860] Error 13: Fetching value for attribute 2006 returned AX error -25205.
+
+22:30:09.533 testmanagerd[8549:228860] Error 13: Fetching value for attribute 2006 returned AX error -25205.
+
+22:30:09.535 testmanagerd[8549:228852] Fetching attributes: XC_kAXXCAttributePlaceholderValue (5042)
+
+22:30:09.535 testmanagerd[8549:228852] Fetching attributes: XC_kAXXCAttributePlaceholderValue (5042)
+
+22:30:09.535 testmanagerd[8549:228852] Fetching AX attributes (
+    5042
+) for element <XCAccessibilityElement: 0x7fe656c14b10> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.535 testmanagerd[8549:228852] Fetching AX attributes (
+    5042
+) for element <XCAccessibilityElement: 0x7fe656c14b10> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.535 testmanagerd[8549:228852] Got AXElement for <XCAccessibilityElement: 0x7fe656c14b10> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656c13160> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.535 testmanagerd[8549:228852] Got AXElement for <XCAccessibilityElement: 0x7fe656c14b10> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656c13160> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.535 testmanagerd[8549:228852] For attributes (
+    5042
+), got values (
+    "<AXValue 0x7fe656e03260> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+
+22:30:09.535 testmanagerd[8549:228852] For attributes (
+    5042
+), got values (
+    "<AXValue 0x7fe656e03260> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+
+22:30:09.535 testmanagerd[8549:228852] Got attributes, transferring to dictionary for return.
+
+22:30:09.535 testmanagerd[8549:228852] Got attributes, transferring to dictionary for return.
+
+22:30:09.536 testmanagerd[8549:228852] Error 13: Fetching value for attribute 5042 returned AX error -25205.
+
+22:30:09.536 testmanagerd[8549:228852] Error 13: Fetching value for attribute 5042 returned AX error -25205.
+
+22:30:09.538 testmanagerd[8549:228855] Fetching attributes: XC_kAXXCAttributeIdentifier (5017)
+
+22:30:09.538 testmanagerd[8549:228855] Fetching attributes: XC_kAXXCAttributeIdentifier (5017)
+
+22:30:09.538 testmanagerd[8549:228855] Fetching AX attributes (
+    5017
+) for element <XCAccessibilityElement: 0x7fe656e17f80> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.538 testmanagerd[8549:228855] Fetching AX attributes (
+    5017
+) for element <XCAccessibilityElement: 0x7fe656e17f80> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.538 testmanagerd[8549:228855] Got AXElement for <XCAccessibilityElement: 0x7fe656e17f80> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656e171e0> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.538 testmanagerd[8549:228855] Got AXElement for <XCAccessibilityElement: 0x7fe656e17f80> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656e171e0> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.538 testmanagerd[8549:228855] For attributes (
+    5017
+), got values (
+    "<AXValue 0x7fe656f05890> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+
+22:30:09.538 testmanagerd[8549:228855] For attributes (
+    5017
+), got values (
+    "<AXValue 0x7fe656f05890> {value = error:-25205 type = kAXValueAXErrorType}"
+)
+
+22:30:09.538 testmanagerd[8549:228855] Got attributes, transferring to dictionary for return.
+
+22:30:09.538 testmanagerd[8549:228855] Got attributes, transferring to dictionary for return.
+
+22:30:09.539 testmanagerd[8549:228855] Error 13: Fetching value for attribute 5017 returned AX error -25205.
+
+22:30:09.539 testmanagerd[8549:228855] Error 13: Fetching value for attribute 5017 returned AX error -25205.
+
+22:30:09.541 testmanagerd[8549:228480] Fetching AX attributes (
+    1001
+) for element <XCAccessibilityElement: 0x7fe656d081f0> Device system-wide element
+
+22:30:09.541 testmanagerd[8549:228480] Fetching AX attributes (
+    1001
+) for element <XCAccessibilityElement: 0x7fe656d081f0> Device system-wide element
+
+22:30:09.541 testmanagerd[8549:228480] Got AXElement for <XCAccessibilityElement: 0x7fe656d081f0> Device system-wide element: <AXUIElementRef 0x7fe656d0a360> {pid=0} {uid=[ID:1 hash:0x0]}
+
+22:30:09.541 testmanagerd[8549:228480] Got AXElement for <XCAccessibilityElement: 0x7fe656d081f0> Device system-wide element: <AXUIElementRef 0x7fe656d0a360> {pid=0} {uid=[ID:1 hash:0x0]}
+
+22:30:09.541 testmanagerd[8549:228480] For attributes (
+    1001
+), got values (
+    "<AXUIElementRef 0x7fe656d0aae0> {pid=8536} {uid=[ID:1 hash:0x0]}"
+)
+
+22:30:09.541 testmanagerd[8549:228480] For attributes (
+    1001
+), got values (
+    "<AXUIElementRef 0x7fe656d0aae0> {pid=8536} {uid=[ID:1 hash:0x0]}"
+)
+
+22:30:09.541 testmanagerd[8549:228480] Got attributes, transferring to dictionary for return.
+
+22:30:09.541 testmanagerd[8549:228480] Got attributes, transferring to dictionary for return.
+
+22:30:09.542 testmanagerd[8549:228854] Fetching AX attributes (
+    1102
+) for element <XCAccessibilityElement: 0x7fe658021980> pid: 8536, elementOrHash.elementID: 0.1
+
+22:30:09.542 testmanagerd[8549:228854] Fetching AX attributes (
+    1102
+) for element <XCAccessibilityElement: 0x7fe658021980> pid: 8536, elementOrHash.elementID: 0.1
+
+22:30:09.542 testmanagerd[8549:228854] Got AXElement for <XCAccessibilityElement: 0x7fe658021980> pid: 8536, elementOrHash.elementID: 0.1: <AXUIElementRef 0x7fe65801f320> {pid=8536} {uid=[ID:1 hash:0x0]}
+
+22:30:09.542 testmanagerd[8549:228854] Got AXElement for <XCAccessibilityElement: 0x7fe658021980> pid: 8536, elementOrHash.elementID: 0.1: <AXUIElementRef 0x7fe65801f320> {pid=8536} {uid=[ID:1 hash:0x0]}
+
+22:30:09.543 testmanagerd[8549:228854] For attributes (
+    1102
+), got values (
+        (
+        "<AXUIElementRef 0x7fe658108f20> {pid=8654} {uid=[ID:1 hash:0x0]}"
+    )
+)
+
+22:30:09.543 testmanagerd[8549:228854] For attributes (
+    1102
+), got values (
+        (
+        "<AXUIElementRef 0x7fe658108f20> {pid=8654} {uid=[ID:1 hash:0x0]}"
+    )
+)
+
+22:30:09.543 testmanagerd[8549:228854] Got attributes, transferring to dictionary for return.
+
+22:30:09.543 testmanagerd[8549:228854] Got attributes, transferring to dictionary for return.
+
+22:30:09.557 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656e171e0> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:09.557 testmanagerd[8549:228480] systemUIOrientation <AXUIElementRef 0x7fe656e171e0> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:09.557 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.557 testmanagerd[8549:228480] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.557 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.557 testmanagerd[8549:228480] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.565 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:09.565 testmanagerd[8549:228480] Got screenshot, rotating to orientation 0
+
+22:30:09.570 testmanagerd[8549:228480] Replying with data 0x7fe656f0e010 (33161 bytes), error (null)
+
+22:30:09.570 testmanagerd[8549:228480] Replying with data 0x7fe656f0e010 (33161 bytes), error (null)
+
+22:30:09.571 testmanagerd[8549:228480] Fetching attributes: XC_kAXXCAttributeVisiblePoint,XC_kAXXCAttributeWindowContextId,XC_kAXXCAttributeWindowDisplayId (2062,2021,2123)
+
+22:30:09.571 testmanagerd[8549:228480] Fetching attributes: XC_kAXXCAttributeVisiblePoint,XC_kAXXCAttributeWindowContextId,XC_kAXXCAttributeWindowDisplayId (2062,2021,2123)
+
+22:30:09.571 testmanagerd[8549:228480] Fetching AX attributes (
+    2062,
+    2021,
+    2123
+) for element <XCAccessibilityElement: 0x7fe656e14a70> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.571 testmanagerd[8549:228480] Fetching AX attributes (
+    2062,
+    2021,
+    2123
+) for element <XCAccessibilityElement: 0x7fe656e14a70> pid: 8654, elementOrHash.elementID: 140445607911520.21
+
+22:30:09.571 testmanagerd[8549:228480] Got AXElement for <XCAccessibilityElement: 0x7fe656e14a70> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656e181c0> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.571 testmanagerd[8549:228480] Got AXElement for <XCAccessibilityElement: 0x7fe656e14a70> pid: 8654, elementOrHash.elementID: 140445607911520.21: <AXUIElementRef 0x7fe656e181c0> {pid=8654} {uid=[ID:21 hash:0x7fbc0a91e060]}
+
+22:30:09.582 testmanagerd[8549:228480] For attributes (
+    2062,
+    2021,
+    2123
+), got values (
+    "<AXValue 0x7fe65810bfc0> {value = x:24.000000 y:56.000000 type = kAXValueCGPointType}",
+    1305193463,
+    1
+)
+
+22:30:09.582 testmanagerd[8549:228480] For attributes (
+    2062,
+    2021,
+    2123
+), got values (
+    "<AXValue 0x7fe65810bfc0> {value = x:24.000000 y:56.000000 type = kAXValueCGPointType}",
+    1305193463,
+    1
+)
+
+22:30:09.582 testmanagerd[8549:228480] Got attributes, transferring to dictionary for return.
+
+22:30:09.582 testmanagerd[8549:228480] Got attributes, transferring to dictionary for return.
+
+22:30:09.584 testmanagerd[8549:228480] Fetching AX parameterized attribute 91503, parameter (
+        {
+        X = 24;
+        Y = 56;
+    },
+    1305193463,
+    1
+) for element <XCAccessibilityElement: 0x7fe65810aa50> Device system-wide element
+
+22:30:09.584 testmanagerd[8549:228480] Fetching AX parameterized attribute 91503, parameter (
+        {
+        X = 24;
+        Y = 56;
+    },
+    1305193463,
+    1
+) for element <XCAccessibilityElement: 0x7fe65810aa50> Device system-wide element
+
+22:30:09.584 testmanagerd[8549:228480] Decoded {
+    X = 24;
+    Y = 56;
+} to point
+
+22:30:09.584 testmanagerd[8549:228480] Decoded {
+    X = 24;
+    Y = 56;
+} to point
+
+22:30:09.584 testmanagerd[8549:228480] Got AXElement for <XCAccessibilityElement: 0x7fe65810aa50> Device system-wide element: <AXUIElementRef 0x7fe65810e430> {pid=0} {uid=[ID:1 hash:0x0]}
+
+22:30:09.584 testmanagerd[8549:228480] Got AXElement for <XCAccessibilityElement: 0x7fe65810aa50> Device system-wide element: <AXUIElementRef 0x7fe65810e430> {pid=0} {uid=[ID:1 hash:0x0]}
+
+22:30:09.585 testmanagerd[8549:228480] Value for parameterized attribute 91503: <AXValue 0x7fe65810e0d0> {value = x:24.000000 y:56.000000 type = kAXValueCGPointType}
+
+22:30:09.585 testmanagerd[8549:228480] Value for parameterized attribute 91503: <AXValue 0x7fe65810e0d0> {value = x:24.000000 y:56.000000 type = kAXValueCGPointType}
+
+22:30:09.587 testmanagerd[8549:228854] Synthesizing event: 
+<XCSynthesizedEventRecord:0x7fe65810e500 name:'tap with 1 tap(s) and 1 touch(es)'> paths:
+Path 1:
+	<XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s>
+	<XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.587 testmanagerd[8549:228854] Synthesizing event: 
+<XCSynthesizedEventRecord:0x7fe65810e500 name:'tap with 1 tap(s) and 1 touch(es)'> paths:
+Path 1:
+	<XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s>
+	<XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.591 testmanagerd[8549:228852] -[XCTouchGesturePerformer synthesizeEvent:completionHandler:]_block_invoke using mach time
+
+22:30:09.591 testmanagerd[8549:228852] -[XCTouchGesturePerformer synthesizeEvent:completionHandler:]_block_invoke using mach time
+
+22:30:09.591 testmanagerd[8549:228852] offset 0.000
+
+22:30:09.591 testmanagerd[8549:228852] offset 0.000
+
+22:30:09.592 testmanagerd[8549:228852] before/after <XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s> <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.592 testmanagerd[8549:228852] before/after <XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s> <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.592 testmanagerd[8549:228852] touch down {24, 56}
+
+22:30:09.592 testmanagerd[8549:228852] touch down {24, 56}
+
+22:30:09.592 testmanagerd[8549:228852] normalized {24, 56} to {0.064000000000000001, 0.08395802098950525}
+
+22:30:09.592 testmanagerd[8549:228852] normalized {24, 56} to {0.064000000000000001, 0.08395802098950525}
+
+22:30:09.608 testmanagerd[8549:228852] offset 0.017
+
+22:30:09.608 testmanagerd[8549:228852] offset 0.017
+
+22:30:09.608 testmanagerd[8549:228852] before/after <XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s> <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.608 testmanagerd[8549:228852] before/after <XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s> <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.617 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.617 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.617 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = UIInputWindowController;
+    event = ViewDidAppear;
+}
+
+22:30:09.617 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    controllerClass = UIInputWindowController;
+    event = ViewDidAppear;
+}
+
+22:30:09.617 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = UIInputWindowController;
+    event = ViewDidAppear;
+}
+
+22:30:09.617 testmanagerd[8549:226865] Got user testing notification with payload {
+    controllerClass = UIInputWindowController;
+    event = ViewDidAppear;
+}
+
+22:30:09.625 testmanagerd[8549:228860] offset 0.033
+
+22:30:09.625 testmanagerd[8549:228860] offset 0.033
+
+22:30:09.625 testmanagerd[8549:228860] before/after <XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s> <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.625 testmanagerd[8549:228860] before/after <XCPointerEvent:0x7fe6581056b0 type:1 coordinate:(24,56) pressure:0.0000 offset:0.00s> <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s>
+
+22:30:09.641 testmanagerd[8549:228854] offset 0.050
+
+22:30:09.641 testmanagerd[8549:228854] offset 0.050
+
+22:30:09.642 testmanagerd[8549:228854] before/after <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s> (null)
+
+22:30:09.642 testmanagerd[8549:228854] before/after <XCPointerEvent:0x7fe658108a70 type:3 coordinate:(24,56) pressure:0.0000 offset:0.05s> (null)
+
+22:30:09.642 testmanagerd[8549:228854] touch up {24, 56}
+
+22:30:09.642 testmanagerd[8549:228854] touch up {24, 56}
+
+22:30:09.642 testmanagerd[8549:228854] normalized {24, 56} to {0.064000000000000001, 0.08395802098950525}
+
+22:30:09.642 testmanagerd[8549:228854] normalized {24, 56} to {0.064000000000000001, 0.08395802098950525}
+
+22:30:09.642 testmanagerd[8549:228854] Waiting for touches complete.
+
+22:30:09.642 testmanagerd[8549:228854] Waiting for touches complete.
+
+22:30:09.644 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.644 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.644 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = TouchEventsCompleted;
+}
+
+22:30:09.644 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = TouchEventsCompleted;
+}
+
+22:30:09.644 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = TouchEventsCompleted;
+}
+
+22:30:09.644 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = TouchEventsCompleted;
+}
+
+22:30:09.644 testmanagerd[8549:226865] Signaling touch gesture confirmed by AX notification.
+
+22:30:09.644 testmanagerd[8549:226865] Signaling touch gesture confirmed by AX notification.
+
+22:30:09.645 testmanagerd[8549:228854] Gesture complete, replying to client.
+
+22:30:09.645 testmanagerd[8549:228854] Gesture complete, replying to client.
+
+22:30:09.650 testmanagerd[8549:228860] systemUIOrientation <AXUIElementRef 0x7fe656c09780> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:09.650 testmanagerd[8549:228860] systemUIOrientation <AXUIElementRef 0x7fe656c09780> {pid=8536} {uid=[ID:1 hash:0x0]}[kAXApplicationOrientationAttribute]: AXError:0 1
+
+22:30:09.650 testmanagerd[8549:228860] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.650 testmanagerd[8549:228860] Test session <XCTestSession: 0x7fe656c0d570> requested screenshot with parameters Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.650 testmanagerd[8549:228860] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.650 testmanagerd[8549:228860] Preparing screenshot for Screenshot request for screenID 1, rect {{inf, inf}, {0.0, 0.0}}, format UTI public.jpeg, compression quality 0.7, orientation 1
+
+22:30:09.660 testmanagerd[8549:228860] Got screenshot, rotating to orientation 0
+
+22:30:09.660 testmanagerd[8549:228860] Got screenshot, rotating to orientation 0
+
+22:30:09.660 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.660 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.660 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = TouchEventsCompleted;
+}
+
+22:30:09.660 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = TouchEventsCompleted;
+}
+
+22:30:09.661 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = TouchEventsCompleted;
+}
+
+22:30:09.661 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = TouchEventsCompleted;
+}
+
+22:30:09.666 testmanagerd[8549:228860] Replying with data 0x7fe656d064a0 (32786 bytes), error (null)
+
+22:30:09.666 testmanagerd[8549:228860] Replying with data 0x7fe656d064a0 (32786 bytes), error (null)
+
+22:30:09.667 testmanagerd[8549:228855] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe6581052e0> Application with pid: 8654
+
+22:30:09.667 testmanagerd[8549:228855] Attempting to perform action 2042 on <XCAccessibilityElement: 0x7fe6581052e0> Application with pid: 8654
+
+22:30:09.667 testmanagerd[8549:228855] Performed AXAction 2042 for pid 8654
+
+22:30:09.667 testmanagerd[8549:228855] Performed AXAction 2042 for pid 8654
+
+22:30:09.668 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.668 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.668 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:09.668 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = RunLoopIsIdle;
+}
+
+22:30:09.669 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:09.669 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+
+22:30:09.670 testmanagerd[8549:228855] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658003620> Application with pid: 8654
+
+22:30:09.670 testmanagerd[8549:228855] Attempting to perform action 2043 on <XCAccessibilityElement: 0x7fe658003620> Application with pid: 8654
+
+22:30:09.670 testmanagerd[8549:228855] Performed AXAction 2043 for pid 8654
+
+22:30:09.670 testmanagerd[8549:228855] Performed AXAction 2043 for pid 8654
+
+22:30:09.967 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.967 testmanagerd[8549:226865] AX Notification 4002 (0x7fe656f02d30)
+
+22:30:09.967 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:09.967 testmanagerd[8549:226865] Calling handler for AX notification 4002:{
+    event = AnimationsNonActive;
+}
+
+22:30:09.968 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:09.968 testmanagerd[8549:226865] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+
+22:30:10.314 testmanagerd[8549:228852] Connection to target invalidated.
+
+22:30:10.314 testmanagerd[8549:228852] Connection to target invalidated.
+
+22:30:10.315 testmanagerd[8549:228852] Closed <XCTTargetBootstrapSession: 0x7fe658303f60>(pid 8654), removing from {
+    8654 = "<XCTTargetBootstrapSession: 0x7fe658303f60>(pid 8654)";
+}
+
+22:30:10.315 testmanagerd[8549:228852] Closed <XCTTargetBootstrapSession: 0x7fe658303f60>(pid 8654), removing from {
+    8654 = "<XCTTargetBootstrapSession: 0x7fe658303f60>(pid 8654)";
+}
+
+22:30:10.358 testmanagerd[8549:228852] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fe656c0d570>.
+
+22:30:10.358 testmanagerd[8549:228852] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fe656c0d570>.
+
+22:30:10.358 testmanagerd[8549:228854] Closed <XCTestSession: 0x7fe656c0d570>, removing from (
+    "<XCTestSession: 0x7fe656c0d570>"
+)
+
+22:30:10.358 testmanagerd[8549:228854] Closed <XCTestSession: 0x7fe656c0d570>, removing from (
+    "<XCTestSession: 0x7fe656c0d570>"
+)
+
+22:30:10.358 testmanagerd[8549:228854] Tearing down <XCTestSession: 0x7fe656c0d570>.
+
+22:30:10.358 testmanagerd[8549:228854] Tearing down <XCTestSession: 0x7fe656c0d570>.
+
+22:30:10.358 testmanagerd[8549:228854] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+
+22:30:10.358 testmanagerd[8549:228854] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDApplicationMonitor: 0x7fe656c0de30>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDApplicationMonitor: 0x7fe656c0de30>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDProcessAssertionManager: 0x7fe656c0d9b0>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDProcessAssertionManager: 0x7fe656c0d9b0>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDApplicationLauncher: 0x7fe65801b0b0>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDApplicationLauncher: 0x7fe65801b0b0>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDSiriInterface: 0x7fe656c09b90>.
+
+22:30:10.359 testmanagerd[8549:228854] Tearing down <XCTDSiriInterface: 0x7fe656c09b90>.
+
+22:30:10.359 testmanagerd[8549:228854] Invalidating <XCAXManager_iOS: 0x7fe656f02d30>
+
+22:30:10.359 testmanagerd[8549:228854] Invalidating <XCAXManager_iOS: 0x7fe656f02d30>
+
+22:30:10.359 testmanagerd[8549:228854] Invalidated <XCTDAccessibilitySessionToken: 0x7fe658302450>. Remaining XCTDAccessibilitySessionToken instances: {(
+)}
+
+22:30:10.359 testmanagerd[8549:228854] Invalidated <XCTDAccessibilitySessionToken: 0x7fe658302450>. Remaining XCTDAccessibilitySessionToken instances: {(
+)}
+
+22:30:10.359 testmanagerd[8549:228854] Unloading accessibility
+
+22:30:10.359 testmanagerd[8549:228854] Unloading accessibility
+
+22:30:10.360 testmanagerd[8549:228854] Turning off automation
+
+22:30:10.360 testmanagerd[8549:228854] Turning off automation
+
+22:30:10.370 testmanagerd[8549:228854] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+
+22:30:10.370 testmanagerd[8549:228854] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+
+22:30:10.370 testmanagerd[8549:228854] Control sessions: (
+    "<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time",
+    "<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time"
+)
+
+22:30:10.370 testmanagerd[8549:228854] Control sessions: (
+    "<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time",
+    "<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time"
+)
+

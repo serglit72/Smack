@@ -1,0 +1,35 @@
+2019-01-31 22:29:51.870966-0800 SmackUITests-Runner[8637:228709] +[CATransaction synchronize] called within transaction
+2019-01-31 22:29:51.988041-0800 SmackUITests-Runner[8637:228709] Running tests...
+objc[8637]: Class VCWeakObjectHolder is implemented in both /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x121b634d0) and /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 11.4.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x120761e38). One of the two will be used. Which one is undefined.
+Test Suite 'SmackUITests' started at 2019-01-31 22:29:53.980
+Test Case '-[SmackUITests.SmackUITests testChannelLable]' started.
+    t =     0.00s Start Test at 2019-01-31 22:29:53.983
+    t =     0.04s Set Up
+    t =     0.05s     Open com.serglit.Smack
+    t =     0.07s         Launch com.serglit.Smack
+    t =     5.90s             Wait for com.serglit.Smack to idle
+    t =     8.37s Tear Down
+Test Case '-[SmackUITests.SmackUITests testChannelLable]' passed (8.574 seconds).
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton_is_clickable]' started.
+    t =     0.00s Start Test at 2019-01-31 22:30:02.557
+    t =     0.02s Set Up
+    t =     0.02s     Open com.serglit.Smack
+    t =     0.04s         Launch com.serglit.Smack
+    t =     0.04s             Terminate com.serglit.Smack:8648
+    t =     3.72s             Wait for accessibility to load
+    t =     4.81s             Wait for com.serglit.Smack to idle
+    t =     6.87s Tap "smackBurger" Button
+    t =     6.87s     Wait for com.serglit.Smack to idle
+    t =     6.89s     Find the "smackBurger" Button
+    t =     6.98s         Check for interrupting elements affecting "smackBurger" Button
+    t =     7.00s     Synthesize event
+    t =     7.09s     Wait for com.serglit.Smack to idle
+    t =     7.43s Tear Down
+Test Case '-[SmackUITests.SmackUITests testTapMenuButton_is_clickable]' passed (7.636 seconds).
+Test Suite 'SmackUITests' passed at 2019-01-31 22:30:10.193.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 16.210 (16.213) seconds
+
+
+Test session results and logs:
+	/Users/slitovchenko/Documents/Smack/DerivedData/Smack/Logs/Test/Test-SmackUITests-2019.01.31_22-29-28--0800.xcresult
+

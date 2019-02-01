@@ -12,8 +12,6 @@ target 'Smack' do
   pod 'Socket.IO-Client-Swift'
 
   target 'SmackUITests' do
-    inherit! :search_paths
-    # Pods for testing
   end
 
 end

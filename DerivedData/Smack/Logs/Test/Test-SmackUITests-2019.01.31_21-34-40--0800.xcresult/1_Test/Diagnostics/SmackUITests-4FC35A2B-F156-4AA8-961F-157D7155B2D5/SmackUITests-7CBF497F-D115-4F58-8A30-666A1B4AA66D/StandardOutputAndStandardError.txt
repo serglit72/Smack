@@ -1,0 +1,5 @@
+2019-01-31 21:34:44.253902-0800 SmackUITests-Runner[5427:117361] +[CATransaction synchronize] called within transaction
+2019-01-31 21:34:44.321760-0800 SmackUITests-Runner[5427:117361] Running tests...
+2019-01-31 21:34:44.332228-0800 SmackUITests-Runner[5427:117361] The bundle “SmackUITests” couldn’t be loaded because it is damaged or missing necessary resources. Try reinstalling the bundle.
+2019-01-31 21:34:44.332376-0800 SmackUITests-Runner[5427:117361] (dlopen_preflight(/Users/slitovchenko/Documents/Smack/DerivedData/Smack/Build/Products/Debug-iphonesimulator/SmackUITests-Runner.app/PlugIns/SmackUITests.xctest/SmackUITests): no suitable image found.  Did find:
+	/Users/slitovchenko/Documents/Smack/DerivedData/Smack/Build/Products/Debug-iphonesimulator/SmackUITests-Runner.app/PlugIns/SmackUITests.xctest/SmackUITests: mach-o, but not built for iOS simulator)

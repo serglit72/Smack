@@ -2,36 +2,33 @@
 //  SmackUITests.swift
 //  SmackUITests
 //
-//  Created by Sergei Litovchenko on 12/24/18.
-//  Copyright © 2018 Sergei Litovchenko. All rights reserved.
+//  Created by Sergei Litovchenko on 1/31/19.
+//  Copyright © 2019 Sergei Litovchenko. All rights reserved.
 //
 
 import XCTest
 
 class SmackUITests: XCTestCase {
-    
-    var app: XCUIApplication!
 
+    let app = XCUIApplication()
+    
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
-        app = XCUIApplication()
         app.launch()
     }
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-       // XCUIApplication().launch()
+ //Check the ChannelLable exists
+    func testChannelLable(){
+        let channelLable = app.staticTexts["Smack"]
+        XCTAssert(channelLable.exists)
+    }
+ //Check the Burger Menu is clickable
+    func testTapMenuButton_is_clickable() {
        
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    
-
-    override func tearDown() {
-         app = nil
-         super.tearDown()
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        let burgerMenu = app.buttons["smackBurger"]
+        let loginButton = app.buttons["Login"]
+        burgerMenu.tap()
+         XCTAssert(loginButton.exists)
     }
-    func testIsUserloggedIn(){
-        app.buttons["Login"].tap()
-        XCTAssertTrue(app.buttons.containing(label: , identifier: <#T##String?#>)["Login"])
-    }
-    
 }
+

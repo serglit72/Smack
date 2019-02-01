@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>165A1F00-5648-4DA5-80BB-65B08A7CBA3F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>2A3555FE-615F-402D-884B-57765EFCA1B7</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-25-20--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695120.14515805</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>165A1F00-5648-4DA5-80BB-65B08A7CBA3F</string>
+		</dict>
+		<key>27A27CE5-CCF2-482F-BE5B-0336250B7E14</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>A352B9D5-B73C-4B87-96FC-74B26D1E8AF6</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-32-15--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695535.81029797</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>27A27CE5-CCF2-482F-BE5B-0336250B7E14</string>
+		</dict>
+		<key>46977CB7-257D-4E35-99A6-4F0E6D3BC196</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E1D6902C-9700-47DC-992F-AF174352D8C0</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-28-45--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695325.20471001</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>46977CB7-257D-4E35-99A6-4F0E6D3BC196</string>
+		</dict>
+		<key>56984363-5C6C-4A6D-A50C-D0A687FAFA8A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>AA33288C-B30B-4B04-91ED-11BB5EC7CA36</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_21-36-38--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570692198.80088699</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>56984363-5C6C-4A6D-A50C-D0A687FAFA8A</string>
+		</dict>
+		<key>68CD9792-132B-425B-8565-16B3085D0D6E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E9D3A1B1-F3EF-449C-808B-03468B0B5C88</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_21-47-08--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570692828.59944499</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>68CD9792-132B-425B-8565-16B3085D0D6E</string>
+		</dict>
+		<key>73FD401B-78CF-4BFF-AEE3-5DA75D947B31</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B48667BD-6577-4807-9769-05D763CA54D5</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_21-34-40--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570692080.94125199</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>73FD401B-78CF-4BFF-AEE3-5DA75D947B31</string>
+		</dict>
+		<key>93C56EB9-7ECA-4697-AC4A-5A61FB8952F0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C63EFE92-94FB-4AC8-88B9-4ECA36ABAA44</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-29-28--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695368.42177296</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>93C56EB9-7ECA-4697-AC4A-5A61FB8952F0</string>
+		</dict>
+		<key>A6B36B84-A595-4298-AE1F-988796177FDB</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F2AAEE17-3630-4230-A57E-DC73CF3C90E0</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-23-55--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695035.59112096</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>A6B36B84-A595-4298-AE1F-988796177FDB</string>
+		</dict>
+		<key>CD1A5C44-68C7-47A5-8E04-77DDCFD995C2</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>A0FD8BA7-C865-4E93-AB84-44086431BEE9</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-27-11--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695231.31463099</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>CD1A5C44-68C7-47A5-8E04-77DDCFD995C2</string>
+		</dict>
+		<key>DC8CBD3F-895A-496E-B3BC-C0FF03FA9C37</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>ABD29150-86A3-4F72-A9B5-99A1D0630208</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_18-58-10--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570682690.00072396</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>DC8CBD3F-895A-496E-B3BC-C0FF03FA9C37</string>
+		</dict>
+		<key>E4570DB3-D261-422F-BE3B-ACDC4DB37D42</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D464F976-9816-4B9A-A7F9-E18C2C639BD8</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_21-32-40--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570691960.72275496</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>E4570DB3-D261-422F-BE3B-ACDC4DB37D42</string>
+		</dict>
+		<key>E6D3DBD4-0AC9-4FD8-A178-604649A81794</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>DBDFB222-0026-4EA0-AF65-A892CB91B6F0</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_18-54-17--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570682457.98966396</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>E6D3DBD4-0AC9-4FD8-A178-604649A81794</string>
+		</dict>
+		<key>E8A3747D-0208-4420-815D-66BD3F636811</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E4EA827C-C748-4046-A7F2-ADE925FA64DA</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_21-55-10--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570693310.913427</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>E8A3747D-0208-4420-815D-66BD3F636811</string>
+		</dict>
+		<key>FFC03505-957B-409A-88AF-514586AE5B71</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>8D02CF7D-19AE-4EE3-8F48-960BFF9D8F81</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-SmackUITests-2019.01.31_22-24-31--0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570695071.44852996</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>FFC03505-957B-409A-88AF-514586AE5B71</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
