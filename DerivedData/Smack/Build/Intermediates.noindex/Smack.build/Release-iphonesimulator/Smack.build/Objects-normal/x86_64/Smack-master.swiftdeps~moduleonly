@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "0f01510e760d774eaa0d2f1ab2b36351"
-build_time: [1548999353, 466191000]
+build_time: [1549071170, 794290000]
 inputs:
   "/Users/slitovchenko/Documents/Smack/Smack/View/KeyboardBoundView.swift": [9223372036, 854775807]
   "/Users/slitovchenko/Documents/Smack/Smack/Services/SocketService.swift": [9223372036, 854775807]

@@ -58,6 +58,29 @@
 			<key>uniqueIdentifier</key>
 			<string>03BC37BA-C8DB-484D-A3C5-D72B2813264E</string>
 		</dict>
+		<key>0632A38B-374A-4245-AEB1-3721353518A1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0632A38B-374A-4245-AEB1-3721353518A1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570768250.00318503</real>
+			<key>timeStoppedRecording</key>
+			<real>570768262.55991602</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>0632A38B-374A-4245-AEB1-3721353518A1</string>
+		</dict>
 		<key>0E2C7332-C377-4FC7-853D-75CC22549943</key>
 		<dict>
 			<key>className</key>
@@ -109,6 +132,52 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>0EFC1FE4-D2C1-41AF-B399-8DE63AF05C0C</string>
+		</dict>
+		<key>1131E4AE-CA1A-4B99-850C-73889C76FF3C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1131E4AE-CA1A-4B99-850C-73889C76FF3C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570757710.37009799</real>
+			<key>timeStoppedRecording</key>
+			<real>570757719.45132506</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>1131E4AE-CA1A-4B99-850C-73889C76FF3C</string>
+		</dict>
+		<key>11936B70-3261-4768-BAF3-FD76C7144A05</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>11936B70-3261-4768-BAF3-FD76C7144A05.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570765080.86839294</real>
+			<key>timeStoppedRecording</key>
+			<real>570765091.19598806</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>11936B70-3261-4768-BAF3-FD76C7144A05</string>
 		</dict>
 		<key>14E2AD10-35F2-4057-8523-A52C354CC550</key>
 		<dict>
@@ -167,6 +236,81 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>156EFA17-8B20-44B5-9892-7A3042C4D29F</string>
+		</dict>
+		<key>16D2EFB0-9A98-4BE3-B58F-2C906558834B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>16D2EFB0-9A98-4BE3-B58F-2C906558834B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763979.54835999</real>
+			<key>timeStoppedRecording</key>
+			<real>570764255.47791898</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>16D2EFB0-9A98-4BE3-B58F-2C906558834B</string>
+		</dict>
+		<key>197B8B11-E314-4EA4-B9CF-0941BE47A8BA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>197B8B11-E314-4EA4-B9CF-0941BE47A8BA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570702084.52310896</real>
+			<key>timeStoppedRecording</key>
+			<real>570702090.26013505</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>197B8B11-E314-4EA4-B9CF-0941BE47A8BA</string>
+		</dict>
+		<key>256A94DD-5DE8-4DDE-B51C-7571ADA3A8D1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>256A94DD-5DE8-4DDE-B51C-7571ADA3A8D1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570757694.70460403</real>
+			<key>timeStoppedRecording</key>
+			<real>570757702.71835196</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>256A94DD-5DE8-4DDE-B51C-7571ADA3A8D1</string>
 		</dict>
 		<key>2871581D-0B10-440A-8232-093B9F9D21C8</key>
 		<dict>
@@ -243,6 +387,29 @@
 			<key>uniqueIdentifier</key>
 			<string>2C750469-F6E6-4C9C-9221-22AED3673F07</string>
 		</dict>
+		<key>2C9BC38A-2BE2-4BC6-A6C1-C80382DB56F5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2C9BC38A-2BE2-4BC6-A6C1-C80382DB56F5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570765050.02026498</real>
+			<key>timeStoppedRecording</key>
+			<real>570765060.25130999</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>2C9BC38A-2BE2-4BC6-A6C1-C80382DB56F5</string>
+		</dict>
 		<key>33BBE9DD-7280-449A-AF8E-58508521ED4A</key>
 		<dict>
 			<key>className</key>
@@ -295,6 +462,29 @@
 			<key>uniqueIdentifier</key>
 			<string>3642946D-EED4-4B59-A182-8D874FCCE03E</string>
 		</dict>
+		<key>372BBE18-0FA9-4B33-959D-A437988DF81A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>372BBE18-0FA9-4B33-959D-A437988DF81A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763368.17541802</real>
+			<key>timeStoppedRecording</key>
+			<real>570763376.48825705</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>372BBE18-0FA9-4B33-959D-A437988DF81A</string>
+		</dict>
 		<key>41F32C0E-F8FB-4B33-A70A-084C6232DD2D</key>
 		<dict>
 			<key>className</key>
@@ -324,6 +514,81 @@
 			<key>uniqueIdentifier</key>
 			<string>41F32C0E-F8FB-4B33-A70A-084C6232DD2D</string>
 		</dict>
+		<key>423D1988-584F-447A-B353-F8AD98C0D329</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>423D1988-584F-447A-B353-F8AD98C0D329.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570766002.13458896</real>
+			<key>timeStoppedRecording</key>
+			<real>570766013.79263306</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>423D1988-584F-447A-B353-F8AD98C0D329</string>
+		</dict>
+		<key>426A6A0E-C535-46E4-ADB3-DA63E8698A21</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>426A6A0E-C535-46E4-ADB3-DA63E8698A21.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763120.27777302</real>
+			<key>timeStoppedRecording</key>
+			<real>570763222.63418305</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>426A6A0E-C535-46E4-ADB3-DA63E8698A21</string>
+		</dict>
+		<key>4F90F760-A8B9-4AC2-B417-79411D8CA02B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4F90F760-A8B9-4AC2-B417-79411D8CA02B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570705159.88014495</real>
+			<key>timeStoppedRecording</key>
+			<real>570705164.98223901</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>4F90F760-A8B9-4AC2-B417-79411D8CA02B</string>
+		</dict>
 		<key>50AA949E-DA4D-4895-8D85-A83D2989AB43</key>
 		<dict>
 			<key>className</key>
@@ -352,6 +617,29 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>50AA949E-DA4D-4895-8D85-A83D2989AB43</string>
+		</dict>
+		<key>567A3670-7A7E-446B-B2FA-DDEC79D76F61</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>567A3670-7A7E-446B-B2FA-DDEC79D76F61.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570768199.43171096</real>
+			<key>timeStoppedRecording</key>
+			<real>570768206.54988599</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>567A3670-7A7E-446B-B2FA-DDEC79D76F61</string>
 		</dict>
 		<key>577B4B6F-10AC-4C2D-8DF0-0532DDE6F5D9</key>
 		<dict>
@@ -405,6 +693,110 @@
 			<key>uniqueIdentifier</key>
 			<string>59736738-DE7A-415D-AFDC-526F7C70A3F3</string>
 		</dict>
+		<key>5A1C82AF-8CDA-47D7-890E-7342A6322420</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5A1C82AF-8CDA-47D7-890E-7342A6322420.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763304.14851999</real>
+			<key>timeStoppedRecording</key>
+			<real>570763311.13615596</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>5A1C82AF-8CDA-47D7-890E-7342A6322420</string>
+		</dict>
+		<key>5BFE8C76-0059-4F89-8A47-3442E5421A71</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5BFE8C76-0059-4F89-8A47-3442E5421A71.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570767308.45323896</real>
+			<key>timeStoppedRecording</key>
+			<real>570768192.56587803</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>5BFE8C76-0059-4F89-8A47-3442E5421A71</string>
+		</dict>
+		<key>5E697E0F-0375-4D0A-9DBB-136FC88F7363</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5E697E0F-0375-4D0A-9DBB-136FC88F7363.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570703013.43759298</real>
+			<key>timeStoppedRecording</key>
+			<real>570704650.21470296</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>5E697E0F-0375-4D0A-9DBB-136FC88F7363</string>
+		</dict>
+		<key>5EDB8903-8841-4035-AA13-66E972B0D503</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5EDB8903-8841-4035-AA13-66E972B0D503.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570766197.80039203</real>
+			<key>timeStoppedRecording</key>
+			<real>570766210.22940099</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>5EDB8903-8841-4035-AA13-66E972B0D503</string>
+		</dict>
 		<key>5FBA8179-7403-45CA-943E-DBA0EDDB7D7C</key>
 		<dict>
 			<key>className</key>
@@ -427,6 +819,29 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>5FBA8179-7403-45CA-943E-DBA0EDDB7D7C</string>
+		</dict>
+		<key>665BD6E0-4874-48D7-90C1-5E6D8C2F87E4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>665BD6E0-4874-48D7-90C1-5E6D8C2F87E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763404.55985296</real>
+			<key>timeStoppedRecording</key>
+			<real>570763503.77468204</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>665BD6E0-4874-48D7-90C1-5E6D8C2F87E4</string>
 		</dict>
 		<key>6BE73BC8-F13A-4CDB-89AE-90855B48D2E0</key>
 		<dict>
@@ -480,6 +895,52 @@
 			<key>uniqueIdentifier</key>
 			<string>6D59D6F4-CAA7-4BCA-BF60-FF7569227B6B</string>
 		</dict>
+		<key>6EC94D97-9BC5-4F31-AE54-CEBC192B8DE3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6EC94D97-9BC5-4F31-AE54-CEBC192B8DE3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570757720.09773302</real>
+			<key>timeStoppedRecording</key>
+			<real>570757727.46636999</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>6EC94D97-9BC5-4F31-AE54-CEBC192B8DE3</string>
+		</dict>
+		<key>755E6B13-D42D-430C-BC08-FBE2EEEE105F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>755E6B13-D42D-430C-BC08-FBE2EEEE105F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763279.83966601</real>
+			<key>timeStoppedRecording</key>
+			<real>570763288.00831997</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>755E6B13-D42D-430C-BC08-FBE2EEEE105F</string>
+		</dict>
 		<key>781E9D33-91D8-49C1-9691-0DBCE7A07698</key>
 		<dict>
 			<key>className</key>
@@ -509,6 +970,75 @@
 			<key>uniqueIdentifier</key>
 			<string>781E9D33-91D8-49C1-9691-0DBCE7A07698</string>
 		</dict>
+		<key>7AAD928D-59DF-427C-80BB-6CED90F5F479</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7AAD928D-59DF-427C-80BB-6CED90F5F479.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763311.79115403</real>
+			<key>timeStoppedRecording</key>
+			<real>570763319.58083105</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>7AAD928D-59DF-427C-80BB-6CED90F5F479</string>
+		</dict>
+		<key>80B7E63D-22FC-4477-90F5-9E7B32B6E9C0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>80B7E63D-22FC-4477-90F5-9E7B32B6E9C0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570757703.38383603</real>
+			<key>timeStoppedRecording</key>
+			<real>570757709.72610903</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>80B7E63D-22FC-4477-90F5-9E7B32B6E9C0</string>
+		</dict>
+		<key>8491B937-9B11-4A63-8D37-81DF4DBA2165</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8491B937-9B11-4A63-8D37-81DF4DBA2165.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570766566.27611804</real>
+			<key>timeStoppedRecording</key>
+			<real>570766575.98915803</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>8491B937-9B11-4A63-8D37-81DF4DBA2165</string>
+		</dict>
 		<key>8A20FB06-FF1C-4349-87A2-846D98AC83E5</key>
 		<dict>
 			<key>className</key>
@@ -532,6 +1062,75 @@
 			<key>uniqueIdentifier</key>
 			<string>8A20FB06-FF1C-4349-87A2-846D98AC83E5</string>
 		</dict>
+		<key>8DAEE508-E013-4A1C-A93A-9D8C5DB1243F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8DAEE508-E013-4A1C-A93A-9D8C5DB1243F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570705711.27135301</real>
+			<key>timeStoppedRecording</key>
+			<real>570706021.11379802</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>8DAEE508-E013-4A1C-A93A-9D8C5DB1243F</string>
+		</dict>
+		<key>91E05E0D-20BD-4DC8-9236-560FDB224AD1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>91E05E0D-20BD-4DC8-9236-560FDB224AD1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763697.95108795</real>
+			<key>timeStoppedRecording</key>
+			<real>570763713.56500494</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>91E05E0D-20BD-4DC8-9236-560FDB224AD1</string>
+		</dict>
+		<key>93A3FC7A-1B37-48C0-9408-B6CDAEBF5DFF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>93A3FC7A-1B37-48C0-9408-B6CDAEBF5DFF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570702077.00561404</real>
+			<key>timeStoppedRecording</key>
+			<real>570702083.86164904</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>93A3FC7A-1B37-48C0-9408-B6CDAEBF5DFF</string>
+		</dict>
 		<key>95914B99-4D43-489A-B5A7-C05F743F6893</key>
 		<dict>
 			<key>className</key>
@@ -554,6 +1153,29 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>95914B99-4D43-489A-B5A7-C05F743F6893</string>
+		</dict>
+		<key>95E3AD0C-57A3-417B-B84C-3021898226E0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>95E3AD0C-57A3-417B-B84C-3021898226E0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570765505.32061696</real>
+			<key>timeStoppedRecording</key>
+			<real>570765517.089221</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>95E3AD0C-57A3-417B-B84C-3021898226E0</string>
 		</dict>
 		<key>99BA4F8A-BE6C-4B18-98E6-C9A0113B2579</key>
 		<dict>
@@ -584,6 +1206,29 @@
 			<key>uniqueIdentifier</key>
 			<string>99BA4F8A-BE6C-4B18-98E6-C9A0113B2579</string>
 		</dict>
+		<key>9C183F01-CDF7-4C38-A413-1D6375EEFADF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9C183F01-CDF7-4C38-A413-1D6375EEFADF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570757728.13950098</real>
+			<key>timeStoppedRecording</key>
+			<real>570757735.97591901</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>9C183F01-CDF7-4C38-A413-1D6375EEFADF</string>
+		</dict>
 		<key>9CF224C0-5671-47FA-9A08-20048860BEE8</key>
 		<dict>
 			<key>className</key>
@@ -606,6 +1251,29 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>9CF224C0-5671-47FA-9A08-20048860BEE8</string>
+		</dict>
+		<key>9D577DAB-CD48-4CB0-900A-C9B00B6C52DF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9D577DAB-CD48-4CB0-900A-C9B00B6C52DF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570702068.56111503</real>
+			<key>timeStoppedRecording</key>
+			<real>570702076.350245</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>9D577DAB-CD48-4CB0-900A-C9B00B6C52DF</string>
 		</dict>
 		<key>A07B51F7-5A9F-4FDF-92C8-4C66426A0B9D</key>
 		<dict>
@@ -682,6 +1350,29 @@
 			<key>uniqueIdentifier</key>
 			<string>A42CEA0F-02A9-4202-8F01-56C5218AD8D9</string>
 		</dict>
+		<key>A4C0397E-CC86-4E7B-8C09-059048DC5DCF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A4C0397E-CC86-4E7B-8C09-059048DC5DCF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570764294.869115</real>
+			<key>timeStoppedRecording</key>
+			<real>570764303.74746501</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>A4C0397E-CC86-4E7B-8C09-059048DC5DCF</string>
+		</dict>
 		<key>A55D86DF-07C8-493B-BC91-1A65AC251062</key>
 		<dict>
 			<key>className</key>
@@ -728,6 +1419,29 @@
 			<key>uniqueIdentifier</key>
 			<string>A6133EBF-6173-4271-A592-1E6D980A2170</string>
 		</dict>
+		<key>A852CBEB-4253-4424-AACE-163CDAE270F5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A852CBEB-4253-4424-AACE-163CDAE270F5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570706094.58889902</real>
+			<key>timeStoppedRecording</key>
+			<real>570706102.06661606</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>A852CBEB-4253-4424-AACE-163CDAE270F5</string>
+		</dict>
 		<key>AD4828A8-FE5F-434C-A574-9389F1A5CB86</key>
 		<dict>
 			<key>className</key>
@@ -750,6 +1464,29 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>AD4828A8-FE5F-434C-A574-9389F1A5CB86</string>
+		</dict>
+		<key>B2921A7A-42B0-469C-8C16-731B05498485</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B2921A7A-42B0-469C-8C16-731B05498485.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570705608.08882904</real>
+			<key>timeStoppedRecording</key>
+			<real>570705614.538867</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>B2921A7A-42B0-469C-8C16-731B05498485</string>
 		</dict>
 		<key>BB6AB93B-258C-41CA-8D04-7315DCC41549</key>
 		<dict>
@@ -796,6 +1533,29 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>BC03F924-2DAF-4B06-BB5C-3C570F2A62B7</string>
+		</dict>
+		<key>CB9D79BA-96C0-4BE2-AC13-68F541E0AD46</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CB9D79BA-96C0-4BE2-AC13-68F541E0AD46.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570702054.33884704</real>
+			<key>timeStoppedRecording</key>
+			<real>570702060.83432102</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>CB9D79BA-96C0-4BE2-AC13-68F541E0AD46</string>
 		</dict>
 		<key>CEA6EE44-3A18-461C-9D27-62F30F822A9B</key>
 		<dict>
@@ -872,6 +1632,173 @@
 			<key>uniqueIdentifier</key>
 			<string>D3042267-CF90-4758-B795-B9A8702A1EE7</string>
 		</dict>
+		<key>D49A214A-B460-4A11-8559-2BC1FC6BCFD3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D49A214A-B460-4A11-8559-2BC1FC6BCFD3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570702061.49531198</real>
+			<key>timeStoppedRecording</key>
+			<real>570702067.89285195</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>D49A214A-B460-4A11-8559-2BC1FC6BCFD3</string>
+		</dict>
+		<key>DDC3C3EA-82B7-469B-BF2F-7C1A96AA3149</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DDC3C3EA-82B7-469B-BF2F-7C1A96AA3149.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570766382.87491</real>
+			<key>timeStoppedRecording</key>
+			<real>570766561.58267403</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>DDC3C3EA-82B7-469B-BF2F-7C1A96AA3149</string>
+		</dict>
+		<key>DE0E2ADE-7B20-4E4C-9F8D-D0A1DF041970</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DE0E2ADE-7B20-4E4C-9F8D-D0A1DF041970.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570764336.27411699</real>
+			<key>timeStoppedRecording</key>
+			<real>570764346.62295997</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>DE0E2ADE-7B20-4E4C-9F8D-D0A1DF041970</string>
+		</dict>
+		<key>E2F5BD7A-CECA-40BA-AF7B-AB7BD0771D37</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E2F5BD7A-CECA-40BA-AF7B-AB7BD0771D37.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570705664.76223397</real>
+			<key>timeStoppedRecording</key>
+			<real>570705673.04649901</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>E2F5BD7A-CECA-40BA-AF7B-AB7BD0771D37</string>
+		</dict>
+		<key>E66E81A3-A942-41BC-8272-1F67C3BCA453</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E66E81A3-A942-41BC-8272-1F67C3BCA453.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570766075.73406005</real>
+			<key>timeStoppedRecording</key>
+			<real>570766087.37889194</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>E66E81A3-A942-41BC-8272-1F67C3BCA453</string>
+		</dict>
+		<key>E77DF9B6-4375-4841-97F7-3E56E3CA3E32</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E77DF9B6-4375-4841-97F7-3E56E3CA3E32.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570764260.208547</real>
+			<key>timeStoppedRecording</key>
+			<real>570764269.98109901</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>E77DF9B6-4375-4841-97F7-3E56E3CA3E32</string>
+		</dict>
+		<key>F2141B18-F697-4ED3-BD46-6D8A8CE07246</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F2141B18-F697-4ED3-BD46-6D8A8CE07246.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763288.66157603</real>
+			<key>timeStoppedRecording</key>
+			<real>570763295.17710304</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>F2141B18-F697-4ED3-BD46-6D8A8CE07246</string>
+		</dict>
 		<key>F5D757B4-1797-433E-B833-77E675B673F7</key>
 		<dict>
 			<key>className</key>
@@ -900,6 +1827,52 @@
 			<string>Debug Smack</string>
 			<key>uniqueIdentifier</key>
 			<string>F5D757B4-1797-433E-B833-77E675B673F7</string>
+		</dict>
+		<key>F742CE70-FB34-4B75-9B98-78C5A59D3418</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F742CE70-FB34-4B75-9B98-78C5A59D3418.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763295.82489395</real>
+			<key>timeStoppedRecording</key>
+			<real>570763303.476565</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>F742CE70-FB34-4B75-9B98-78C5A59D3418</string>
+		</dict>
+		<key>FD8FE6CB-D065-482C-A75C-FE8BA659AD13</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FD8FE6CB-D065-482C-A75C-FE8BA659AD13.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Debug Smack</string>
+			<key>timeStartedRecording</key>
+			<real>570763229.974213</real>
+			<key>timeStoppedRecording</key>
+			<real>570763237.58184898</real>
+			<key>title</key>
+			<string>Debug Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>FD8FE6CB-D065-482C-A75C-FE8BA659AD13</string>
 		</dict>
 		<key>FDDE29D2-F3B1-4A57-9011-8FDD9A1323D0</key>
 		<dict>

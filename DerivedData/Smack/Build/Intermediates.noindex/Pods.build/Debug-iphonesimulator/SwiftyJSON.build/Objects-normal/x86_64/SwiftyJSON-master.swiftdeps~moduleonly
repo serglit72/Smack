@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "7af0a3994a28eb53e58c3684dbbf6062"
-build_time: [1548999399, 409995000]
+build_time: [1549070875, 434071000]
 inputs:
   "/Users/slitovchenko/Documents/Smack/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1548831708, 0]

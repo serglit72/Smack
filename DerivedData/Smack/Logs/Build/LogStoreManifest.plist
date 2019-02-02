@@ -6,6 +6,35 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>0B8AB036-2BC3-4D1B-9CD3-02B1E02565F8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0B8AB036-2BC3-4D1B-9CD3-02B1E02565F8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570765967.84218395</real>
+			<key>timeStoppedRecording</key>
+			<real>570765968.35161901</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>0B8AB036-2BC3-4D1B-9CD3-02B1E02565F8</string>
+		</dict>
 		<key>11256533-F9A6-4865-8FA6-CAF5F731E22B</key>
 		<dict>
 			<key>className</key>
@@ -64,6 +93,35 @@
 			<key>uniqueIdentifier</key>
 			<string>119AA71D-1AB3-49E9-AA34-93F878E5A3CA</string>
 		</dict>
+		<key>14B7E1D6-983B-476D-A148-EDB5869FC24F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>14B7E1D6-983B-476D-A148-EDB5869FC24F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570765074.547526</real>
+			<key>timeStoppedRecording</key>
+			<real>570765076.14914203</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>14B7E1D6-983B-476D-A148-EDB5869FC24F</string>
+		</dict>
 		<key>15FD1A06-3607-47DD-B7A7-56841DC5D476</key>
 		<dict>
 			<key>className</key>
@@ -93,6 +151,64 @@
 			<key>uniqueIdentifier</key>
 			<string>15FD1A06-3607-47DD-B7A7-56841DC5D476</string>
 		</dict>
+		<key>17BB333F-EBC2-473A-AAC6-6C0BE9966265</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>17BB333F-EBC2-473A-AAC6-6C0BE9966265.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763363.34310198</real>
+			<key>timeStoppedRecording</key>
+			<real>570763365.15882099</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>17BB333F-EBC2-473A-AAC6-6C0BE9966265</string>
+		</dict>
+		<key>1FAC3610-3D9C-41A6-85BB-E8C3DD3A66EC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1FAC3610-3D9C-41A6-85BB-E8C3DD3A66EC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570705706.64400697</real>
+			<key>timeStoppedRecording</key>
+			<real>570705706.87586606</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>1FAC3610-3D9C-41A6-85BB-E8C3DD3A66EC</string>
+		</dict>
 		<key>23376FDA-915D-4AEB-8E33-D2BCD85CAB58</key>
 		<dict>
 			<key>className</key>
@@ -121,6 +237,64 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>23376FDA-915D-4AEB-8E33-D2BCD85CAB58</string>
+		</dict>
+		<key>288692EB-2C21-4AE0-81E3-707C5CD0C1C2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>288692EB-2C21-4AE0-81E3-707C5CD0C1C2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763401.05692899</real>
+			<key>timeStoppedRecording</key>
+			<real>570763401.21496105</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>288692EB-2C21-4AE0-81E3-707C5CD0C1C2</string>
+		</dict>
+		<key>29BDADF6-B7C7-4CA3-BF59-37BFFE94BDB6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>29BDADF6-B7C7-4CA3-BF59-37BFFE94BDB6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763110.03370202</real>
+			<key>timeStoppedRecording</key>
+			<real>570763120.37116897</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>29BDADF6-B7C7-4CA3-BF59-37BFFE94BDB6</string>
 		</dict>
 		<key>2A3555FE-615F-402D-884B-57765EFCA1B7</key>
 		<dict>
@@ -267,6 +441,35 @@
 			<key>uniqueIdentifier</key>
 			<string>31422C40-3A82-43CE-B7F5-C64A09A4ADA9</string>
 		</dict>
+		<key>342FF72F-FBFB-48F9-8D5C-82FCA255087F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>342FF72F-FBFB-48F9-8D5C-82FCA255087F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570702045.33569598</real>
+			<key>timeStoppedRecording</key>
+			<real>570702047.93822098</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>342FF72F-FBFB-48F9-8D5C-82FCA255087F</string>
+		</dict>
 		<key>3712DA9F-9CFA-42BE-B5E0-3C64A785A010</key>
 		<dict>
 			<key>className</key>
@@ -325,6 +528,64 @@
 			<key>uniqueIdentifier</key>
 			<string>4055D7C5-C5AE-4C3E-B6D1-51B7901D1B71</string>
 		</dict>
+		<key>4461FFCE-5DD7-4BDE-8C4D-494925E35EF0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4461FFCE-5DD7-4BDE-8C4D-494925E35EF0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570764255.23933196</real>
+			<key>timeStoppedRecording</key>
+			<real>570764257.05978096</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>4461FFCE-5DD7-4BDE-8C4D-494925E35EF0</string>
+		</dict>
+		<key>475360D6-27D8-41B2-A48F-B02E0B563AAF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>475360D6-27D8-41B2-A48F-B02E0B563AAF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570768244.855703</real>
+			<key>timeStoppedRecording</key>
+			<real>570768245.10608399</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>475360D6-27D8-41B2-A48F-B02E0B563AAF</string>
+		</dict>
 		<key>4C42A2BE-5F6C-42F8-9A77-A3652340005E</key>
 		<dict>
 			<key>className</key>
@@ -353,6 +614,64 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>4C42A2BE-5F6C-42F8-9A77-A3652340005E</string>
+		</dict>
+		<key>4D1D8C96-7880-4C67-8752-541F9AE6B71E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4D1D8C96-7880-4C67-8752-541F9AE6B71E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570705657.30116498</real>
+			<key>timeStoppedRecording</key>
+			<real>570705658.92180502</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>4D1D8C96-7880-4C67-8752-541F9AE6B71E</string>
+		</dict>
+		<key>4F623D7C-D173-4909-BF91-3089894D86C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4F623D7C-D173-4909-BF91-3089894D86C8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570765995.209535</real>
+			<key>timeStoppedRecording</key>
+			<real>570765997.30458999</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>4F623D7C-D173-4909-BF91-3089894D86C8</string>
 		</dict>
 		<key>50C3AC7E-A752-4204-8D80-674529772E5C</key>
 		<dict>
@@ -383,6 +702,64 @@
 			<key>uniqueIdentifier</key>
 			<string>50C3AC7E-A752-4204-8D80-674529772E5C</string>
 		</dict>
+		<key>5A332136-AE6B-4FDD-A72E-B537A9AB32E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5A332136-AE6B-4FDD-A72E-B537A9AB32E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570705132.21209097</real>
+			<key>timeStoppedRecording</key>
+			<real>570705154.19752097</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>5A332136-AE6B-4FDD-A72E-B537A9AB32E4</string>
+		</dict>
+		<key>5E329239-CB34-41E1-B2CC-6E3CDDF8A8C6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5E329239-CB34-41E1-B2CC-6E3CDDF8A8C6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570768192.32743096</real>
+			<key>timeStoppedRecording</key>
+			<real>570768194.56617105</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>5E329239-CB34-41E1-B2CC-6E3CDDF8A8C6</string>
+		</dict>
 		<key>6112F42A-6F82-4663-B465-70E73490631D</key>
 		<dict>
 			<key>className</key>
@@ -411,6 +788,64 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>6112F42A-6F82-4663-B465-70E73490631D</string>
+		</dict>
+		<key>648A771C-53AC-409A-A1A0-E413336E5044</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>648A771C-53AC-409A-A1A0-E413336E5044.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763644.99753404</real>
+			<key>timeStoppedRecording</key>
+			<real>570763645.40998101</real>
+			<key>title</key>
+			<string>Clean SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>648A771C-53AC-409A-A1A0-E413336E5044</string>
+		</dict>
+		<key>66E3C4B8-FB22-46F1-918E-23FC30157D1A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>66E3C4B8-FB22-46F1-918E-23FC30157D1A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570705602.21256399</real>
+			<key>timeStoppedRecording</key>
+			<real>570705603.98313701</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>66E3C4B8-FB22-46F1-918E-23FC30157D1A</string>
 		</dict>
 		<key>6838C73E-191E-4CE9-BBD3-430C3AFFB930</key>
 		<dict>
@@ -441,6 +876,35 @@
 			<key>uniqueIdentifier</key>
 			<string>6838C73E-191E-4CE9-BBD3-430C3AFFB930</string>
 		</dict>
+		<key>68868190-D9AA-4E33-BC4B-0B2A6521405F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>68868190-D9AA-4E33-BC4B-0B2A6521405F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570757685.43920004</real>
+			<key>timeStoppedRecording</key>
+			<real>570757688.09151995</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>68868190-D9AA-4E33-BC4B-0B2A6521405F</string>
+		</dict>
 		<key>6A794856-4AD7-4802-9BC0-FB88B6390935</key>
 		<dict>
 			<key>className</key>
@@ -469,6 +933,122 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>6A794856-4AD7-4802-9BC0-FB88B6390935</string>
+		</dict>
+		<key>6ED93F26-8156-44D3-A931-FF56091A078A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6ED93F26-8156-44D3-A931-FF56091A078A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570703009.55179203</real>
+			<key>timeStoppedRecording</key>
+			<real>570703013.51319098</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>6ED93F26-8156-44D3-A931-FF56091A078A</string>
+		</dict>
+		<key>7610B94A-A714-4FE8-B9AF-7BCBB8D9217F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7610B94A-A714-4FE8-B9AF-7BCBB8D9217F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570701164.12118602</real>
+			<key>timeStoppedRecording</key>
+			<real>570701170.643188</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>7610B94A-A714-4FE8-B9AF-7BCBB8D9217F</string>
+		</dict>
+		<key>7845B89F-D973-4033-996D-872F5182B2FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7845B89F-D973-4033-996D-872F5182B2FD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763222.397228</real>
+			<key>timeStoppedRecording</key>
+			<real>570763225.08167601</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>7845B89F-D973-4033-996D-872F5182B2FD</string>
+		</dict>
+		<key>85AF4E2F-7574-4156-84AF-E963AD515D8E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>85AF4E2F-7574-4156-84AF-E963AD515D8E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570766070.85836399</real>
+			<key>timeStoppedRecording</key>
+			<real>570766071.01031005</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>85AF4E2F-7574-4156-84AF-E963AD515D8E</string>
 		</dict>
 		<key>8D02CF7D-19AE-4EE3-8F48-960BFF9D8F81</key>
 		<dict>
@@ -528,6 +1108,35 @@
 			<key>uniqueIdentifier</key>
 			<string>915B8747-8095-4DC9-B2FF-0A37EB3AF1DC</string>
 		</dict>
+		<key>A02E7EBF-8383-4FF7-95CC-E09645D615EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A02E7EBF-8383-4FF7-95CC-E09645D615EF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570766382.57037997</real>
+			<key>timeStoppedRecording</key>
+			<real>570766382.97433496</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>A02E7EBF-8383-4FF7-95CC-E09645D615EF</string>
+		</dict>
 		<key>A0FD8BA7-C865-4E93-AB84-44086431BEE9</key>
 		<dict>
 			<key>className</key>
@@ -556,6 +1165,35 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>A0FD8BA7-C865-4E93-AB84-44086431BEE9</string>
+		</dict>
+		<key>A2C951A4-B257-4DDB-9FF9-0763C3493819</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A2C951A4-B257-4DDB-9FF9-0763C3493819.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570704649.98551297</real>
+			<key>timeStoppedRecording</key>
+			<real>570704650.49126101</real>
+			<key>title</key>
+			<string>Clean SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>A2C951A4-B257-4DDB-9FF9-0763C3493819</string>
 		</dict>
 		<key>A352B9D5-B73C-4B87-96FC-74B26D1E8AF6</key>
 		<dict>
@@ -702,6 +1340,64 @@
 			<key>uniqueIdentifier</key>
 			<string>AF3A1DF4-412F-40B3-B00A-D701592CE4C9</string>
 		</dict>
+		<key>B0200BDF-51DC-4341-B7D2-46040284134E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B0200BDF-51DC-4341-B7D2-46040284134E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763276.18340194</real>
+			<key>timeStoppedRecording</key>
+			<real>570763276.36544204</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>B0200BDF-51DC-4341-B7D2-46040284134E</string>
+		</dict>
+		<key>B2203887-93DC-45BC-B79B-F9705EB39CBD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B2203887-93DC-45BC-B79B-F9705EB39CBD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570766192.75483203</real>
+			<key>timeStoppedRecording</key>
+			<real>570766194.65164399</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>B2203887-93DC-45BC-B79B-F9705EB39CBD</string>
+		</dict>
 		<key>B48667BD-6577-4807-9769-05D763CA54D5</key>
 		<dict>
 			<key>className</key>
@@ -730,6 +1426,93 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>B48667BD-6577-4807-9769-05D763CA54D5</string>
+		</dict>
+		<key>B7858B39-AF81-43FB-9348-10ACB9DCBC80</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B7858B39-AF81-43FB-9348-10ACB9DCBC80.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570765043.49441302</real>
+			<key>timeStoppedRecording</key>
+			<real>570765045.18177199</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>B7858B39-AF81-43FB-9348-10ACB9DCBC80</string>
+		</dict>
+		<key>BA6CC47A-4C09-48D0-B243-D3100816C3EE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA6CC47A-4C09-48D0-B243-D3100816C3EE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763674.95829296</real>
+			<key>timeStoppedRecording</key>
+			<real>570763693.768435</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>BA6CC47A-4C09-48D0-B243-D3100816C3EE</string>
+		</dict>
+		<key>BB102A02-E111-44D6-87C9-5D0C99D546B6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BB102A02-E111-44D6-87C9-5D0C99D546B6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570701954.58324897</real>
+			<key>timeStoppedRecording</key>
+			<real>570701955.15207601</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>BB102A02-E111-44D6-87C9-5D0C99D546B6</string>
 		</dict>
 		<key>BCDDD973-8A42-402F-9220-EB2227A590DB</key>
 		<dict>
@@ -905,6 +1688,64 @@
 			<key>uniqueIdentifier</key>
 			<string>D464F976-9816-4B9A-A7F9-E18C2C639BD8</string>
 		</dict>
+		<key>D491562B-69E4-417A-A524-9C375BD3148C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D491562B-69E4-417A-A524-9C375BD3148C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570764290.69475198</real>
+			<key>timeStoppedRecording</key>
+			<real>570764290.85470498</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>D491562B-69E4-417A-A524-9C375BD3148C</string>
+		</dict>
+		<key>D64A4C9A-A17D-47DB-8504-A6277FE85886</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D64A4C9A-A17D-47DB-8504-A6277FE85886.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570706086.01591206</real>
+			<key>timeStoppedRecording</key>
+			<real>570706087.88139498</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>D64A4C9A-A17D-47DB-8504-A6277FE85886</string>
+		</dict>
 		<key>DBDFB222-0026-4EA0-AF65-A892CB91B6F0</key>
 		<dict>
 			<key>className</key>
@@ -992,6 +1833,35 @@
 			<key>uniqueIdentifier</key>
 			<string>E4EA827C-C748-4046-A7F2-ADE925FA64DA</string>
 		</dict>
+		<key>E8705B25-E9BD-4F1A-9FBB-A0274699E979</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E8705B25-E9BD-4F1A-9FBB-A0274699E979.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570765500.43540895</real>
+			<key>timeStoppedRecording</key>
+			<real>570765502.14082003</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>E8705B25-E9BD-4F1A-9FBB-A0274699E979</string>
+		</dict>
 		<key>E9D3A1B1-F3EF-449C-808B-03468B0B5C88</key>
 		<dict>
 			<key>className</key>
@@ -1020,6 +1890,93 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>E9D3A1B1-F3EF-449C-808B-03468B0B5C88</string>
+		</dict>
+		<key>ECF5E281-1337-4A38-B46F-70AFD8A0FC99</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ECF5E281-1337-4A38-B46F-70AFD8A0FC99.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570764329.82399404</real>
+			<key>timeStoppedRecording</key>
+			<real>570764331.46126699</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>ECF5E281-1337-4A38-B46F-70AFD8A0FC99</string>
+		</dict>
+		<key>F0F1EDA8-A700-4913-B2BC-20720BCE0789</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F0F1EDA8-A700-4913-B2BC-20720BCE0789.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570766561.34341204</real>
+			<key>timeStoppedRecording</key>
+			<real>570766563.16939998</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>F0F1EDA8-A700-4913-B2BC-20720BCE0789</string>
+		</dict>
+		<key>F1CB06FA-ED7D-4790-B7E6-8E8872885955</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F1CB06FA-ED7D-4790-B7E6-8E8872885955.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570767308.27147198</real>
+			<key>timeStoppedRecording</key>
+			<real>570767308.53359497</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>F1CB06FA-ED7D-4790-B7E6-8E8872885955</string>
 		</dict>
 		<key>F2AAEE17-3630-4230-A57E-DC73CF3C90E0</key>
 		<dict>
@@ -1078,6 +2035,35 @@
 			<string>Build SmackUITests</string>
 			<key>uniqueIdentifier</key>
 			<string>F8A85364-CF54-4E13-910B-47FA84BFDD69</string>
+		</dict>
+		<key>FC63117B-A11E-4D6D-ABE3-20928D00FA5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FC63117B-A11E-4D6D-ABE3-20928D00FA5B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Smack project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmackUITests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmackUITests</string>
+			<key>timeStartedRecording</key>
+			<real>570763942.80025101</real>
+			<key>timeStoppedRecording</key>
+			<real>570763979.63358498</real>
+			<key>title</key>
+			<string>Build SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>FC63117B-A11E-4D6D-ABE3-20928D00FA5B</string>
 		</dict>
 	</dict>
 </dict>

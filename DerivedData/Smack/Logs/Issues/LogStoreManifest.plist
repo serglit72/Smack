@@ -6,99 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>1A656797-4126-49B2-B31B-BEA253E5D320</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>1A656797-4126-49B2-B31B-BEA253E5D320.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Alamofire-bnhvgjuqwjnbntfbzdvyokryuppt</string>
-			<key>timeStartedRecording</key>
-			<real>570697227.45800805</real>
-			<key>timeStoppedRecording</key>
-			<real>570697227.500054</real>
-			<key>title</key>
-			<string>Build target Alamofire</string>
-			<key>uniqueIdentifier</key>
-			<string>1A656797-4126-49B2-B31B-BEA253E5D320</string>
-		</dict>
-		<key>52B0BF8F-5D95-4066-9B6E-EE8C6411D3BE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>52B0BF8F-5D95-4066-9B6E-EE8C6411D3BE.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Pods-Smack-bnhvgjuqwjnbntfbzdvyokryuppt</string>
-			<key>timeStartedRecording</key>
-			<real>570696711.58855295</real>
-			<key>timeStoppedRecording</key>
-			<real>570696711.59312201</real>
-			<key>title</key>
-			<string>Build target Pods-Smack</string>
-			<key>uniqueIdentifier</key>
-			<string>52B0BF8F-5D95-4066-9B6E-EE8C6411D3BE</string>
-		</dict>
-		<key>61E8A0DA-016F-4769-9636-BA8408D948F9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>61E8A0DA-016F-4769-9636-BA8408D948F9.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>SwiftyJSON-bnhvgjuqwjnbntfbzdvyokryuppt</string>
-			<key>timeStartedRecording</key>
-			<real>570696711.21329403</real>
-			<key>timeStoppedRecording</key>
-			<real>570696711.43819797</real>
-			<key>title</key>
-			<string>Build target SwiftyJSON</string>
-			<key>uniqueIdentifier</key>
-			<string>61E8A0DA-016F-4769-9636-BA8408D948F9</string>
-		</dict>
-		<key>817350EB-E897-45E7-9389-E9D411F4ECFF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>817350EB-E897-45E7-9389-E9D411F4ECFF.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Starscream-bnhvgjuqwjnbntfbzdvyokryuppt</string>
-			<key>timeStartedRecording</key>
-			<real>570696711.21241403</real>
-			<key>timeStoppedRecording</key>
-			<real>570696711.43598402</real>
-			<key>title</key>
-			<string>Build target Starscream</string>
-			<key>uniqueIdentifier</key>
-			<string>817350EB-E897-45E7-9389-E9D411F4ECFF</string>
-		</dict>
-		<key>9D923672-2183-40D9-BFA0-122821DA432B</key>
+		<key>14DF202C-B660-490B-93C1-910EB4642402</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -107,44 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>9D923672-2183-40D9-BFA0-122821DA432B.xcactivitylog</string>
+			<string>14DF202C-B660-490B-93C1-910EB4642402.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>signature</key>
 			<string>Smack-gjdghorgrvkrtbalslzztwbjjnzh</string>
 			<key>timeStartedRecording</key>
-			<real>570697626.34605598</real>
+			<real>570766382.80143702</real>
 			<key>timeStoppedRecording</key>
-			<real>570697627.36463296</real>
+			<real>570766382.86874998</real>
 			<key>title</key>
 			<string>Build target Smack</string>
 			<key>uniqueIdentifier</key>
-			<string>9D923672-2183-40D9-BFA0-122821DA432B</string>
+			<string>14DF202C-B660-490B-93C1-910EB4642402</string>
 		</dict>
-		<key>A7BC746C-3BB0-4DD2-9061-4C115136D5F3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
-			<key>fileName</key>
-			<string>A7BC746C-3BB0-4DD2-9061-4C115136D5F3.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>SmackUITests-gjdghorgrvkrtbalslzztwbjjnzh</string>
-			<key>timeStartedRecording</key>
-			<real>570698278.38050604</real>
-			<key>timeStoppedRecording</key>
-			<real>570698279.97534502</real>
-			<key>title</key>
-			<string>Build target SmackUITests</string>
-			<key>uniqueIdentifier</key>
-			<string>A7BC746C-3BB0-4DD2-9061-4C115136D5F3</string>
-		</dict>
-		<key>FA13801D-7A8D-495A-AAE6-4FFCBE0136EC</key>
+		<key>38437617-F6E0-4FFF-AA97-68A09B248CDF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -153,19 +38,134 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>FA13801D-7A8D-495A-AAE6-4FFCBE0136EC.xcactivitylog</string>
+			<string>38437617-F6E0-4FFF-AA97-68A09B248CDF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>SwiftyJSON-bnhvgjuqwjnbntfbzdvyokryuppt</string>
+			<key>timeStartedRecording</key>
+			<real>570768192.95503998</real>
+			<key>timeStoppedRecording</key>
+			<real>570768192.974365</real>
+			<key>title</key>
+			<string>Build target SwiftyJSON</string>
+			<key>uniqueIdentifier</key>
+			<string>38437617-F6E0-4FFF-AA97-68A09B248CDF</string>
+		</dict>
+		<key>4FEF3508-FAE0-411F-B297-2387ACB5429A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>4FEF3508-FAE0-411F-B297-2387ACB5429A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Starscream-bnhvgjuqwjnbntfbzdvyokryuppt</string>
+			<key>timeStartedRecording</key>
+			<real>570768192.95589805</real>
+			<key>timeStoppedRecording</key>
+			<real>570768192.97455204</real>
+			<key>title</key>
+			<string>Build target Starscream</string>
+			<key>uniqueIdentifier</key>
+			<string>4FEF3508-FAE0-411F-B297-2387ACB5429A</string>
+		</dict>
+		<key>6DB9A20C-216D-49E6-BBE0-D52CBF9FA97D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>6DB9A20C-216D-49E6-BBE0-D52CBF9FA97D.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>Socket.IO-Client-Swift-bnhvgjuqwjnbntfbzdvyokryuppt</string>
 			<key>timeStartedRecording</key>
-			<real>570696711.441208</real>
+			<real>570768192.96888399</real>
 			<key>timeStoppedRecording</key>
-			<real>570696711.58640802</real>
+			<real>570768192.98640704</real>
 			<key>title</key>
 			<string>Build target Socket.IO-Client-Swift</string>
 			<key>uniqueIdentifier</key>
-			<string>FA13801D-7A8D-495A-AAE6-4FFCBE0136EC</string>
+			<string>6DB9A20C-216D-49E6-BBE0-D52CBF9FA97D</string>
+		</dict>
+		<key>9639CA89-0AA9-404A-AFA6-90C6AD1BCC0E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>9639CA89-0AA9-404A-AFA6-90C6AD1BCC0E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Alamofire-bnhvgjuqwjnbntfbzdvyokryuppt</string>
+			<key>timeStartedRecording</key>
+			<real>570768192.92377603</real>
+			<key>timeStoppedRecording</key>
+			<real>570768192.97096705</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>9639CA89-0AA9-404A-AFA6-90C6AD1BCC0E</string>
+		</dict>
+		<key>D7937A71-A814-4164-B290-C83D7621CBB2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>D7937A71-A814-4164-B290-C83D7621CBB2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-Smack-bnhvgjuqwjnbntfbzdvyokryuppt</string>
+			<key>timeStartedRecording</key>
+			<real>570768192.974347</real>
+			<key>timeStoppedRecording</key>
+			<real>570768192.98714602</real>
+			<key>title</key>
+			<string>Build target Pods-Smack</string>
+			<key>uniqueIdentifier</key>
+			<string>D7937A71-A814-4164-B290-C83D7621CBB2</string>
+		</dict>
+		<key>FF01E4E2-16DF-4567-8400-E552C6E2393F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>FF01E4E2-16DF-4567-8400-E552C6E2393F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>SmackUITests-gjdghorgrvkrtbalslzztwbjjnzh</string>
+			<key>timeStartedRecording</key>
+			<real>570768192.98434997</real>
+			<key>timeStoppedRecording</key>
+			<real>570768194.52731097</real>
+			<key>title</key>
+			<string>Build target SmackUITests</string>
+			<key>uniqueIdentifier</key>
+			<string>FF01E4E2-16DF-4567-8400-E552C6E2393F</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

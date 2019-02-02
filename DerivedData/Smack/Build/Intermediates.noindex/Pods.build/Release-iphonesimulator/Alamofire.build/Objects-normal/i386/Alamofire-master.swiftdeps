@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "5e89291777d786bb45708d8656b6dbdc"
-build_time: [1548999326, 324531000]
+build_time: [1549071143, 398707000]
 inputs:
   "/Users/slitovchenko/Documents/Smack/Pods/Alamofire/Source/AFError.swift": [9223372036, 854775807]
   "/Users/slitovchenko/Documents/Smack/Pods/Alamofire/Source/Alamofire.swift": [9223372036, 854775807]

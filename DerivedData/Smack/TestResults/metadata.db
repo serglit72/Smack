@@ -8,12 +8,30 @@
 	<dict>
 		<key>SmackUITests</key>
 		<dict>
+			<key>LoginUITest</key>
+			<dict>
+				<key>testChannelLable_is_exists()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>4.6224029064178467</real>
+				</dict>
+				<key>testLogin()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>12.211512923240662</real>
+				</dict>
+			</dict>
 			<key>SmackUITests</key>
 			<dict>
 				<key>testChannelLable()</key>
 				<dict>
 					<key>mrnet</key>
 					<real>6.3239740133285522</real>
+				</dict>
+				<key>testChannelLable_is_exists()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>7.1646729707717896</real>
 				</dict>
 				<key>testIsUserloggedIn()</key>
 				<dict>
@@ -23,7 +41,7 @@
 				<key>testTapLoginButton_is_clickable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>8.230138897895813</real>
+					<real>8.2951329946517944</real>
 				</dict>
 				<key>testTapMenuButton()</key>
 				<dict>
@@ -33,12 +51,12 @@
 				<key>testTapMenuButton_is_clickable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>7.9325840473175049</real>
+					<real>7.649603009223938</real>
 				</dict>
 				<key>testTextfild_is_typeable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>8.5680370330810547</real>
+					<real>8.478532075881958</real>
 				</dict>
 			</dict>
 		</dict>

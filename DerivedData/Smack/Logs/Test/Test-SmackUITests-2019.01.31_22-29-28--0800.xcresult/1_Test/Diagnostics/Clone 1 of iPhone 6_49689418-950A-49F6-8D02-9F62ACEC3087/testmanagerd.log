@@ -1913,3 +1913,35 @@ Path 1:
     "<XCIDESession: 0x7fe656c0c370> (socket 4) created Thursday, January 31, 2019 at 10:29:38 PM Pacific Standard Time"
 )
 
+16:03:47.894 testmanagerd[8549:555589] Getting files in /Library/Logs/DiagnosticReports
+
+16:03:47.894 testmanagerd[8549:555589] Getting files in /Library/Logs/DiagnosticReports
+
+16:03:48.029 testmanagerd[8549:555589] Found 72 files in /Library/Logs/DiagnosticReports
+
+16:03:48.029 testmanagerd[8549:555589] Found 72 files in /Library/Logs/DiagnosticReports
+
+16:03:48.030 testmanagerd[8549:555589] Not reporting Analytics_2019-02-01-160347_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+16:03:48.030 testmanagerd[8549:555589] Not reporting Analytics_2019-02-01-160347_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+16:03:48.030 testmanagerd[8549:555589] Getting files in /Library/Logs/DiagnosticReports
+
+16:03:48.030 testmanagerd[8549:555589] Getting files in /Library/Logs/DiagnosticReports
+
+16:03:48.031 testmanagerd[8549:555589] Found 72 files in /Library/Logs/DiagnosticReports
+
+16:03:48.031 testmanagerd[8549:555589] Found 72 files in /Library/Logs/DiagnosticReports
+
+17:17:48.586 testmanagerd[8549:592561] Getting files in /Library/Logs/DiagnosticReports
+
+17:17:48.586 testmanagerd[8549:592561] Getting files in /Library/Logs/DiagnosticReports
+
+17:17:48.587 testmanagerd[8549:592561] Found 73 files in /Library/Logs/DiagnosticReports
+
+17:17:48.587 testmanagerd[8549:592561] Found 73 files in /Library/Logs/DiagnosticReports
+
+17:17:48.587 testmanagerd[8549:592561] Not reporting softwareupdated_2019-02-01-171748_af6245.memory_resource.diag, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+17:17:48.587 testmanagerd[8549:592561] Not reporting softwareupdated_2019-02-01-171748_af6245.memory_resource.diag, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+

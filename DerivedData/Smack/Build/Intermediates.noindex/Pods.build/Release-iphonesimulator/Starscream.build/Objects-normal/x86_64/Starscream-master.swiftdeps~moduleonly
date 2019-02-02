@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "5a2b842aa7b8ffcd58f28f38a3f590d6"
-build_time: [1548999326, 333237000]
+build_time: [1549071143, 406152000]
 inputs:
   "/Users/slitovchenko/Documents/Smack/Pods/Starscream/Sources/Starscream/Compression.swift": [9223372036, 854775807]
   "/Users/slitovchenko/Documents/Smack/Pods/Starscream/Sources/Starscream/SSLClientCertificate.swift": [9223372036, 854775807]
