@@ -117,6 +117,10 @@
 		<data>
 		/5UKC4bEt0P3Jv5/nNy6X8Lerek=
 		</data>
+		<key>PlugIns/SmackUITests.xctest/Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<data>
+		8cBimLWS9Sj1vdh/zcJ98lCtP08=
+		</data>
 		<key>PlugIns/SmackUITests.xctest/Frameworks/libswiftUIKit.dylib</key>
 		<data>
 		tzIjxFJIAHPpvfCaHag1J1RrPX0=
@@ -135,11 +139,11 @@
 		</data>
 		<key>PlugIns/SmackUITests.xctest/SmackUITests</key>
 		<data>
-		lBc6YoOfe/FjAXqzXVaIr9zHIK4=
+		wY9+2OtcdQrNiv9g0ljRrw91/jo=
 		</data>
 		<key>PlugIns/SmackUITests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		8wRMQHKNkueGvMOvOI8Cnxqms0w=
+		EzRdltxbdfa6bJpZ6HAdWfAbXrc=
 		</data>
 		<key>PlugIns/SmackUITests.xctest/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -425,6 +429,17 @@
 			nXUFhi7GOMbcCOPX3iqPwFs3a7fOWwPv5NbjPjfItFg=
 			</data>
 		</dict>
+		<key>PlugIns/SmackUITests.xctest/Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8cBimLWS9Sj1vdh/zcJ98lCtP08=
+			</data>
+			<key>hash2</key>
+			<data>
+			Cc4TmsfKxUrTIyAsNA7Pv3lal4qr15POwEjXqtW8Ci4=
+			</data>
+		</dict>
 		<key>PlugIns/SmackUITests.xctest/Frameworks/libswiftUIKit.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -473,22 +488,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lBc6YoOfe/FjAXqzXVaIr9zHIK4=
+			wY9+2OtcdQrNiv9g0ljRrw91/jo=
 			</data>
 			<key>hash2</key>
 			<data>
-			E/Ww0wHSbks5qrLmOdIHDTFEAo2ISlGq/JLZe0eCGMA=
+			7CEPGDBXOjumzJhF3lldwnq9WHr4yCQnhYQIeb/Fgdc=
 			</data>
 		</dict>
 		<key>PlugIns/SmackUITests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8wRMQHKNkueGvMOvOI8Cnxqms0w=
+			EzRdltxbdfa6bJpZ6HAdWfAbXrc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sHSKbB7ftxyD1+GPykj8RqvIq0/uWyy/kEZwiNPwgyE=
+			UTAgRxKjDeNrpmd6mswx+4N0BWBp3x6Egf3PDS49xc0=
 			</data>
 		</dict>
 		<key>PlugIns/SmackUITests.xctest/libswiftRemoteMirror.dylib</key>

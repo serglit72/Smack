@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		222FDF4E2203E42C005AB909 /* SmackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF4D2203E42C005AB909 /* SmackUITests.swift */; };
-		222FDF5822042E12005AB909 /* LoginUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF5722042E12005AB909 /* LoginUITest.swift */; };
+		222FDF5822042E12005AB909 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF5722042E12005AB909 /* LoginTest.swift */; };
 		222FDF5B22043031005AB909 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF5A22043031005AB909 /* ChatScreen.swift */; };
 		222FDF5D22043249005AB909 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF5C22043249005AB909 /* BaseScreen.swift */; };
 		222FDF5F220439D2005AB909 /* ChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF5E220439D2005AB909 /* ChannelScreen.swift */; };
@@ -17,6 +17,9 @@
 		222FDF67220514CC005AB909 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF66220514CC005AB909 /* LoginScreen.swift */; };
 		222FDF6A22052330005AB909 /* TestUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF6922052330005AB909 /* TestUser.swift */; };
 		222FDF6E22053814005AB909 /* LogOutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF6D22053814005AB909 /* LogOutScreen.swift */; };
+		222FDF7022058198005AB909 /* LogOutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF6F22058198005AB909 /* LogOutTest.swift */; };
+		222FDF7222058605005AB909 /* CreateNewUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF7122058605005AB909 /* CreateNewUserScreen.swift */; };
+		222FDF742207B75B005AB909 /* ChooseAvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF732207B75B005AB909 /* ChooseAvatarScreen.swift */; };
 		22359B8221F0594000434D7B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22359B8121F0594000434D7B /* MessageCell.swift */; };
 		2242C2A021E30B4400C98D44 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C29F21E30B4400C98D44 /* UserDataService.swift */; };
 		2242C2A221E3294300C98D44 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */; };
@@ -62,7 +65,7 @@
 		222FDF4B2203E42C005AB909 /* SmackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222FDF4D2203E42C005AB909 /* SmackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmackUITests.swift; sourceTree = "<group>"; };
 		222FDF4F2203E42C005AB909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		222FDF5722042E12005AB909 /* LoginUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITest.swift; sourceTree = "<group>"; };
+		222FDF5722042E12005AB909 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		222FDF5A22043031005AB909 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
 		222FDF5C22043249005AB909 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
 		222FDF5E220439D2005AB909 /* ChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelScreen.swift; sourceTree = "<group>"; };
@@ -71,6 +74,9 @@
 		222FDF66220514CC005AB909 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		222FDF6922052330005AB909 /* TestUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUser.swift; sourceTree = "<group>"; };
 		222FDF6D22053814005AB909 /* LogOutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutScreen.swift; sourceTree = "<group>"; };
+		222FDF6F22058198005AB909 /* LogOutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutTest.swift; sourceTree = "<group>"; };
+		222FDF7122058605005AB909 /* CreateNewUserScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewUserScreen.swift; sourceTree = "<group>"; };
+		222FDF732207B75B005AB909 /* ChooseAvatarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAvatarScreen.swift; sourceTree = "<group>"; };
 		22359B8121F0594000434D7B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		2242C29F21E30B4400C98D44 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
@@ -137,11 +143,12 @@
 			children = (
 				222FDF6822052311005AB909 /* Support */,
 				222FDF5922042FE1005AB909 /* Screens */,
-				222FDF622205136B005AB909 /* CreateNewUserTest.swift */,
-				222FDF6422051393005AB909 /* CreateNewChannelTest.swift */,
 				222FDF4D2203E42C005AB909 /* SmackUITests.swift */,
+				222FDF622205136B005AB909 /* CreateNewUserTest.swift */,
+				222FDF6F22058198005AB909 /* LogOutTest.swift */,
+				222FDF5722042E12005AB909 /* LoginTest.swift */,
+				222FDF6422051393005AB909 /* CreateNewChannelTest.swift */,
 				222FDF4F2203E42C005AB909 /* Info.plist */,
-				222FDF5722042E12005AB909 /* LoginUITest.swift */,
 			);
 			path = SmackUITests;
 			sourceTree = "<group>";
@@ -153,7 +160,9 @@
 				222FDF5C22043249005AB909 /* BaseScreen.swift */,
 				222FDF5E220439D2005AB909 /* ChannelScreen.swift */,
 				222FDF66220514CC005AB909 /* LoginScreen.swift */,
+				222FDF7122058605005AB909 /* CreateNewUserScreen.swift */,
 				222FDF6D22053814005AB909 /* LogOutScreen.swift */,
+				222FDF732207B75B005AB909 /* ChooseAvatarScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -465,11 +474,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				222FDF4E2203E42C005AB909 /* SmackUITests.swift in Sources */,
+				222FDF7222058605005AB909 /* CreateNewUserScreen.swift in Sources */,
+				222FDF742207B75B005AB909 /* ChooseAvatarScreen.swift in Sources */,
 				222FDF6E22053814005AB909 /* LogOutScreen.swift in Sources */,
-				222FDF5822042E12005AB909 /* LoginUITest.swift in Sources */,
+				222FDF5822042E12005AB909 /* LoginTest.swift in Sources */,
 				222FDF5D22043249005AB909 /* BaseScreen.swift in Sources */,
 				222FDF6522051393005AB909 /* CreateNewChannelTest.swift in Sources */,
 				222FDF5F220439D2005AB909 /* ChannelScreen.swift in Sources */,
+				222FDF7022058198005AB909 /* LogOutTest.swift in Sources */,
 				222FDF6A22052330005AB909 /* TestUser.swift in Sources */,
 				222FDF67220514CC005AB909 /* LoginScreen.swift in Sources */,
 				222FDF632205136B005AB909 /* CreateNewUserTest.swift in Sources */,

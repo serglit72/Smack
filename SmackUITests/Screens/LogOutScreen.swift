@@ -11,21 +11,12 @@ import XCTest
 
 class LogOutScreen: BaseScreen {
     
-    private let loginButton: XCUIElement = app.buttons["Login"]
-    private let menuButton: XCUIElement = app.buttons["smackBurger"]
-    private let usernameTextField: XCUIElement = app.textFields["username"]
-    private let passwordTextField: XCUIElement = app.secureTextFields["password"]
-    private let signUpButton: XCUIElement = app.buttons["Don't have an account? Sign up here"]
-
+    private let yourProfile: XCUIElement = app.staticTexts["Your Profile"]
+    private let logoutButton: XCUIElement = app.buttons["Logout"]
+    private let closeButton: XCUIElement = app.buttons["closeButton"]
+    
     func tapLogOut() {
-        
-         let chatScreen = ChatScreen()
-        chatScreen.tapMenuButton()
-        
-        let channelScreen = ChannelScreen()
-        channelScreen.tapLoginButton()
-       // channelScreen.tap(XCUIElement: logoutButton)
-        
+        tap(logoutButton)
     }
     
 }

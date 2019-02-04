@@ -14,7 +14,7 @@ class ChannelScreen: BaseScreen{
     
     
     private let loginButton: XCUIElement = app.buttons["Login"]
-    
+    public let loggedInUserButton: XCUIElement = app.buttons["\(TestUser.user)"]
     private let addChannelButton: XCUIElement = app.buttons["addChannelButton"]
     
     
@@ -24,8 +24,8 @@ class ChannelScreen: BaseScreen{
     func tapLoginButton() {
         tap(loginButton)
     }
+    func taploggedInUserButton() {
+        tap(loggedInUserButton)
+    }
     
 }
-
-//Visibility check
-

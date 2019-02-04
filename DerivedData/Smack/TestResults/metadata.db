@@ -8,6 +8,55 @@
 	<dict>
 		<key>SmackUITests</key>
 		<dict>
+			<key>CreateNewUserTest</key>
+			<dict>
+				<key>testChooseAvatar()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>9.1619549989700317</real>
+				</dict>
+				<key>testFillUpUsersCreds()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>45.088266968727112</real>
+				</dict>
+				<key>testIsUserLoggedIn()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>15.552868962287903</real>
+				</dict>
+				<key>testNewUserCreate()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>19.790753960609436</real>
+				</dict>
+				<key>testOpenLoginScreen()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>16.662193059921265</real>
+				</dict>
+				<key>testSignUp()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>8.1231979131698608</real>
+				</dict>
+			</dict>
+			<key>LogOutTest</key>
+			<dict>
+				<key>testLogout()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>7.3869040012359619</real>
+				</dict>
+			</dict>
+			<key>LoginTest</key>
+			<dict>
+				<key>testLogin()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>14.483335971832275</real>
+				</dict>
+			</dict>
 			<key>LoginUITest</key>
 			<dict>
 				<key>testChannelLable_is_exists()</key>
@@ -18,7 +67,31 @@
 				<key>testLogin()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>12.211512923240662</real>
+					<real>105.93322098255157</real>
+				</dict>
+			</dict>
+			<key>Login_Test</key>
+			<dict>
+				<key>testLogin()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>14.837648987770081</real>
+				</dict>
+			</dict>
+			<key>Login_logoutTest</key>
+			<dict>
+				<key>testLogin()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>9.3404809236526489</real>
+				</dict>
+			</dict>
+			<key>MessageTextFieldTests</key>
+			<dict>
+				<key>testTextfild_is_typeable()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>8.6952869892120361</real>
 				</dict>
 			</dict>
 			<key>SmackUITests</key>
@@ -31,7 +104,7 @@
 				<key>testChannelLable_is_exists()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>7.1646729707717896</real>
+					<real>7.1890259981155396</real>
 				</dict>
 				<key>testIsUserloggedIn()</key>
 				<dict>
@@ -41,7 +114,7 @@
 				<key>testTapLoginButton_is_clickable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>8.2951329946517944</real>
+					<real>7.7474830150604248</real>
 				</dict>
 				<key>testTapMenuButton()</key>
 				<dict>
@@ -51,12 +124,12 @@
 				<key>testTapMenuButton_is_clickable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>7.649603009223938</real>
+					<real>7.9614859819412231</real>
 				</dict>
 				<key>testTextfild_is_typeable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>8.478532075881958</real>
+					<real>9.228422999382019</real>
 				</dict>
 			</dict>
 		</dict>

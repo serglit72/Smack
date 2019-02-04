@@ -16,25 +16,28 @@ class LoginScreen : BaseScreen {
 //        super.init()
 //        visible()
 //    }
-    
-
+  
+   
     private let loginButton: XCUIElement = app.buttons["Login"]
     private let usernameTextField: XCUIElement = app.textFields["username"]
     private let passwordTextField: XCUIElement = app.secureTextFields["password"]
     private let signUpButton: XCUIElement = app.buttons["Don't have an account? Sign up here"]
 
     func tapSignUpButton() {
-    tap(signUpButton)
+        tap(signUpButton)
 }
     func tapLoginButton() {
-    tap(loginButton)
+        tap(loginButton)
 }
+
     func login() {
         
-            type(TestUser.username, in: usernameTextField)
-            type(TestUser.password, in: passwordTextField)
+        type(TestUser.username, in: usernameTextField)
+        type(TestUser.password, in: passwordTextField)
         
     }
+    
+    
     }
 
 //extension LoginScreen {

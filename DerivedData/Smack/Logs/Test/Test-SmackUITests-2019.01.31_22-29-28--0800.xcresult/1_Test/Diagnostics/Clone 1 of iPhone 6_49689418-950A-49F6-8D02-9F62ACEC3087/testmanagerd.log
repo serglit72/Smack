@@ -1945,3 +1945,163 @@ Path 1:
 
 17:17:48.587 testmanagerd[8549:592561] Not reporting softwareupdated_2019-02-01-171748_af6245.memory_resource.diag, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
 
+11:08:18.184 testmanagerd[8549:1145057] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.184 testmanagerd[8549:1145057] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.206 testmanagerd[8549:1145057] Found 37 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.206 testmanagerd[8549:1145057] Found 37 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.207 testmanagerd[8549:1145057] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.207 testmanagerd[8549:1145057] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.207 testmanagerd[8549:1145057] Found 37 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:18.207 testmanagerd[8549:1145057] Found 37 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+18:07:18.648 testmanagerd[8549:1145057] Getting files in /Library/Logs/DiagnosticReports
+
+18:07:18.648 testmanagerd[8549:1145057] Getting files in /Library/Logs/DiagnosticReports
+
+18:07:18.649 testmanagerd[8549:1145057] Found 74 files in /Library/Logs/DiagnosticReports
+
+18:07:18.649 testmanagerd[8549:1145057] Found 74 files in /Library/Logs/DiagnosticReports
+
+18:07:18.649 testmanagerd[8549:1145057] Not reporting .Analytics_2019-02-02-180718_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+18:07:18.649 testmanagerd[8549:1145057] Not reporting .Analytics_2019-02-02-180718_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+18:07:18.819 testmanagerd[8549:1153766] Getting files in /Library/Logs/DiagnosticReports
+
+18:07:18.819 testmanagerd[8549:1153766] Getting files in /Library/Logs/DiagnosticReports
+
+18:07:18.819 testmanagerd[8549:1153766] Found 74 files in /Library/Logs/DiagnosticReports
+
+18:07:18.819 testmanagerd[8549:1153766] Found 74 files in /Library/Logs/DiagnosticReports
+
+18:07:18.819 testmanagerd[8549:1153766] Not reporting Analytics_2019-02-02-180718_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+18:07:18.819 testmanagerd[8549:1153766] Not reporting Analytics_2019-02-02-180718_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+18:07:18.826 testmanagerd[8549:1153768] Getting files in /Library/Logs/DiagnosticReports
+
+18:07:18.826 testmanagerd[8549:1153768] Getting files in /Library/Logs/DiagnosticReports
+
+18:07:18.827 testmanagerd[8549:1153768] Found 73 files in /Library/Logs/DiagnosticReports
+
+18:07:18.827 testmanagerd[8549:1153768] Found 73 files in /Library/Logs/DiagnosticReports
+
+11:07:59.373 testmanagerd[8549:1161019] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:07:59.373 testmanagerd[8549:1161019] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.411 testmanagerd[8549:1161019] Found 26 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.411 testmanagerd[8549:1161019] Found 26 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.424 testmanagerd[8549:1161019] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.424 testmanagerd[8549:1161019] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.426 testmanagerd[8549:1161019] Found 26 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.426 testmanagerd[8549:1161019] Found 26 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.627 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.627 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.628 testmanagerd[8549:1162393] Found 25 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.628 testmanagerd[8549:1162393] Found 25 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.642 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.642 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.656 testmanagerd[8549:1162393] Found 23 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.656 testmanagerd[8549:1162393] Found 23 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.772 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.772 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.774 testmanagerd[8549:1162393] Found 19 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.774 testmanagerd[8549:1162393] Found 19 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.783 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.783 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.784 testmanagerd[8549:1162393] Found 16 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.784 testmanagerd[8549:1162393] Found 16 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.788 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.788 testmanagerd[8549:1162393] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.803 testmanagerd[8549:1162393] Found 15 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.803 testmanagerd[8549:1162393] Found 15 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.806 testmanagerd[8549:1153768] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.806 testmanagerd[8549:1153768] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.809 testmanagerd[8549:1153768] Found 14 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.809 testmanagerd[8549:1153768] Found 14 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.873 testmanagerd[8549:1161019] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.873 testmanagerd[8549:1161019] Getting files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.874 testmanagerd[8549:1161019] Found 13 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:00.874 testmanagerd[8549:1161019] Found 13 files in /Users/slitovchenko/Library/Logs/DiagnosticReports
+
+11:08:01.676 testmanagerd[8549:1162393] Getting files in /Library/Logs/DiagnosticReports
+
+11:08:01.676 testmanagerd[8549:1162393] Getting files in /Library/Logs/DiagnosticReports
+
+11:08:01.690 testmanagerd[8549:1162393] Found 72 files in /Library/Logs/DiagnosticReports
+
+11:08:01.690 testmanagerd[8549:1162393] Found 72 files in /Library/Logs/DiagnosticReports
+
+16:19:29.961 testmanagerd[8549:1164783] Getting files in /Library/Logs/DiagnosticReports
+
+16:19:29.961 testmanagerd[8549:1164783] Getting files in /Library/Logs/DiagnosticReports
+
+16:19:29.965 testmanagerd[8549:1164783] Found 73 files in /Library/Logs/DiagnosticReports
+
+16:19:29.965 testmanagerd[8549:1164783] Found 73 files in /Library/Logs/DiagnosticReports
+
+16:19:29.965 testmanagerd[8549:1164783] Not reporting .Analytics_2019-02-03-161929_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+16:19:29.965 testmanagerd[8549:1164783] Not reporting .Analytics_2019-02-03-161929_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+16:19:30.011 testmanagerd[8549:1314549] Getting files in /Library/Logs/DiagnosticReports
+
+16:19:30.011 testmanagerd[8549:1314549] Getting files in /Library/Logs/DiagnosticReports
+
+16:19:30.012 testmanagerd[8549:1314549] Found 73 files in /Library/Logs/DiagnosticReports
+
+16:19:30.012 testmanagerd[8549:1314549] Found 73 files in /Library/Logs/DiagnosticReports
+
+16:19:30.012 testmanagerd[8549:1314549] Not reporting Analytics_2019-02-03-161929_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+16:19:30.012 testmanagerd[8549:1314549] Not reporting Analytics_2019-02-03-161929_af6245.core_analytics, doesn't match list of processes {xctest, backboardd, Smack, SpringBoard, SmackUITests-Runner}
+
+16:19:30.020 testmanagerd[8549:1314553] Getting files in /Library/Logs/DiagnosticReports
+
+16:19:30.020 testmanagerd[8549:1314553] Getting files in /Library/Logs/DiagnosticReports
+
+16:19:30.021 testmanagerd[8549:1314553] Found 72 files in /Library/Logs/DiagnosticReports
+
+16:19:30.021 testmanagerd[8549:1314553] Found 72 files in /Library/Logs/DiagnosticReports
+

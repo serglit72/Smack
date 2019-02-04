@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "58e34fcc6fdc5dc1e6a7fb24e3ac86fd"
-build_time: [1549070880, 196980000]
+build_time: [1549261252, 124815000]
 inputs:
   "/Users/slitovchenko/Documents/Smack/Pods/Socket.IO-Client-Swift/Source/SocketIO/Ack/SocketAckEmitter.swift": [1548831708, 0]
   "/Users/slitovchenko/Documents/Smack/Pods/Socket.IO-Client-Swift/Source/SocketIO/Ack/SocketAckManager.swift": [1548831708, 0]

@@ -1,5 +1,5 @@
 //
-//  LoginUITest.swift
+//  Login_logoutTest.swift
 //  SmackUITests
 //
 //  Created by Sergei Litovchenko on 1/31/19.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class LoginUITest: XCTestCase {
+class Login_logoutTest: XCTestCase {
     
     let app = XCUIApplication()
     
@@ -37,9 +37,11 @@ class LoginUITest: XCTestCase {
         sleep(3)
         XCTAssert(app.buttons["User#3"].exists)
         
-//        }else{
-//         logout()
-//        }
+        }else{
+          let logOutScreen = LogOutScreen()
+            logOutScreen.tapLogOut()
+        XCTAssert(app.buttons["Login"].exists)
+        }
 }
 }
-}
+
