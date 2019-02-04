@@ -8,18 +8,10 @@
 
 import XCTest
 
-class LogOutTest: XCTestCase {
-    
-    let app = XCUIApplication()
+class LogOutTest: BaseTest {
     
     let user = TestUser.user
     
-    override func setUp() {
-        super.setUp()
-        continueAfterFailure = false
-        app.launch()
-        
-    }
     //Check  if the user logged in
     func testLogout(){
         if (app.buttons["\(user)"].exists) {

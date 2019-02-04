@@ -12,11 +12,6 @@ import XCTest
 
 class LoginScreen : BaseScreen {
     
-//    override init() {
-//        super.init()
-//        visible()
-//    }
-  
    
     private let loginButton: XCUIElement = app.buttons["Login"]
     private let usernameTextField: XCUIElement = app.textFields["username"]
@@ -35,8 +30,7 @@ class LoginScreen : BaseScreen {
         type(TestUser.username, in: usernameTextField)
         type(TestUser.password, in: passwordTextField)
         
-    }
-    
+    }    
     
     }
 

@@ -9,16 +9,8 @@
 import Foundation
 import XCTest
 
-class CreateNewUserTest: XCTestCase {
+class CreateNewUserTest: BaseTest {
     
-    let app = XCUIApplication()
-    
-    override func setUp() {
-        super.setUp()
-        continueAfterFailure = false
-        app.launch()
-    }
-
     let username = TestUser.username
     let user = TestUser.user
     

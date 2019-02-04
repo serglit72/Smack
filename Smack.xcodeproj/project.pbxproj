@@ -20,6 +20,7 @@
 		222FDF7022058198005AB909 /* LogOutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF6F22058198005AB909 /* LogOutTest.swift */; };
 		222FDF7222058605005AB909 /* CreateNewUserScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF7122058605005AB909 /* CreateNewUserScreen.swift */; };
 		222FDF742207B75B005AB909 /* ChooseAvatarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF732207B75B005AB909 /* ChooseAvatarScreen.swift */; };
+		222FDF76220828A1005AB909 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FDF75220828A1005AB909 /* BaseTest.swift */; };
 		22359B8221F0594000434D7B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22359B8121F0594000434D7B /* MessageCell.swift */; };
 		2242C2A021E30B4400C98D44 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C29F21E30B4400C98D44 /* UserDataService.swift */; };
 		2242C2A221E3294300C98D44 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */; };
@@ -77,6 +78,7 @@
 		222FDF6F22058198005AB909 /* LogOutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutTest.swift; sourceTree = "<group>"; };
 		222FDF7122058605005AB909 /* CreateNewUserScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewUserScreen.swift; sourceTree = "<group>"; };
 		222FDF732207B75B005AB909 /* ChooseAvatarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAvatarScreen.swift; sourceTree = "<group>"; };
+		222FDF75220828A1005AB909 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 		22359B8121F0594000434D7B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		2242C29F21E30B4400C98D44 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		2242C2A121E3294300C98D44 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				222FDF5722042E12005AB909 /* LoginTest.swift */,
 				222FDF6422051393005AB909 /* CreateNewChannelTest.swift */,
 				222FDF4F2203E42C005AB909 /* Info.plist */,
+				222FDF75220828A1005AB909 /* BaseTest.swift */,
 			);
 			path = SmackUITests;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				222FDF6A22052330005AB909 /* TestUser.swift in Sources */,
 				222FDF67220514CC005AB909 /* LoginScreen.swift in Sources */,
 				222FDF632205136B005AB909 /* CreateNewUserTest.swift in Sources */,
+				222FDF76220828A1005AB909 /* BaseTest.swift in Sources */,
 				222FDF5B22043031005AB909 /* ChatScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

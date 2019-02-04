@@ -9,17 +9,8 @@
 import Foundation
 import XCTest
 
-class CreateNewChannelTest: XCTestCase {
+class CreateNewChannelTest: BaseTest {
     
-    let app = XCUIApplication()
-    
-    
-    override func setUp() {
-        super.setUp()
-        continueAfterFailure = false
-        app.launch()
-        
-    }
     
     }
 

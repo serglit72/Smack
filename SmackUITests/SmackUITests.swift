@@ -8,15 +8,8 @@
 
 import XCTest
 
-class MessageTextFieldTests: XCTestCase {
+class MessageTextFieldTests: BaseTest {
 
-    let app = XCUIApplication()
-    
-    override func setUp() {
-        super.setUp()
-        continueAfterFailure = false
-        app.launch()
-    }
   
 //Check if the textfield is typeable
     func testTextfild_is_typeable() {
