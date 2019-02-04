@@ -143,15 +143,10 @@
 		222FDF4C2203E42C005AB909 /* SmackUITests */ = {
 			isa = PBXGroup;
 			children = (
+				222FDF7722083060005AB909 /* Tests */,
 				222FDF6822052311005AB909 /* Support */,
 				222FDF5922042FE1005AB909 /* Screens */,
-				222FDF4D2203E42C005AB909 /* SmackUITests.swift */,
-				222FDF622205136B005AB909 /* CreateNewUserTest.swift */,
-				222FDF6F22058198005AB909 /* LogOutTest.swift */,
-				222FDF5722042E12005AB909 /* LoginTest.swift */,
-				222FDF6422051393005AB909 /* CreateNewChannelTest.swift */,
 				222FDF4F2203E42C005AB909 /* Info.plist */,
-				222FDF75220828A1005AB909 /* BaseTest.swift */,
 			);
 			path = SmackUITests;
 			sourceTree = "<group>";
@@ -176,6 +171,19 @@
 				222FDF6922052330005AB909 /* TestUser.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		222FDF7722083060005AB909 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				222FDF75220828A1005AB909 /* BaseTest.swift */,
+				222FDF4D2203E42C005AB909 /* SmackUITests.swift */,
+				222FDF622205136B005AB909 /* CreateNewUserTest.swift */,
+				222FDF6F22058198005AB909 /* LogOutTest.swift */,
+				222FDF5722042E12005AB909 /* LoginTest.swift */,
+				222FDF6422051393005AB909 /* CreateNewChannelTest.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		2242C2AB21EABF2A00C98D44 /* XIBs */ = {

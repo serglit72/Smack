@@ -28,7 +28,7 @@
 				<key>testNewUserCreate()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>22.951671004295349</real>
+					<real>18.609464049339294</real>
 				</dict>
 				<key>testOpenLoginScreen()</key>
 				<dict>
@@ -46,7 +46,7 @@
 				<key>testLogout()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>5.2802529335021973</real>
+					<real>7.353829026222229</real>
 				</dict>
 			</dict>
 			<key>LoginTest</key>
@@ -54,7 +54,7 @@
 				<key>testLogin()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>22.260954022407532</real>
+					<real>14.516129016876221</real>
 				</dict>
 			</dict>
 			<key>LoginUITest</key>
@@ -91,7 +91,7 @@
 				<key>testTextfild_is_typeable()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>47.178339004516602</real>
+					<real>9.4314850568771362</real>
 				</dict>
 			</dict>
 			<key>SmackUITests</key>

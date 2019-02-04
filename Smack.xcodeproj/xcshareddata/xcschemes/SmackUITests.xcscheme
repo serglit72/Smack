@@ -37,6 +37,11 @@
                BlueprintName = "SmackUITests"
                ReferencedContainer = "container:Smack.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "Login_logoutTest">
+               </Test>
+            </SkippedTests>
             <LocationScenarioReference
                identifier = "San Francisco, CA, USA"
                referenceType = "1">
