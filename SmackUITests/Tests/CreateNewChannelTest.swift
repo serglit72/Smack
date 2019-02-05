@@ -11,6 +11,16 @@ import XCTest
 
 class CreateNewChannelTest: BaseTest {
     
-    
+    func testCreateNewChannel() {
+        
+        let channelScreen = ChannelScreen()
+        let chatScreen = ChatScreen()
+        chatScreen.tapMenuButton()
+        
+        if (app.buttons["addChannelButton"].exists) {
+            channelScreen.tapAddChannelButton()
+            sleep(3)
+        }
+    }
     }
 

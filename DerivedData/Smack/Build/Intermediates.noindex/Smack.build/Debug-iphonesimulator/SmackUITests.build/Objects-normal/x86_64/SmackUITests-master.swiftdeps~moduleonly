@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "ccda270e1bef0b953722e60ab3bc3c86"
-build_time: [1549355173, 981065000]
+build_time: [1549358944, 937007000]
 inputs:
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Tests/SmackUITests.swift": [1549267654, 0]
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Screens/CreateNewUserScreen.swift": [1549258942, 0]
@@ -8,8 +8,8 @@ inputs:
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Screens/LogOutScreen.swift": [1549250974, 0]
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Tests/LoginTest.swift": [1549268802, 0]
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Screens/BaseScreen.swift": [1549071142, 0]
-  "/Users/slitovchenko/Documents/Smack/SmackUITests/Tests/CreateNewChannelTest.swift": [1549267819, 0]
-  "/Users/slitovchenko/Documents/Smack/SmackUITests/Screens/ChannelScreen.swift": [1549263220, 0]
+  "/Users/slitovchenko/Documents/Smack/SmackUITests/Tests/CreateNewChannelTest.swift": [1549358943, 0]
+  "/Users/slitovchenko/Documents/Smack/SmackUITests/Screens/ChannelScreen.swift": [1549358838, 0]
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Tests/LogOutTest.swift": [1549267766, 0]
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Support/TestUser.swift": [1549072235, 0]
   "/Users/slitovchenko/Documents/Smack/SmackUITests/Screens/LoginScreen.swift": [1549266209, 0]

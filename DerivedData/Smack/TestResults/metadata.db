@@ -8,6 +8,14 @@
 	<dict>
 		<key>SmackUITests</key>
 		<dict>
+			<key>CreateNewChannelTest</key>
+			<dict>
+				<key>testCreateNewChannel()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>10.325080990791321</real>
+				</dict>
+			</dict>
 			<key>CreateNewUserTest</key>
 			<dict>
 				<key>testChooseAvatar()</key>

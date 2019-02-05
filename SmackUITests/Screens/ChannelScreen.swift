@@ -28,4 +28,8 @@ class ChannelScreen: BaseScreen{
         tap(loggedInUserButton)
     }
     
+//    func type(_ text: TestChannelName, in element: name) {
+//        <#code#>
+//    }
+    
 }
