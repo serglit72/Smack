@@ -43,7 +43,7 @@ class CreateNewUserTest: BaseTest {
             sleep(1)
             XCTAssert(createAccountButton.exists)
             newUserCreateScreen.tapCreateAccountButton()
-            sleep(3)
+            sleep(5)
             let title = app.buttons["\(user)"].label
             XCTAssertEqual(title, TestUser.user)
             
